@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Daily Digest 1.0</title>
+    <meta
+      name="description"
+      content="Daily Digest 1.0 - YouTube 与 Apps 双 Tab，支持最近 7 天切换。"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="app">
+      <header class="site-header">
+        <h1>Daily Digest 1.0</h1>
+        <p class="subtitle">YouTube / Apps · 最近 7 天</p>
+        <p id="last-updated" class="updated-at"></p>
+      </header>
+
+      <section class="date-switcher">
+        <div id="date-tabs" class="date-tabs"></div>
+      </section>
+
+      <section class="source-switcher">
+        <button id="tab-youtube" class="source-tab active" data-tab="youtube" type="button">
+          YouTube
+        </button>
+        <button id="tab-apps" class="source-tab" data-tab="apps" type="button">
+          Apps
+        </button>
+      </section>
+
+      <main id="content" class="content">
+        <div class="loading">加载中...</div>
+      </main>
+    </div>
+
+    <script type="module" src="./app.js"></script>
+  </body>
+</html>
