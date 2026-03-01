@@ -110,7 +110,7 @@ function renderApps(date) {
   const dayData = state.data.tabs.apps.days[date];
   const categories = dayData?.categories || [];
   if (!categories.length) {
-    return `<div class="empty">这一天暂无 Apps 内容。</div>`;
+    return `<div class="empty">这一天暂无 X 资讯 内容。</div>`;
   }
 
   const html = categories

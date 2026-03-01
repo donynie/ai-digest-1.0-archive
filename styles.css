@@ -1,13 +1,16 @@
 :root {
   --bg: #0d0d12;
   --card: #16161f;
-  --text: #f6f6f7;
-  --muted: rgba(255, 255, 255, 0.72);
+  --text: #f8f8f8;
+  --text-secondary: rgba(255, 255, 255, 0.78);
+  --muted: rgba(255, 255, 255, 0.58);
   --line: rgba(255, 255, 255, 0.14);
   --accent: #7dd3fc;
   --accent-2: #c4b5fd;
   --youtube: #e8b888;
   --apps: #5eead4;
+  --font-display: "Noto Serif SC", Georgia, serif;
+  --font-body: "Noto Sans SC", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
 }
 
 * {
@@ -18,35 +21,38 @@ body {
   margin: 0;
   background: var(--bg);
   color: var(--text);
-  font-family:
-    "Noto Sans SC",
-    -apple-system,
-    BlinkMacSystemFont,
-    "Segoe UI",
-    sans-serif;
-  line-height: 1.75;
+  font-family: var(--font-body);
+  font-size: 1.0625rem;
+  line-height: 1.85;
 }
 
 .app {
-  max-width: 960px;
+  max-width: 720px;
   margin: 0 auto;
-  padding: 24px 16px 48px;
+  padding: 28px 20px 56px;
 }
 
 .site-header h1 {
   margin: 0;
-  font-size: 1.85rem;
+  font-family: var(--font-display);
+  font-size: 2.5rem;
+  font-weight: 600;
+  line-height: 1.2;
+  letter-spacing: -0.02em;
 }
 
 .subtitle {
-  margin: 8px 0 0;
+  margin: 10px 0 0;
   color: var(--muted);
+  font-size: 0.9375rem;
+  line-height: 1.6;
 }
 
 .updated-at {
-  margin: 6px 0 0;
-  color: rgba(255, 255, 255, 0.5);
-  font-size: 0.875rem;
+  margin: 8px 0 0;
+  color: var(--muted);
+  font-size: 0.8125rem;
+  line-height: 1.5;
 }
 
 .date-switcher {
@@ -65,10 +71,11 @@ body {
   background: transparent;
   color: var(--muted);
   border-radius: 999px;
-  padding: 8px 12px;
+  padding: 8px 14px;
   white-space: nowrap;
   cursor: pointer;
-  font-size: 0.9rem;
+  font-size: 0.9375rem;
+  line-height: 1.5;
 }
 
 .date-tab.active {
@@ -88,9 +95,10 @@ body {
   background: transparent;
   color: var(--muted);
   border-radius: 10px;
-  padding: 10px 14px;
+  padding: 10px 16px;
   cursor: pointer;
-  font-size: 0.95rem;
+  font-size: 0.9375rem;
+  line-height: 1.5;
 }
 
 .source-tab.active[data-tab="youtube"] {
@@ -127,46 +135,69 @@ body {
   border: 1px solid var(--line);
   border-radius: 14px;
   background: var(--card);
-  padding: 16px;
+  padding: 20px;
 }
 
 .meta {
-  margin-bottom: 8px;
+  margin-bottom: 10px;
   color: var(--muted);
-  font-size: 0.86rem;
-}
-
-.title {
-  margin: 0 0 8px;
-  font-size: 1.06rem;
+  font-size: 0.8125rem;
   line-height: 1.5;
 }
 
+.card .title,
+.card h3.title {
+  margin: 0 0 12px;
+  font-family: var(--font-display);
+  font-size: 1.25rem;
+  font-weight: 500;
+  line-height: 1.4;
+  color: var(--text);
+}
+
 .summary {
-  color: rgba(255, 255, 255, 0.9);
+  color: var(--text-secondary);
+  font-size: 1.0625rem;
+  line-height: 1.85;
+  max-width: 75ch;
 }
 
 .summary p {
-  margin: 0.35rem 0;
+  margin: 0 0 1em;
+}
+
+.summary p:last-child {
+  margin-bottom: 0;
 }
 
 .summary ul {
-  margin: 0.4rem 0 0.5rem 1.2rem;
+  margin: 0.6em 0 0 1.25em;
+  padding: 0;
+}
+
+.summary li {
+  margin-bottom: 0.35em;
 }
 
 .category {
-  margin-bottom: 18px;
+  margin-bottom: 24px;
 }
 
 .category h3 {
-  margin: 0 0 10px;
+  margin: 0 0 12px;
+  font-family: var(--font-display);
+  font-size: 1.25rem;
+  font-weight: 500;
+  line-height: 1.3;
   color: var(--apps);
-  font-size: 1.02rem;
 }
 
 .category-summary {
-  margin-bottom: 10px;
-  color: rgba(255, 255, 255, 0.9);
+  margin-bottom: 12px;
+  color: var(--text-secondary);
+  font-size: 1.0625rem;
+  line-height: 1.85;
+  max-width: 75ch;
 }
 
 .loading {
