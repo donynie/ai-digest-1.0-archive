@@ -123,7 +123,10 @@ function renderYoutube(date) {
 
 function renderTransparency(transparency) {
   if (!transparency) return '';
-  const { accountsConfigured, totalTweetsFetched, includedInReport, nonAICount, byBlock, byConfiguredAccount } = transparency;
+  const { accountsConfigured, totalTweetsFetched, includedInReport, nonAICount, byBlock, byConfiguredAccount, sumMatchesTotal } = transparency;
+  const legacyNote = sumMatchesTotal === false
+    ? '<p class="transparency-line" style="font-size:0.75rem;opacity:0.85;">本日为历史数据（无抓取来源信息），下方各账号原创/转发/引用之和不等于「抓取推文」总数，仅按作者统计。</p>'
+    : '';
   let blockLine = '';
   if (byBlock && typeof byBlock === 'object' && Object.keys(byBlock).length > 0) {
     const parts = Object.entries(byBlock)
@@ -140,6 +143,7 @@ function renderTransparency(transparency) {
   return `
     <section class="transparency-block">
       <h3 class="transparency-title">📊 数据透明度</h3>
+      ${legacyNote}
       <p class="transparency-line">配置账号 ${accountsConfigured} 个 · 抓取推文 ${totalTweetsFetched} 条 · 入选摘要 ${includedInReport} 条${nonAICount > 0 ? ` · 非 AI 已剔除 ${nonAICount} 条` : ''}</p>
       ${blockLine}
       ${accountLine}
