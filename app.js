@@ -1,5 +1,5 @@
 const contentEl = document.getElementById('content');
-const dateTabsEl = document.getElementById('date-tabs');
+const dateSelectEl = document.getElementById('date-select');
 const updatedAtEl = document.getElementById('last-updated');
 const tabYoutubeEl = document.getElementById('tab-youtube');
 const tabAppsEl = document.getElementById('tab-apps');
@@ -47,35 +47,50 @@ function setActiveTab(tab) {
 
 function setActiveDate(date) {
   state.selectedDate = date;
-  Array.from(dateTabsEl.querySelectorAll('.date-tab')).forEach((btn) => {
-    btn.classList.toggle('active', btn.dataset.date === date);
-  });
+  if (dateSelectEl) dateSelectEl.value = date || '';
   render();
 }
 
-function renderDateTabs() {
+function renderDateSelect() {
   const dates = state.data?.dates || [];
-  dateTabsEl.innerHTML = '';
+  dateSelectEl.innerHTML = '';
 
   dates.forEach((date, index) => {
-    const btn = document.createElement('button');
-    btn.type = 'button';
-    btn.className = `date-tab ${date === state.selectedDate ? 'active' : ''}`;
-    btn.dataset.date = date;
-    btn.textContent = formatDateLabel(date, index);
-    btn.addEventListener('click', () => setActiveDate(date));
-    dateTabsEl.appendChild(btn);
+    const opt = document.createElement('option');
+    opt.value = date;
+    opt.textContent = index === 0 ? `今天（${date}）` : `${date}（${formatDateLabel(date, index)}）`;
+    if (date === state.selectedDate) opt.selected = true;
+    dateSelectEl.appendChild(opt);
   });
+
+}
+
+function renderYoutubeTransparency(transparency) {
+  if (!transparency) return '';
+  const { feedsConfigured, totalVideosFetched, withTranscript, includedInReport, highPriorityCount, lowPriorityCount, bySource } = transparency;
+  let bySourceLine = '';
+  if (Array.isArray(bySource) && bySource.length > 0) {
+    bySourceLine = `<p class="transparency-line">按 Feed：${bySource.map((s) => `${escapeHtml(s.feedName)} ${s.count}`).join('；')}</p>`;
+  }
+  return `
+    <section class="transparency-block">
+      <h3 class="transparency-title">📊 数据透明度</h3>
+      <p class="transparency-line">配置 Feed ${feedsConfigured} 个 · 抓取视频 ${totalVideosFetched} 条 · 有字幕 ${withTranscript} 条 · 入选 ${includedInReport} 条${highPriorityCount != null ? ` · 高优先级 ${highPriorityCount}` : ''}${lowPriorityCount != null ? ` · 低优先级 ${lowPriorityCount}` : ''}</p>
+      ${bySourceLine}
+    </section>
+  `;
 }
 
 function renderYoutube(date) {
   const dayData = state.data.tabs.youtube.days[date];
   const items = dayData?.items || [];
-  if (!items.length) {
+  const ytTransparency = dayData?.transparency || null;
+
+  if (!items.length && !ytTransparency) {
     return `<div class="empty">这一天暂无 YouTube 内容。</div>`;
   }
 
-  const cards = items
+  const cards = (items || [])
     .map((item) => {
       const source = item.sourceName ? escapeHtml(item.sourceName) : '';
       const published = item.publishedAt ? formatDateTime(item.publishedAt) : '';
@@ -103,7 +118,8 @@ function renderYoutube(date) {
     })
     .join('');
 
-  return `<section class="youtube-list">${cards}</section>`;
+  const transparencyHtml = renderYoutubeTransparency(ytTransparency);
+  return `<section class="youtube-list">${cards}</section>${transparencyHtml}`;
 }
 
 function renderTransparency(transparency) {
@@ -197,7 +213,11 @@ async function init() {
       updatedAtEl.textContent = '';
     }
 
-    renderDateTabs();
+    renderDateSelect();
+    dateSelectEl.addEventListener('change', () => {
+      state.selectedDate = dateSelectEl.value || state.data?.dates?.[0] || null;
+      render();
+    });
     render();
   } catch (error) {
     console.error(error);

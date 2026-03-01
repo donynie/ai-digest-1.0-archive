@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-01T15:11:34.269Z",
+  "generatedAt": "2026-03-01T15:24:43.295Z",
   "windowDays": 7,
   "dates": [
     "2026-03-01",
@@ -231,7 +231,34 @@
               ],
               "personalRelevance": null
             }
-          ]
+          ],
+          "transparency": {
+            "feedsConfigured": 7,
+            "totalVideosFetched": 14,
+            "withTranscript": 14,
+            "sortedCount": 14,
+            "includedInReport": 14,
+            "highPriorityCount": 11,
+            "lowPriorityCount": 3,
+            "bySource": [
+              {
+                "feedName": "Training Data",
+                "count": 4
+              },
+              {
+                "feedName": "The AI Breakdown - AI Daily Brief",
+                "count": 5
+              },
+              {
+                "feedName": "Latent Space",
+                "count": 1
+              },
+              {
+                "feedName": "AI & I",
+                "count": 4
+              }
+            ]
+          }
         },
         "2026-02-28": {
           "items": []

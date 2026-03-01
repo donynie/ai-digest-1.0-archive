@@ -22,8 +22,8 @@ body {
   background: var(--bg);
   color: var(--text);
   font-family: var(--font-body);
-  font-size: 1.0625rem;
-  line-height: 1.85;
+  font-size: 0.9375rem;
+  line-height: 1.75;
 }
 
 .app {
@@ -57,31 +57,34 @@ body {
 
 .date-switcher {
   margin-top: 20px;
-}
-
-.date-tabs {
   display: flex;
-  gap: 8px;
-  overflow-x: auto;
-  padding-bottom: 4px;
+  align-items: center;
+  gap: 10px;
 }
 
-.date-tab {
-  border: 1px solid var(--line);
-  background: transparent;
+.date-label {
   color: var(--muted);
-  border-radius: 999px;
-  padding: 8px 14px;
+  font-size: 0.875rem;
   white-space: nowrap;
-  cursor: pointer;
+}
+
+.date-select {
+  border: 1px solid var(--line);
+  background: var(--card);
+  color: var(--text);
+  border-radius: 10px;
+  padding: 8px 12px;
   font-size: 0.9375rem;
   line-height: 1.5;
+  min-width: 180px;
+  cursor: pointer;
+  font-family: var(--font-body);
 }
 
-.date-tab.active {
-  color: var(--text);
+.date-select:hover,
+.date-select:focus {
   border-color: var(--accent);
-  background: rgba(125, 211, 252, 0.12);
+  outline: none;
 }
 
 .source-switcher {
@@ -157,8 +160,8 @@ body {
 
 .summary {
   color: var(--text-secondary);
-  font-size: 1.0625rem;
-  line-height: 1.85;
+  font-size: 0.875rem;
+  line-height: 1.75;
   max-width: 75ch;
 }
 
@@ -195,8 +198,8 @@ body {
 .category-summary {
   margin-bottom: 12px;
   color: var(--text-secondary);
-  font-size: 1.0625rem;
-  line-height: 1.85;
+  font-size: 0.875rem;
+  line-height: 1.75;
   max-width: 75ch;
 }
 
