@@ -200,6 +200,26 @@ body {
   max-width: 75ch;
 }
 
+.transparency-block {
+  margin-top: 2rem;
+  padding: 1rem 0;
+  border-top: 1px solid var(--line);
+  color: var(--text-secondary);
+  font-size: 0.9375rem;
+  line-height: 1.6;
+}
+
+.transparency-title {
+  margin: 0 0 0.5rem;
+  font-size: 1rem;
+  font-weight: 500;
+  color: var(--muted);
+}
+
+.transparency-line {
+  margin: 0.25rem 0;
+}
+
 .loading {
   color: var(--muted);
 }

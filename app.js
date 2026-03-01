@@ -106,14 +106,42 @@ function renderYoutube(date) {
   return `<section class="youtube-list">${cards}</section>`;
 }
 
+function renderTransparency(transparency) {
+  if (!transparency) return '';
+  const { accountsConfigured, totalTweetsFetched, includedInReport, nonAICount, byBlock, byConfiguredAccount } = transparency;
+  let blockLine = '';
+  if (byBlock && typeof byBlock === 'object' && Object.keys(byBlock).length > 0) {
+    const parts = Object.entries(byBlock)
+      .filter(([k]) => k !== '非 AI')
+      .map(([k, v]) => `${k} ${v}`);
+    if (parts.length) blockLine = `<p class="transparency-line">按块分布：${escapeHtml(parts.join('；'))}</p>`;
+  }
+  let accountLine = '';
+  if (Array.isArray(byConfiguredAccount) && byConfiguredAccount.length > 0) {
+    accountLine = '<p class="transparency-line">信息源：' + byConfiguredAccount
+      .map((a) => `@${escapeHtml(a.handle)}（原创 ${a.originalCount} / 转发 ${a.retweetCount} / 引用 ${a.quoteCount} / 入选 ${a.includedCount}）`)
+      .join('；') + '</p>';
+  }
+  return `
+    <section class="transparency-block">
+      <h3 class="transparency-title">📊 数据透明度</h3>
+      <p class="transparency-line">配置账号 ${accountsConfigured} 个 · 抓取推文 ${totalTweetsFetched} 条 · 入选摘要 ${includedInReport} 条${nonAICount > 0 ? ` · 非 AI 已剔除 ${nonAICount} 条` : ''}</p>
+      ${blockLine}
+      ${accountLine}
+    </section>
+  `;
+}
+
 function renderApps(date) {
   const dayData = state.data.tabs.apps.days[date];
   const categories = dayData?.categories || [];
-  if (!categories.length) {
+  const transparency = dayData?.transparency || null;
+
+  if (!categories.length && !transparency) {
     return `<div class="empty">这一天暂无 X 资讯 内容。</div>`;
   }
 
-  const html = categories
+  const categoriesHtml = categories
     .map((category) => {
       const name = escapeHtml(category.category || '未分类');
       const summary = category.summary
@@ -140,7 +168,8 @@ function renderApps(date) {
     })
     .join('');
 
-  return `<section>${html}</section>`;
+  const transparencyHtml = renderTransparency(transparency);
+  return `<section>${categoriesHtml}</section>${transparencyHtml}`;
 }
 
 function render() {
