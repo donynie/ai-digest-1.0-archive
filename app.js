@@ -52,17 +52,16 @@ function setActiveDate(date) {
 }
 
 function renderDateSelect() {
+  if (!dateSelectEl) return;
   const dates = state.data?.dates || [];
   dateSelectEl.innerHTML = '';
-
   dates.forEach((date, index) => {
     const opt = document.createElement('option');
     opt.value = date;
-    opt.textContent = index === 0 ? `今天（${date}）` : `${date}（${formatDateLabel(date, index)}）`;
+    opt.textContent = index === 0 ? `今天 (${date})` : `${date} (${formatDateLabel(date, index)})`;
     if (date === state.selectedDate) opt.selected = true;
     dateSelectEl.appendChild(opt);
   });
-
 }
 
 function renderYoutubeTransparency(transparency) {
@@ -198,11 +197,23 @@ function render() {
   contentEl.innerHTML = state.selectedTab === 'youtube' ? renderYoutube(date) : renderApps(date);
 }
 
+async function loadData() {
+  // 使用当前页面的 origin + pathname 解析 data 路径，避免 GitHub Pages 子路径下相对路径错误
+  const dataUrl = new URL('data/digest.json', location.href).href;
+  const res = await fetch(dataUrl, { cache: 'no-store' });
+  if (!res.ok) throw new Error(`digest.json ${res.status}`);
+  return res.json();
+}
+
 async function init() {
   try {
-    const res = await fetch('./data/digest.json', { cache: 'no-store' });
-    if (!res.ok) throw new Error(`Failed to load digest.json (${res.status})`);
-    const data = await res.json();
+    let data;
+    try {
+      data = await loadData();
+    } catch (first) {
+      await new Promise((r) => setTimeout(r, 800));
+      data = await loadData();
+    }
 
     state.data = data;
     state.selectedDate = data.dates?.[0] || null;
@@ -214,7 +225,7 @@ async function init() {
     }
 
     renderDateSelect();
-    dateSelectEl.addEventListener('change', () => {
+    dateSelectEl?.addEventListener('change', () => {
       state.selectedDate = dateSelectEl.value || state.data?.dates?.[0] || null;
       render();
     });
