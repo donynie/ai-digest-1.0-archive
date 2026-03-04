@@ -1,19 +1,74 @@
 {
-  "generatedAt": "2026-03-03T00:13:25.663Z",
+  "generatedAt": "2026-03-04T00:12:24.764Z",
   "windowDays": 7,
   "dates": [
+    "2026-03-04",
     "2026-03-03",
     "2026-03-02",
     "2026-03-01",
     "2026-02-28",
     "2026-02-27",
-    "2026-02-26",
-    "2026-02-25"
+    "2026-02-26"
   ],
   "tabs": {
     "youtube": {
       "label": "YouTube",
       "days": {
+        "2026-03-04": {
+          "items": [
+            {
+              "id": "yt-08f17636271408acd7fe6d38dcc469f0",
+              "title": "零人工公司兴起：AI能独自创业并运营公司吗？",
+              "sourceName": "The AI Breakdown - AI Daily Brief",
+              "sourceUrl": "https://www.youtube.com/watch?v=at_Fng0Lbow",
+              "publishedAt": "2026-03-04T00:00:24.543Z",
+              "briefSummary": "这期节目聊了一个很火的新趋势——“零人工公司”，也就是完全由AI代理来创建和运营的公司。主持人介绍了几个正在进行的实验，比如Felix Craft（一个由AI运营、30天赚了7.8万美元的项目）和Pulsia（一个能帮你自动生成并运营公司的平台）。他讨论了这种模式的可能性，比如能低成本试错很多商业点子，但也提出了质疑：公司成功不只是执行流程，还涉及到产品与市场需求的复杂匹配，以及最稀缺的资源——**人类注意力**。他认为这些实验即使不能造出成功公司，也能帮我们看清AI代理的能力边界。",
+              "coreInsights": [
+                "“零人工公司”实验涌现，如Felix Craft和Pulsia，旨在探索AI代理能否完全自主创建和运营商业实体。",
+                "支持者认为AI能大幅降低执行成本，允许快速测试大量商业想法，增加成功机会。",
+                "质疑者指出公司成功依赖产品与市场需求的复杂匹配，而不仅仅是执行任务清单。",
+                "核心矛盾在于：AI能无限产出，但市场需求受限于人类有限的时间和注意力。",
+                "无论这些公司能否成功，其探索过程对理解AI代理的潜力和局限极具价值。"
+              ],
+              "personalRelevance": null
+            },
+            {
+              "id": "yt-1196d547705cbf08e03be2f2c936a862",
+              "title": "团队必备的三种设计师类型：强通才、深专家与潜力新人",
+              "sourceName": "Lennys Podcast",
+              "sourceUrl": "https://www.youtube.com/watch?v=GSvf-5JI3Yo",
+              "publishedAt": "2026-03-03T12:00:24.000Z",
+              "briefSummary": "这期播客聊的是，在当今设计角色不断扩展和变化的背景下，一个团队里最需要哪三种设计师。主讲人认为，第一种是**强通才**，他们像一把锁的形状，在几个核心领域都有80分以上的水平，能灵活适应各种新任务。第二种是**深专家**，他们在T型框架下，某个领域的专长远超常人。第三种是常被忽视的**潜力新人**，他们虽然经验不多，但悟性高、学得快，而且谦虚好学，在角色快速变化的今天特别有价值。",
+              "coreInsights": [
+                "团队最需要的第一种人是强通才，他们在多个核心技能上都达到80分以上水平，能灵活适应角色扩展。",
+                "第二种是深专家，他们在特定领域的专长远超常人，是T型人才中垂直部分特别深的人。",
+                "第三种是常被忽视的潜力新人，他们经验虽浅但悟性高、学得快，在角色快速变化的今天价值巨大。",
+                "当前设计角色正变得像产品经理和工程师一样需要更广泛的技能，因此具备多种能力的人才更吃香。",
+                "许多公司只招资深人才，但引入学习能力强、可塑性高的早期人才对应对变化同样重要。"
+              ],
+              "personalRelevance": null
+            }
+          ],
+          "transparency": {
+            "feedsConfigured": 7,
+            "totalVideosFetched": 2,
+            "withTranscript": 2,
+            "sortedCount": 2,
+            "includedInReport": 2,
+            "highPriorityCount": 1,
+            "lowPriorityCount": 1,
+            "bySource": [
+              {
+                "feedName": "The AI Breakdown - AI Daily Brief",
+                "count": 1
+              },
+              {
+                "feedName": "Lennys Podcast",
+                "count": 1
+              }
+            ]
+          }
+        },
         "2026-03-03": {
           "items": [
             {
@@ -373,15 +428,392 @@
         },
         "2026-02-26": {
           "items": []
-        },
-        "2026-02-25": {
-          "items": []
         }
       }
     },
     "apps": {
       "label": "Apps",
       "days": {
+        "2026-03-04": {
+          "generatedAt": "2026-03-04T00:12:24.604Z",
+          "categories": [
+            {
+              "category": "当日要闻",
+              "summary": "",
+              "items": [
+                {
+                  "title": "Anthropic CEO回应Claude服务波动，承认流量激增超预期",
+                  "summary": "· 服务波动原因：Anthropic CEO承认Claude及Claude Code本周流量增长“前所未有”，难以预测，导致服务不稳定。\n· 官方回应与承诺：团队对任何服务中断表示失望，并正“不知疲倦地工作”以扩展服务能力，安抚依赖Claude工作与生活的用户。\n· 值得记住的点：官方直接回应承认了预测失误和扩展挑战，显示了高流量下的运营压力。"
+                },
+                {
+                  "title": "谷歌发布Gemini 3.1 Flash-Lite，号称在多项任务上超越前代",
+                  "summary": "· 新品发布：谷歌推出Gemini 3.1 Flash-Lite模型，被描述为“非常、非常快”的版本。\n· 性能宣称：官方称其在“智能边界”上迈出一大步，在许多任务上击败了前代Gemini 2.5 Flash。\n· 值得记住的点：这是谷歌在轻量级、高性能模型赛道上的最新迭代，旨在提升效率与任务表现。"
+                },
+                {
+                  "title": "Compute AI大会将于旧金山Chase中心举行，被预告为“史诗级”",
+                  "summary": "· 活动预告：Compute Conference将于3月8-9日在旧金山Chase中心举行，被投资人预告为“史诗级”活动。\n· 演讲嘉宾：演讲者包括FirstMark Capital董事总经理、《MAD AI全景图》作者Matt Turck，他曾领投Daytona的2400万美元A轮融资。\n· 值得记住的点：该会议聚集AI建设者，是观察资本动向和生态趋势的重要场合。"
+                }
+              ]
+            },
+            {
+              "category": "热点热议",
+              "summary": "",
+              "items": [
+                {
+                  "title": "Vercel调查用户恐慌事件，发现Opus 4.6幻觉代码库并误部署",
+                  "summary": "要点提炼：AI幻觉引发安全恐慌：Vercel接到用户报告，称未知GitHub代码库被部署到其团队，引发严重安全调查。\n· 调查结果：发现是Opus 4.6模型幻觉出了一个公共仓库ID，并利用API进行了部署，所幸该仓库无害。\n· 事件影响：凸显了AI代理在自动化工作流中因幻觉可能引发的现实世界操作风险，即使是无害结果也足以造成警报。"
+                },
+                {
+                  "title": "AI视频技术爆炸式增长，彻底改变网络迷因供应链",
+                  "summary": "要点提炼：AI视频重塑迷因生产：AI视频生成技术正以前所未有的速度改变网络迷因的创作与传播供应链。\n· 现象观察：技术极大扩充了迷因的供给，使得创意内容的产出速度和多样性呈指数级增长。\n· 深层影响：这标志着内容创作工具民主化的新阶段，任何人都能快速生成高质量视频迷因，挑战传统创作流程。"
+                },
+                {
+                  "title": "OpenAI推出新功能引热议，被指正加速成为“新GitHub”",
+                  "summary": "要点提炼：AI公司平台化竞赛加速：OpenAI推出新动作，引发行业对其战略定位的讨论。\n· 核心观点：有观点认为，AI公司（如OpenAI）正比GitHub更快地转型为AI驱动的开发平台，而GitHub向AI公司的转型则相对滞后。\n· 行业动态：这反映了AI原生工具正在侵蚀并重塑传统开发者工具和平台的领地，竞争格局生变。"
+                },
+                {
+                  "title": "分析师被指错过AI工程浪潮后唱衰，引发社区嘲讽",
+                  "summary": "要点提炼：行业分析师预测遭质疑：Gartner被指在完全错过AI工程兴起浪潮后，转而宣称该领域已达顶峰。\n· 社区反应：这一预测引发了技术社区的嘲讽和反驳，认为其判断脱离一线开发者的实践与观察。\n· 反思信号：事件凸显了传统分析框架在捕捉快速演进的**技术范式转移**时的滞后性，真实动力来自社区实践。"
+                },
+                {
+                  "title": "为AI编程工具辩护：应对比历史，勿因短期故障否定趋势",
+                  "summary": "要点提炼：理性看待AI工具成熟度：针对因Claude宕机而批评AI编程能力的观点，提出历史视角。\n· 类比论证：指出GitHub在早期也经常宕机，但并未阻碍其最终成为开发者核心工具。\n· 核心论点：人们总能找到证据支持自己已有的信念，但评估新技术应看其长期潜力和进化轨迹，而非孤立事件。\n💡 评估AI工作流工具需有发展眼光，早期不稳定是常态，关键看迭代速度与解决核心痛点的能力。"
+                }
+              ]
+            },
+            {
+              "category": "深度观点",
+              "summary": "",
+              "items": [
+                {
+                  "title": "AI Agent编程将颠覆传统代码评审流程，引发行业热议",
+                  "summary": "·AI编程浪潮下代码评审成瓶颈：随着AI生成代码的PR数量和规模激增，传统人工代码评审已成为阻碍Agent完全生产力的瓶颈。\n·行业探索“无人评审”方案：多位行业人士正在探索如何移除人类评审环节，@ankitxg 提出了一个五步分层方案来重塑软件开发生命周期（SDLC）。\n·“黑暗工厂”模式初现：有案例显示已出现无人类代码、也无人类评审的“黑暗工厂”，预示自动化评审是必然趋势。\n💡 Agent工程的核心挑战正从代码生成转向自动化验证与协作流程的重构。"
+                },
+                {
+                  "title": "AI Agent架构趋同但实现各异，当前仍是关键杠杆",
+                  "summary": "·Agent架构一致性带来巨大杠杆效应：行业在Agent架构上已达成一定共识，形成了强大的“力量倍增器”，但具体实现方式仍多种多样。\n·当前阶段是重要机遇期：尽管未来这种多样性可能会减弱或消失，但目前不同的实现路径仍是驱动进步的巨大杠杆。\n·讨论基于具体技术方案：观点引用了关于Agent技术栈（如@Hxlfed14的图表）的具体讨论，表明实践探索活跃。"
+                },
+                {
+                  "title": "Box财报显示AI Agent驱动知识工作，成为增长核心动力",
+                  "summary": "·Box业绩强劲，AI成为增长引擎：Box公布Q4营收3.06亿美元，全年营收11.8亿美元，并指引明年达12.75亿美元，高增长持续。\n·增长归因于AI加速知识工作：公司明确表示，这一增长是由AI Agent赋能知识工作、提升工作效率所驱动的。\n·标志着AI从概念进入商业变现：企业级应用正通过AI Agent解决实际生产力问题，并直接贡献财务业绩。"
+                },
+                {
+                  "title": "前沿与普通软件公司在AI应用上存在巨大差距",
+                  "summary": "·AI应用水平两极分化严重：领先的软件组织与普通公司在AI应用上存在“巨大的鸿沟”，多数团队不知从何入手。\n·提出零摩擦起步建议：为不知如何开始的团队提供了具体的行动视角，建议从阻力最小的环节切入。\n·首要步骤是普及智能编码工具：认为最直接的做法是让每位开发者默认使用领先的Agentic编码工具，作为AI化的第一步。"
+                },
+                {
+                  "title": "预测AI Agent将在互联网上相互谈判，前沿模型占优",
+                  "summary": "·预言Agent间自主谈判时代将至：很快，AI Agent将在互联网上代表各自利益进行相互谈判。\n·前沿模型将在谈判中占据优势：预测拥有最先进能力的“前沿模型”将在这种自动化谈判中赢得所有协商。\n·指向多Agent协作与竞争的未来图景：这描绘了未来多智能体环境中复杂的交互、协作与竞争场景。"
+                }
+              ]
+            },
+            {
+              "category": "新产品推荐",
+              "summary": "",
+              "items": [
+                {
+                  "title": "Claude Code 语音模式开始向用户推送，支持按住空格键对话",
+                  "summary": "· 功能上线：Claude Code 的语音模式已开始向约5%的用户推送，未来几周将逐步扩大范围。\n· 使用方式：采用“按住空格键说话”的即按即谈模式，语音转录文本会实时流式插入到光标位置。\n· 访问提示：获得访问权限的用户会在欢迎界面看到通知，输入 `/voice` 命令即可开启功能。"
+                },
+                {
+                  "title": "OpenClaw 社区热度空前，全球已组织超80场线下见面会",
+                  "summary": "· 社区爆发：发布仅数月的新产品 OpenClaw，其社区已自发在全球范围内组织了超过80场线下见面会。\n· 现象级增长：组织者表示从未见过如此迅猛的社区自发活动增长，认为正在发生非常特别的事情。\n· 引用佐证：该观察引用了另一位用户展示的众多优秀开发者参与社区活动的截图，印证了其热度。"
+                },
+                {
+                  "title": "用户寻找能制作幻灯片的 OpenClaw 技能，Cursor for Slides 引关注",
+                  "summary": "· 技能需求：用户公开询问是否存在能高效制作幻灯片的 OpenClaw 技能。\n· 新品推荐：该提问引用了新工具“Cursor for Slides”的演示视频，暗示其可能是解决方案，并提供了免费试用机会。\n💡 关注特定技能（如幻灯片制作）的落地，是探索 AI 工作流实用性的有效切入点。"
+                },
+                {
+                  "title": "PerceptNet 与 ZO Computer 合作，打造专属个人的AI软件公司",
+                  "summary": "· 产品愿景：构建一个完全专属个人的“AI软件公司”，用户只需发短信即可驱动其完成各种任务。\n· 合作方：该构想由 Perceptnet 和 0thernet 团队基于 ZO Computer 平台进行开发。\n💡 将AI公司“个人化”的设想，指向了高度个性化、以用户指令为核心的Agent终极形态。"
+                }
+              ]
+            },
+            {
+              "category": "AI 实践与 Use Case",
+              "summary": "",
+              "items": [
+                {
+                  "title": "Hamel Husain 用 Claude 浏览器插件自动化繁琐的 Modem 配置任务",
+                  "summary": "要点提炼：AI 代理处理重复性界面操作。\n· **AI 代理自动化**：Hamel Husain 在配置 Modem 时，面对需要逐个点击 Discord 频道的繁琐界面，使用 Claude 浏览器插件自动完成了所有点击操作。\n· **工具推荐**：他高度推荐该插件，认为其当前版本已非常实用。\n💡 对于关注工作流自动化的人，可探索 AI 代理处理重复性 UI 交互的潜力。"
+                },
+                {
+                  "title": "Zara Zhang 分享零基础“氛围编程”体验：从无到有打造爆款产品",
+                  "summary": "要点提炼：编程体验从技术挑战转向纯粹智力探索。\n· **编程体验的演变**：Zara Zhang 从零编程背景出发，分享了近半年来“氛围编程”的体验变化，强调情感障碍的消失。\n· **情感与智力转变**：她引用 @ashebytes 的观点，指出构建过程已无情感障碍，转变为纯粹的智力探索，并鼓励感兴趣者尝试。\n💡 对于关注 AI 赋能创造的人，这展示了工具如何降低创作门槛、激发探索欲。"
+                },
+                {
+                  "title": "Nanyu 推荐使用 Braintrust 进行内部提示词的观察、诊断与优化",
+                  "summary": "要点提炼：Braintrust 工具用于提示工程的全链路管理。\n· **超越基础监控**：Nanyu 在与 @shanetroach 的对话中推荐 Braintrust，指出其功能远超基础的数据监控（Instrumentation）。\n· **核心应用场景**：他们团队使用 Braintrust 来观察、诊断和优化内部的 AI 提示词（Prompts），以提升其效果。\n💡 对于关注 Agent 与工作流的人，这提示了专业工具在提示词生命周期管理中的价值。"
+                }
+              ]
+            },
+            {
+              "category": "其他",
+              "summary": "",
+              "items": [
+                {
+                  "title": "Hamel Husain分享AI工作流，展示多工具协作实践",
+                  "summary": "· 分享内容：Hamel Husain发布视频，展示其结合多种AI工具（如Claude、Cursor）处理复杂任务的工作流程。\n· 关键信息：视频演示了从构思到执行的具体步骤，强调了工具间的无缝切换与互补，而非单一工具的依赖。\n· 核心价值：提供了一个高信息密度的实操案例，说明如何将前沿AI能力整合到实际工作中以提升效率。"
+                },
+                {
+                  "title": "Greg Isenberg称学习营销比学习编程重要百倍",
+                  "summary": "· 核心观点：Greg Isenberg引用他人观点，强调在当前环境下，学习市场营销的难度和重要性远超“氛围编程”。\n· 具体论述：他指出营销的复杂性可能是编程的10倍甚至100倍，暗示产品成功更依赖市场能力而非单纯技术。\n· 行业信号：这反映了AI工具降低技术门槛后，竞争焦点从“能否构建”转向“如何推广与变现”。"
+                },
+                {
+                  "title": "Greg Isenberg认为订阅顶级AI服务并坚持实践能带来巨大优势",
+                  "summary": "· 具体建议：Greg Isenberg提出，组合订阅X Premium、YouTube Premium、OpenAI或Anthropic服务，并保持每日实践，能让人取得超乎想象的进步。\n· 关键逻辑：付费服务提供了高质量的信息输入和强大的工具，而每日的“捣鼓”和一致性是将这些资源转化为个人能力的核心。\n· 价值主张：这实质是投资于“认知基础设施”和“执行习惯”，在AI时代构建可持续的竞争优势。\n💡 将AI订阅与信息流付费视为对个人OS的投资，配合每日实践是构建护城河的关键。"
+                },
+                {
+                  "title": "Venture Twins描述新“有闲阶级”：自动化本职工作后从事副业或娱乐",
+                  "summary": "· 现象描述：Venture Twins观察到，新的“有闲阶级”是那些利用自动化技术完成大部分本职工作，从而腾出时间进行“氛围编程”或玩电子游戏的男性。\n· 背后逻辑：AI和自动化工具使得“一份时间出售一次”的传统工作模式被打破，个人可以高效完成雇佣劳动，并重新支配 freed-up time。\n· 社会影响：这预示着工作与生活、主业与兴趣的边界被技术重构，个人时间主权扩大。\n💡 自动化本职工作成为新的“基础技能”，释放出的认知带宽是进行创造性探索（如vibecoding）的前提。"
+                },
+                {
+                  "title": "开发者trq212快速响应并修复用户报告的Claude相关bug",
+                  "summary": "· 事件过程：用户@vidhyarang向@claudeai和开发者报告了一个bug，开发者trq212迅速确认并着手修复。\n· 处理结果：在短时间内，开发者通知问题已修复，并请用户验证，展示了高效的响应和迭代流程。\n· 社区互动：体现了开源或产品开发中，开发者与用户通过社交媒体直接沟通、快速解决问题的模式。"
+                },
+                {
+                  "title": "开发者trq212针对另一用户反馈承诺在下次发布中修复问题",
+                  "summary": "· 事件过程：用户@elrolio向开发者trq212反馈了一个问题，开发者立即响应并表示正在处理。\n· 处理承诺：开发者明确给出了修复时间表（当天下午的下次发布），并对造成不便表示歉意。\n· 模式印证：再次展示了开发者通过社交媒体渠道对用户反馈进行即时、透明处理的风格。"
+                }
+              ]
+            }
+          ],
+          "transparency": {
+            "accountsConfigured": 31,
+            "totalTweetsFetched": 45,
+            "includedInReport": 27,
+            "nonAICount": 18,
+            "byBlock": {
+              "当日要闻": 4,
+              "热点热议": 5,
+              "深度观点": 5,
+              "新产品推荐": 4,
+              "AI 实践与 Use Case": 3,
+              "其他": 6,
+              "非 AI": 18
+            },
+            "byConfiguredAccount": [
+              {
+                "handle": "karpathy",
+                "originalCount": 0,
+                "retweetCount": 0,
+                "quoteCount": 0,
+                "includedCount": 0
+              },
+              {
+                "handle": "swyx",
+                "originalCount": 2,
+                "retweetCount": 0,
+                "quoteCount": 3,
+                "includedCount": 3
+              },
+              {
+                "handle": "gregisenberg",
+                "originalCount": 1,
+                "retweetCount": 0,
+                "quoteCount": 1,
+                "includedCount": 2
+              },
+              {
+                "handle": "lennysan",
+                "originalCount": 2,
+                "retweetCount": 0,
+                "quoteCount": 2,
+                "includedCount": 1
+              },
+              {
+                "handle": "joshwoodward",
+                "originalCount": 0,
+                "retweetCount": 0,
+                "quoteCount": 1,
+                "includedCount": 1
+              },
+              {
+                "handle": "kevinweil",
+                "originalCount": 0,
+                "retweetCount": 0,
+                "quoteCount": 0,
+                "includedCount": 0
+              },
+              {
+                "handle": "petergyang",
+                "originalCount": 0,
+                "retweetCount": 0,
+                "quoteCount": 0,
+                "includedCount": 0
+              },
+              {
+                "handle": "thenanyu",
+                "originalCount": 3,
+                "retweetCount": 0,
+                "quoteCount": 1,
+                "includedCount": 3
+              },
+              {
+                "handle": "realmadhuguru",
+                "originalCount": 0,
+                "retweetCount": 0,
+                "quoteCount": 0,
+                "includedCount": 0
+              },
+              {
+                "handle": "stevenbjohnson",
+                "originalCount": 0,
+                "retweetCount": 0,
+                "quoteCount": 0,
+                "includedCount": 0
+              },
+              {
+                "handle": "mckaywrigley",
+                "originalCount": 0,
+                "retweetCount": 0,
+                "quoteCount": 0,
+                "includedCount": 0
+              },
+              {
+                "handle": "AmandaAskell",
+                "originalCount": 0,
+                "retweetCount": 0,
+                "quoteCount": 0,
+                "includedCount": 0
+              },
+              {
+                "handle": "_catwu",
+                "originalCount": 0,
+                "retweetCount": 0,
+                "quoteCount": 0,
+                "includedCount": 0
+              },
+              {
+                "handle": "trq212",
+                "originalCount": 4,
+                "retweetCount": 0,
+                "quoteCount": 0,
+                "includedCount": 4
+              },
+              {
+                "handle": "GoogleLabs",
+                "originalCount": 0,
+                "retweetCount": 0,
+                "quoteCount": 0,
+                "includedCount": 0
+              },
+              {
+                "handle": "george__mack",
+                "originalCount": 0,
+                "retweetCount": 0,
+                "quoteCount": 0,
+                "includedCount": 0
+              },
+              {
+                "handle": "raizamrtn",
+                "originalCount": 0,
+                "retweetCount": 0,
+                "quoteCount": 0,
+                "includedCount": 0
+              },
+              {
+                "handle": "amasad",
+                "originalCount": 0,
+                "retweetCount": 0,
+                "quoteCount": 0,
+                "includedCount": 0
+              },
+              {
+                "handle": "rauchg",
+                "originalCount": 1,
+                "retweetCount": 0,
+                "quoteCount": 0,
+                "includedCount": 1
+              },
+              {
+                "handle": "rileybrown",
+                "originalCount": 1,
+                "retweetCount": 0,
+                "quoteCount": 1,
+                "includedCount": 2
+              },
+              {
+                "handle": "alexalbert__",
+                "originalCount": 0,
+                "retweetCount": 0,
+                "quoteCount": 0,
+                "includedCount": 0
+              },
+              {
+                "handle": "HamelHusain",
+                "originalCount": 3,
+                "retweetCount": 0,
+                "quoteCount": 0,
+                "includedCount": 3
+              },
+              {
+                "handle": "levie",
+                "originalCount": 1,
+                "retweetCount": 0,
+                "quoteCount": 1,
+                "includedCount": 2
+              },
+              {
+                "handle": "ryolu_",
+                "originalCount": 0,
+                "retweetCount": 0,
+                "quoteCount": 0,
+                "includedCount": 0
+              },
+              {
+                "handle": "garrytan",
+                "originalCount": 0,
+                "retweetCount": 0,
+                "quoteCount": 7,
+                "includedCount": 0
+              },
+              {
+                "handle": "lulumeservey",
+                "originalCount": 0,
+                "retweetCount": 0,
+                "quoteCount": 2,
+                "includedCount": 0
+              },
+              {
+                "handle": "venturetwins",
+                "originalCount": 3,
+                "retweetCount": 0,
+                "quoteCount": 0,
+                "includedCount": 2
+              },
+              {
+                "handle": "mattturck",
+                "originalCount": 2,
+                "retweetCount": 0,
+                "quoteCount": 2,
+                "includedCount": 2
+              },
+              {
+                "handle": "joulee",
+                "originalCount": 0,
+                "retweetCount": 0,
+                "quoteCount": 0,
+                "includedCount": 0
+              },
+              {
+                "handle": "PJaccetturo",
+                "originalCount": 0,
+                "retweetCount": 0,
+                "quoteCount": 0,
+                "includedCount": 0
+              },
+              {
+                "handle": "zarazhangrui",
+                "originalCount": 0,
+                "retweetCount": 0,
+                "quoteCount": 1,
+                "includedCount": 1
+              }
+            ],
+            "sumMatchesTotal": true
+          }
+        },
         "2026-03-03": {
           "generatedAt": "2026-03-03T00:13:25.488Z",
           "categories": [
@@ -1489,10 +1921,6 @@
           "categories": []
         },
         "2026-02-26": {
-          "generatedAt": "",
-          "categories": []
-        },
-        "2026-02-25": {
           "generatedAt": "",
           "categories": []
         }
