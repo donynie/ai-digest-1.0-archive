@@ -1,19 +1,54 @@
 {
-  "generatedAt": "2026-03-05T00:16:31.974Z",
+  "generatedAt": "2026-03-06T00:16:04.861Z",
   "windowDays": 7,
   "dates": [
+    "2026-03-06",
     "2026-03-05",
     "2026-03-04",
     "2026-03-03",
     "2026-03-02",
     "2026-03-01",
-    "2026-02-28",
-    "2026-02-27"
+    "2026-02-28"
   ],
   "tabs": {
     "youtube": {
       "label": "YouTube",
       "days": {
+        "2026-03-06": {
+          "items": [
+            {
+              "id": "yt-f11bcb73092e328fd37d56ff328b0e5a",
+              "title": "为什么每个AI智能体都需要一个“盒子”？企业数据治理与智能体协作的未来",
+              "sourceName": "Latent Space",
+              "sourceUrl": "https://www.youtube.com/watch?v=mMbPEf4V_hE",
+              "publishedAt": "2026-03-05T00:33:22.000Z",
+              "briefSummary": "这期播客请来了Box的CEO Aaron Levie，聊了聊AI智能体（Agent）在企业里真正落地时会遇到哪些大麻烦。核心观点是：未来智能体的数量会远超人类，但它们不能像人一样直接访问公司里乱七八糟的文件和数据。你得给它们一个“盒子”——一个受控的、有权限管理的安全空间，让它们既能干活，又不会泄露公司机密。他们还讨论了为什么AI编程能火起来，而其他知识工作（比如法律、金融）的AI化却困难重重，关键在于**数据是否整理好、权限是否清晰**。这期内容干货很多，适合关心AI如何在实际工作中应用的人。",
+              "coreInsights": [
+                "未来智能体数量将远超人类，企业需要为它们建立安全、受控的数据访问与协作平台（“盒子”）。",
+                "AI编程能快速普及，是因为代码库权限开放、数据格式统一；而其他知识工作数据分散、权限复杂，AI化进程缓慢。",
+                "智能体在企业中面临全新的安全与身份问题，不能简单套用人类员工的账户权限体系。",
+                "要让智能体真正有用，企业必须主动调整工作流程和数据组织方式，而不是指望AI直接适应混乱的现状。",
+                "评估智能体性能的“评测”体系将变得至关重要，就像今天软件测试一样普遍。"
+              ],
+              "personalRelevance": null
+            }
+          ],
+          "transparency": {
+            "feedsConfigured": 7,
+            "totalVideosFetched": 1,
+            "withTranscript": 1,
+            "sortedCount": 1,
+            "includedInReport": 1,
+            "highPriorityCount": 1,
+            "lowPriorityCount": 0,
+            "bySource": [
+              {
+                "feedName": "Latent Space",
+                "count": 1
+              }
+            ]
+          }
+        },
         "2026-03-05": {
           "items": [
             {
@@ -527,15 +562,412 @@
         },
         "2026-02-28": {
           "items": []
-        },
-        "2026-02-27": {
-          "items": []
         }
       }
     },
     "apps": {
       "label": "Apps",
       "days": {
+        "2026-03-06": {
+          "generatedAt": "2026-03-06T00:16:04.696Z",
+          "categories": [
+            {
+              "category": "当日要闻",
+              "summary": "",
+              "items": [
+                {
+                  "title": "GPT 5.4正式发布，宣称是迄今最强科学模型",
+                  "summary": "· OpenAI发布GPT 5.4，称其为有史以来最佳且最强大的科学模型。\n· 其中GPT 5.4 Pro版本在早期科学家和数学家测试中表现惊人。\n· 此次发布标志着AI在科学推理和复杂问题解决能力上的又一重大进展。"
+                },
+                {
+                  "title": "Claude产品流量激增，团队调整参数以保障服务稳定",
+                  "summary": "· Claude及Claude Code本周流量出现超预期增长，团队正努力扩容以应对。\n· 团队在Claude Code中将新参数“Effort”的默认值调整为“中等”，以优化模型思考强度。\n· 这表明Claude生态正经历快速扩张，服务稳定性面临考验。"
+                }
+              ]
+            },
+            {
+              "category": "热点热议",
+              "summary": "",
+              "items": [
+                {
+                  "title": "纽约法案拟禁止AI在医疗法律等专业领域回答问题",
+                  "summary": "纽约一项新法案提议禁止AI在多个需要执照的专业领域（如医学、法律、工程）提供实质性回答。\n· **专业禁令**：法案明确禁止AI在医疗、法律、牙科、护理、心理学、社会工作、工程等领域回答专业问题。\n· **公司责任**：若聊天机器人提供了“实质性回应”，开发公司需承担相应法律责任。\n该法案被视为对AI在关键专业领域应用的重大限制，旨在保护专业服务的质量和责任归属。"
+                },
+                {
+                  "title": "Vercel与Stripe合作简化安全结账，被调侃可指令AI代理创业",
+                  "summary": "Vercel宣布与Stripe深度合作，使安全结账功能更易集成，引发关于AI代理能力的讨论。\n· **技术集成**：Vercel在v0、市场和CLI中提供Stripe集成，简化了安全支付流程的部署。\n· **代理想象**：合作被引申为AI代理能力的象征，戏称可指令代理“建立一个5万美元月收入且不出错的初创公司”。\n这展示了低代码/无代码工具与支付服务的深度结合，正降低复杂应用的构建门槛。\n💡 关注Agent工作流：支付等核心商业功能的标准化集成，是Agent实现端到端自动化落地的关键基建。"
+                },
+                {
+                  "title": "Codex用户数两周激增40万，总量超200万且周增25%",
+                  "summary": "AI编程工具Codex用户增长迅猛，在GPT-5.4发布前已实现显著增长。\n· **爆发增长**：过去两周新增40万活跃用户，总用户数突破200万大关。\n· **持续势头**：在Windows应用和GPT-5.4发布前，其周增长率已达到25%。\n数据表明AI编程助手的需求和市场接受度正在加速提升，不受单一模型发布的直接影响。"
+                },
+                {
+                  "title": "社区讨论Anthropic新模型“Ultrathink”并将在播客中详解",
+                  "summary": "Anthropic的新模型“Ultrathink”引发社区关注，相关播客将提供深度解读。\n· **信号助推**：开发者主动传播关于Ultrathink的有用背景信息和上下文。\n· **深度覆盖**：Latent Space播客即将发布与Anthropic合作的节目，专门探讨此模型。\n这表明社区对头部公司的新模型动态保持高度敏感，并通过播客等媒介进行深度解析和知识传播。"
+                }
+              ]
+            },
+            {
+              "category": "深度观点",
+              "summary": "",
+              "items": [
+                {
+                  "title": "Box CEO 阐述智能体需独立文件系统，软件将转向API优先",
+                  "summary": "· 智能体成为软件最大用户：@levie 认为智能体将需要自己的计算机、身份、文件系统和工具来完成工作，这将催生巨大机会。\n· 软件架构向API优先转变：为使软件对智能体与人同样有用，软件设计将日益API优先。\n· 文件是智能体工作的核心：@Box 指出，智能体需要文件来追踪工作、获取任务上下文，并与人类进行交互。\n💡 智能体作为独立用户，其需求将重塑软件设计范式，关注API优先和专用文件系统是构建智能体友好应用的关键。"
+                },
+                {
+                  "title": "Karpathy 探讨智能体长期记忆与持续学习的实现路径",
+                  "summary": "· 智能体持续学习是开放挑战：@karpathy 引用 @awnihannun 观点，认为当前提示压缩与递归子智能体结合的方式已相当有效。\n· 将记忆操作作为工具引入强化学习：猜测在当前范式下，通过将多种记忆操作作为“工具”引入RL混合训练，可以取得很大进展。\n· 当前记忆实现尚处早期：认为目前的压缩和记忆实现是粗糙的早期示例。\n💡 将记忆操作工具化并整合进RL框架，是提升智能体长期运行与持续学习能力的一个具体技术方向。"
+                },
+                {
+                  "title": "产品开发全流程引入智能体，Linear等公司实践AI团队成员管理",
+                  "summary": "· 智能体应融入产品开发各环节：@petergyang 以 @Linear 为例，展示智能体如何用于理解问题、识别方案和制定计划。\n· 具体实践：智能体阅读客户对话自动创建议题、去重并分配；从真实客户数据中提取洞察以起草和迭代需求规格。\n· AI时代的新工作是管理智能体：@thenanyu 指出，你将拥有可以分配任务和交谈的AI团队成员。\n💡 将智能体视为可分配任务、进行对话的团队成员进行管理和赋能，是AI原生公司提升产品开发效率的核心工作流。"
+                },
+                {
+                  "title": "AI未终结好莱坞，Netflix收购AI工具公司提升影视制作效率",
+                  "summary": "· AI工具改变影视制作供给曲线：@venturetwins 认为AI将使制作电影电视更快更便宜，增加优质内容供给，让更多故事被讲述。\n· 故事创意能力仍是核心：AI并非杀死好莱坞，人人可生成视频，但能创作让人观看数小时故事的人很少。\n· 行业实践：@Variety 报道Netflix收购Ben Affleck创立的AI工具公司Interpositive，其系统利用影片素材构建AI模型辅助后期制作。"
+                },
+                {
+                  "title": "swyx反驳“SaaS已死”，认为热爱技术的CEO将借智能体获胜",
+                  "summary": "· “SaaS已死”争论是愚蠢的：@swyx 认为，真正死去的是“CEO不懂AI的SaaS”。\n· 热爱技术的CEO将借智能体胜出：那些像创业第一天一样热爱技术和智能体的CEO将始终赢得市场，尤其是掌握“智能体实验室”玩法的人。\n· 编码工作流发生巨变：引用 @latentspacepod，认为当今的编码实践可能是历史上变化最大的工作流。"
+                },
+                {
+                  "title": "Anthropic报告揭示AI对劳动力市场冲击，园艺或成热门专业",
+                  "summary": "· Anthropic报告揭示AI对劳动力市场影响：@lennysan 引用 @AndrewCurran_ 分享的报告中的图像，引发对未来思考。\n· 图像暗示职业结构变化：报告中的图像 striking，可能显示了AI冲击下不同职业的脆弱性或机遇。\n· 园艺可能成为新热门专业：报告tl;dr总结指出，园艺（Gardening）即将成为最热门的新专业。"
+                },
+                {
+                  "title": "律师行业不会被AI取代，而是精英律师将被AI超级赋能",
+                  "summary": "· AI不会取代律师，而是超级赋能精英：@rileybrown 引用 @SMB_Attorney 观点，认为AI更可能的结果是超级赋能最好的律师，使行业利润更高。\n· 这是所有专业的普遍规律：在AI时代，只有精英能够生存。AI起草合同若遗漏关键内容，可能导致巨大损失，责任与判断力仍属人类。\n· 人类责任与判断不可替代：使用AI起草文件若出错，最终责任和纠错成本仍需人类承担，凸显专业判断的不可替代性。"
+                }
+              ]
+            },
+            {
+              "category": "新产品推荐",
+              "summary": "",
+              "items": [
+                {
+                  "title": "Google发布Workspace CLI工具，支持40+智能体技能",
+                  "summary": "·Google发布Workspace CLI：Google推出基于Rust的Workspace命令行工具，支持Drive、Gmail、Calendar等API，可通过npm安装。\n·面向人类与智能体：该CLI工具设计兼顾人类与智能体使用，内置超过40种智能体技能，被评价为“实现得非常全面”。\n·预示技能与CLI趋势：发布者认为2026年将是“技能与CLI之年”，标志着工具向可编程、自动化方向演进。\n💡 将核心生产力套件API化并封装为技能，是构建自动化工作流和智能体生态的关键基础设施。"
+                },
+                {
+                  "title": "NotebookLM推出视频生成功能，可根据主题自动制作影片",
+                  "summary": "·NotebookLM新增视频生成：Google的NotebookLM推出新功能，可根据用户主题自动生成包含旁白、图像和动态图形的视频。\n·全自动创作流程：以“迪士尼历史”为例，工具能深度搜索58个来源、撰写脚本并生成5分钟视频，混合真实与AI视觉素材。\n·提升创意叙事效率：该功能允许用户在单一工作流中生成和编辑图像视频，旨在帮助创作者快速构建连贯的视觉叙事。"
+                },
+                {
+                  "title": "Cursor推出“自动化”功能，构建持续运行的智能体",
+                  "summary": "·Cursor发布智能体自动化：Cursor AI推出“自动化”功能，旨在构建可7x24小时持续运行的智能体。\n·解放开发者时间：核心价值是让智能体在用户思考、娱乐或休息时持续工作，实现“始终在线”的自动化辅助。\n·获开发者社区关注：该功能因其实用性在开发者社区中获得推荐与传播，被视为提升编码效率的重要工具。\n💡 “始终在线”的智能体是自动化工作流的高级形态，能将间歇性交互升级为持续的背景进程，极大扩展智能体应用场景。"
+                },
+                {
+                  "title": "GPT-5.4模型发布，在文档处理等关键任务上表现提升",
+                  "summary": "·GPT-5.4性能显著提升：OpenAI发布GPT-5.4模型，在Box AI测试中，整体信息提取准确率达到78%，较5.2版提升6个百分点。\n·关键工作场景优化：在临床数据、法律协议、监管文件等真实行业文档工作流中，提取准确率均有3-5个百分点的提升。\n·已集成至Box平台：该改进直接提升了上游的智能体文档处理能力，新模型现已可在Box平台上使用。\n💡 模型在结构化信息提取等关键工作流任务上的持续进步，是智能体可靠处理复杂、专业文档的基础。"
+                },
+                {
+                  "title": "开发者寻求开源Claude Cowork替代品，引发工具推荐讨论",
+                  "summary": "·开发者依赖协作工具：有开发者表示已无法离开类似Claude Cowork的AI协作工具，并公开寻求开源替代方案。\n·社区积极提供选项：该请求引发了社区广泛讨论，回复中列出了大量可行的开源工具选项供参考。\n·反映市场强烈需求：这一行为凸显了市场对可定制、可私有化部署的AI编程协作工具存在明确且急迫的需求。\n💡 用户对特定工作流形成依赖后，会主动寻求可控的替代方案，这为开源AI工具生态创造了明确机会。"
+                },
+                {
+                  "title": "nanochat将GPT-2级模型训练时间缩短至2小时",
+                  "summary": "·训练效率大幅提升：nanochat项目在单节点8xH100上，将GPT-2能力模型的训练时间从约3小时缩短至2小时。\n·数据集切换是关键：最大改进源于将训练数据集从FineWeb-edu切换至NVIDIA的ClimbMix，其他数据集曾导致性能回退。\n·逼近交互式训练：效率提升使得模型训练更接近“交互式”体验，为快速迭代实验提供了可能。"
+                },
+                {
+                  "title": "Greptile发布v4代码审查智能体，提升bug检测精度",
+                  "summary": "·代码审查智能体升级：Greptile发布Agent v4版本，作为其“最佳代码审查智能体”，旨在捕获更多棘手bug。\n·优化准确性与误报：新版本在比v3检测更多隐蔽bug的同时，大幅减少了误报情况，平衡了检出率与精确度。\n·调整定价支持用户：公司同步更新了定价策略，以更好地支持其重度用户群体的使用需求。\n💡 代码审查智能体在精度上的持续优化，是将其从辅助工具转变为可信赖自动化流程核心环节的必要步骤。"
+                }
+              ]
+            },
+            {
+              "category": "AI 实践与 Use Case",
+              "summary": "",
+              "items": [
+                {
+                  "title": "Garry Tan 为提升编程效率宣布戒酒，称需保持大脑最佳状态",
+                  "summary": "硅谷知名投资人 Garry Tan 宣布戒酒，理由是希望大脑保持最佳状态以应对 AI 编程工具 Claude Code 带来的高强度工作。\n· 核心动机：为使用 Claude Code 每天编写上万行代码，需要大脑处于“极度清醒”状态。\n· 行业影响：顶尖从业者开始为适应 AI 生产力工具而调整个人生活习惯，凸显 AI 对工作方式的深度重塑。"
+                },
+                {
+                  "title": "PJaccetturo 用 Luma AI 一周制作《Red Rising》电影预告，预示书籍影视化浪潮",
+                  "summary": "创作者使用 Luma AI 的新智能体，在一周内将畅销科幻小说《Red Rising》制作成电影预告片，预示 AI 将引发书籍影视化内容的大爆发。\n· 成本颠覆：过去需要 2 亿美元绿灯的项目，现在用 AI 工具即可低成本快速启动。\n· 完整流程：作者分享了从构思到成片的完整工作流和 Seedance 2.0 提示词，为内容创作提供了可复用的方法论。\n💡 展示了多模态 Agent 如何将复杂创意工作流（从文本到视频）系统化、平民化，是 AI 赋能内容生产的典型用例。"
+                },
+                {
+                  "title": "Greg Isenberg 提出 2026 年 AI-first SaaS 构建蓝图：从大市场切入并映射工作流",
+                  "summary": "Greg Isenberg 提出构建 AI 优先 SaaS 的三步蓝图，强调从大市场切入、深度映射用户工作流，并聚焦资金流转环节。\n· 市场选择：从金融、医疗、房地产等大市场切入，再聚焦细分利基。\n· 核心方法：端到端映射目标用户每日工作流（如从线索到付款），并高亮资金易手的关键节点。\n· 价值捕获：软件应在涉及存款、发票、谈判等资金流转环节创造价值并实现盈利。\n💡 为构建面向企业的 AI Agent 或工作流自动化工具提供了清晰的产品思维框架，强调与现有业务流程和支付环节的深度集成。"
+                },
+                {
+                  "title": "开发者讨论如何优化 Claude Code 的 /init 命令以提升仓库设置体验",
+                  "summary": "开发者 trq212 发起讨论，征集对 Claude Code 中 /init 命令的改进建议，以使其在代码仓库设置中更有用。\n· 核心问题：/init 命令目前功能有限，未能充分发挥在项目初始化阶段的辅助潜力。\n· 社区参与：该讨论获得大量回复（412条），显示开发者社区对优化 AI 编程工具工作流的高度关注和实际需求。\n💡 反映了用户对 AI 编程工具从“能用”到“好用”的深度需求，是优化 AI 开发工作流和技能（Skill）的具体切入点。"
+                },
+                {
+                  "title": "开发者开源工具以诊断 Claude Code 代码压缩问题，并吐槽工具臃肿化",
+                  "summary": "开发者 swyx 因对 Claude Code 的代码压缩效果不满，开源了一个诊断工具来深入分析问题所在。\n· 痛点解决：旨在理解 Claude 代码压缩的缺陷，并可能扩展到分析其他 AI 代码工具。\n· 行业批评：强烈抨击当前许多工具都内置 Chrome 浏览器导致的臃肿现象，并寻求开源的 Claude Cowork 替代品。\n· 工作流依赖：表达了已无法脱离 Claude Cowork 这类协作环境进行工作，凸显 AI 工具对开发者工作流的深度嵌入。\n💡 揭示了 AI 编程工具在性能优化和用户体验上的具体痛点，以及开发者对轻量、开源、可定制工作流环境的迫切需求。"
+                },
+                {
+                  "title": "产品需求文档（PRD）形式进化：通过对话、语音和参考材料与 AI 共同创作",
+                  "summary": "产品经理讨论指出，在 AI 时代，产品需求文档（PRD）变得比以往更重要，但创作方式已从键盘打字转变为与 AI 协作。\n· 新工作流：通过与 AI 聊天、语音口述意识流、粘贴参考材料来共同撰写 PRD。\n· 价值转移：@thenanyu 指出，当实现成本下降时，描述“实现什么”及“为何实现”的 PRD 成为杠杆支点。\n· 核心转变：PRD 的“活性”体现在其成为动态的人机协作产物，而非静态文档。\n💡 明确了在 AI 辅助下，产品定义和设计阶段的工作流正演变为更自然、高效的人机对话与信息整合过程。"
+                },
+                {
+                  "title": "张睿分享前端幻灯片技能优化心得：以观众体验为核心，大幅压缩上下文",
+                  "summary": "张睿（zarazhangrui）分享其广受欢迎的前端幻灯片技能优化经验，强调演示的核心是观众体验，并成功将上下文占用减少 89%。\n· 设计哲学：演示是沟通媒介，成功关键在于“观众反响良好”，AI 模型因训练数据而天生具备信息编排的“感觉”。\n· 技术优化：遵循“渐进式披露”模式重构指令文件，将其视为目录而非纯文本，将代码从 1625 行减至 183 行。\n· 市场验证：该技能在 GitHub 上获得 7.8k stars，证明了其解决实际沟通需求的价值。\n💡 提供了优化 AI 技能（Skill）性能的具体方法论：以用户体验为目标重构指令结构，能极大提升效率并降低资源消耗。"
+                }
+              ]
+            },
+            {
+              "category": "其他",
+              "summary": "",
+              "items": [
+                {
+                  "title": "顶级AI实验室将厨师优化为“爬山”智能体，展示Agent应用新场景",
+                  "summary": "顶级AI实验室将办公室厨师也视为一个持续优化的智能体（hillclimbing），展示了Agent思维在日常场景中的渗透。\n· 实验室状态：@swyx 指出在一家顶级Agent实验室，连厨师都在进行“爬山”优化，并戏称这是@MatthewBerman “食物基准测试”的当前最佳水平。\n· 应用展示：该推文引用@itsandrewgao展示的湾区最佳办公室美食图片，将Agent的持续优化理念与具体的生活品质场景结合。\n这体现了Agent概念正从纯技术领域向生活与工作环境的文化层面扩展。\n💡 Agent思维可泛化至任何持续优化的角色，为工作流设计提供文化层面的启发。"
+                },
+                {
+                  "title": "用户期待多样化人格AI智能体在群聊中互动",
+                  "summary": "用户表达了对拥有不同人格特质（如幽默、支持性、直言不讳）的AI智能体的需求，并希望将它们加入群聊观察互动。\n· 需求具体化：@petergyang 想要有趣的、支持性的、直言不讳的朋友等多种类型的Agent。\n· 应用场景：希望将所有智能体加入一个群组聊天，观察它们之间的“戏谑”和互动。\n这反映了用户对AI智能体的人格化、社交化及多智能体协作场景的强烈兴趣。\n💡 多智能体协作的Use Case可设计为具有不同人格与技能的Agent在特定场景（如群聊）中互动。"
+                },
+                {
+                  "title": "网友猜测经典科幻电影《THX 1138》将于2026年4月回归",
+                  "summary": "用户转发并猜测经典科幻电影《THX 1138》可能将于2026年4月以某种形式回归。\n· 信息源：@rileybrown 引用@THX账号发布的简短预告“It returns. April, 2026.”并配以电影海报图片。\n· 用户反应：@rileybrown 对此表示“我打赌这就是即将发生的事情”，显示出对消息的相信与期待。\n这引发了小众科幻影迷对这部乔治·卢卡斯早期作品可能重制或回归的讨论。"
+                },
+                {
+                  "title": "网友戏谑AI研究供应链风险，调侃中国通过咖啡与芯片获取AGI",
+                  "summary": "用户以讽刺段子的形式，调侃AI研究过程中潜在的供应链安全风险，将中国微芯片与AGI发展相联系。\n· 风险提示：@thenanyu 最初转发咖啡机图片并评论“供应链风险”，暗示日常消费品的供应链可能隐藏安全威胁。\n· 讽刺推演：随后发布一条详细“推演”链：研究员制作模型 → 在帕洛阿尔托的Blue Bottle咖啡店休息 → 摄入秘密中国微芯片 → 中国获得AGI。\n这种调侃反映了在AI竞争背景下，对技术供应链，尤其是硬件来源安全性的复杂情绪与担忧。"
+                }
+              ]
+            }
+          ],
+          "transparency": {
+            "accountsConfigured": 31,
+            "totalTweetsFetched": 65,
+            "includedInReport": 41,
+            "nonAICount": 24,
+            "byBlock": {
+              "当日要闻": 2,
+              "热点热议": 4,
+              "深度观点": 12,
+              "新产品推荐": 11,
+              "AI 实践与 Use Case": 7,
+              "其他": 5,
+              "非 AI": 24
+            },
+            "byConfiguredAccount": [
+              {
+                "handle": "karpathy",
+                "originalCount": 1,
+                "retweetCount": 0,
+                "quoteCount": 1,
+                "includedCount": 2
+              },
+              {
+                "handle": "swyx",
+                "originalCount": 3,
+                "retweetCount": 0,
+                "quoteCount": 7,
+                "includedCount": 8
+              },
+              {
+                "handle": "gregisenberg",
+                "originalCount": 2,
+                "retweetCount": 0,
+                "quoteCount": 2,
+                "includedCount": 2
+              },
+              {
+                "handle": "lennysan",
+                "originalCount": 0,
+                "retweetCount": 0,
+                "quoteCount": 2,
+                "includedCount": 1
+              },
+              {
+                "handle": "joshwoodward",
+                "originalCount": 1,
+                "retweetCount": 0,
+                "quoteCount": 1,
+                "includedCount": 2
+              },
+              {
+                "handle": "kevinweil",
+                "originalCount": 1,
+                "retweetCount": 0,
+                "quoteCount": 0,
+                "includedCount": 1
+              },
+              {
+                "handle": "petergyang",
+                "originalCount": 1,
+                "retweetCount": 0,
+                "quoteCount": 2,
+                "includedCount": 3
+              },
+              {
+                "handle": "thenanyu",
+                "originalCount": 2,
+                "retweetCount": 0,
+                "quoteCount": 2,
+                "includedCount": 4
+              },
+              {
+                "handle": "realmadhuguru",
+                "originalCount": 0,
+                "retweetCount": 0,
+                "quoteCount": 0,
+                "includedCount": 0
+              },
+              {
+                "handle": "stevenbjohnson",
+                "originalCount": 0,
+                "retweetCount": 0,
+                "quoteCount": 0,
+                "includedCount": 0
+              },
+              {
+                "handle": "mckaywrigley",
+                "originalCount": 0,
+                "retweetCount": 0,
+                "quoteCount": 0,
+                "includedCount": 0
+              },
+              {
+                "handle": "AmandaAskell",
+                "originalCount": 0,
+                "retweetCount": 0,
+                "quoteCount": 0,
+                "includedCount": 0
+              },
+              {
+                "handle": "_catwu",
+                "originalCount": 0,
+                "retweetCount": 0,
+                "quoteCount": 0,
+                "includedCount": 0
+              },
+              {
+                "handle": "trq212",
+                "originalCount": 1,
+                "retweetCount": 0,
+                "quoteCount": 2,
+                "includedCount": 3
+              },
+              {
+                "handle": "GoogleLabs",
+                "originalCount": 0,
+                "retweetCount": 0,
+                "quoteCount": 0,
+                "includedCount": 0
+              },
+              {
+                "handle": "george__mack",
+                "originalCount": 0,
+                "retweetCount": 0,
+                "quoteCount": 0,
+                "includedCount": 0
+              },
+              {
+                "handle": "raizamrtn",
+                "originalCount": 0,
+                "retweetCount": 0,
+                "quoteCount": 0,
+                "includedCount": 0
+              },
+              {
+                "handle": "amasad",
+                "originalCount": 1,
+                "retweetCount": 0,
+                "quoteCount": 1,
+                "includedCount": 0
+              },
+              {
+                "handle": "rauchg",
+                "originalCount": 1,
+                "retweetCount": 0,
+                "quoteCount": 1,
+                "includedCount": 2
+              },
+              {
+                "handle": "rileybrown",
+                "originalCount": 0,
+                "retweetCount": 0,
+                "quoteCount": 2,
+                "includedCount": 2
+              },
+              {
+                "handle": "alexalbert__",
+                "originalCount": 0,
+                "retweetCount": 0,
+                "quoteCount": 0,
+                "includedCount": 0
+              },
+              {
+                "handle": "HamelHusain",
+                "originalCount": 1,
+                "retweetCount": 0,
+                "quoteCount": 0,
+                "includedCount": 0
+              },
+              {
+                "handle": "levie",
+                "originalCount": 0,
+                "retweetCount": 0,
+                "quoteCount": 2,
+                "includedCount": 2
+              },
+              {
+                "handle": "ryolu_",
+                "originalCount": 0,
+                "retweetCount": 0,
+                "quoteCount": 1,
+                "includedCount": 1
+              },
+              {
+                "handle": "garrytan",
+                "originalCount": 6,
+                "retweetCount": 0,
+                "quoteCount": 8,
+                "includedCount": 3
+              },
+              {
+                "handle": "lulumeservey",
+                "originalCount": 1,
+                "retweetCount": 0,
+                "quoteCount": 3,
+                "includedCount": 1
+              },
+              {
+                "handle": "venturetwins",
+                "originalCount": 2,
+                "retweetCount": 0,
+                "quoteCount": 1,
+                "includedCount": 2
+              },
+              {
+                "handle": "mattturck",
+                "originalCount": 0,
+                "retweetCount": 0,
+                "quoteCount": 1,
+                "includedCount": 0
+              },
+              {
+                "handle": "joulee",
+                "originalCount": 0,
+                "retweetCount": 0,
+                "quoteCount": 0,
+                "includedCount": 0
+              },
+              {
+                "handle": "PJaccetturo",
+                "originalCount": 1,
+                "retweetCount": 0,
+                "quoteCount": 0,
+                "includedCount": 1
+              },
+              {
+                "handle": "zarazhangrui",
+                "originalCount": 0,
+                "retweetCount": 0,
+                "quoteCount": 1,
+                "includedCount": 1
+              }
+            ],
+            "sumMatchesTotal": true
+          }
+        },
         "2026-03-05": {
           "generatedAt": "2026-03-05T00:16:31.788Z",
           "categories": [
@@ -2423,10 +2855,6 @@
           }
         },
         "2026-02-28": {
-          "generatedAt": "",
-          "categories": []
-        },
-        "2026-02-27": {
           "generatedAt": "",
           "categories": []
         }
