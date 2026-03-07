@@ -121,6 +121,12 @@ body {
   background: rgba(94, 234, 212, 0.14);
 }
 
+.source-tab.active[data-tab="blog"] {
+  border-color: #f0abab;
+  color: var(--text);
+  background: rgba(240, 171, 171, 0.14);
+}
+
 .content {
   margin-top: 20px;
 }
@@ -239,4 +245,25 @@ a {
 
 a:hover {
   text-decoration: underline;
+}
+
+.section-title {
+  margin: 1.25rem 0 0.75rem;
+  font-size: 1rem;
+  font-weight: 500;
+  color: var(--muted);
+}
+
+.blog-uncertain {
+  margin-top: 1.5rem;
+}
+
+.card-uncertain .title {
+  font-size: 1.0625rem;
+}
+
+.uncertain-intro {
+  margin: 0.5rem 0;
+  color: var(--text-secondary);
+  font-size: 0.875rem;
 }

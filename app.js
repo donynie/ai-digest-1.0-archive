@@ -3,6 +3,7 @@ const dateSelectEl = document.getElementById('date-select');
 const updatedAtEl = document.getElementById('last-updated');
 const tabYoutubeEl = document.getElementById('tab-youtube');
 const tabAppsEl = document.getElementById('tab-apps');
+const tabBlogEl = document.getElementById('tab-blog');
 
 const state = {
   data: null,
@@ -42,6 +43,7 @@ function setActiveTab(tab) {
   state.selectedTab = tab;
   tabYoutubeEl.classList.toggle('active', tab === 'youtube');
   tabAppsEl.classList.toggle('active', tab === 'apps');
+  if (tabBlogEl) tabBlogEl.classList.toggle('active', tab === 'blog');
   render();
 }
 
@@ -191,6 +193,65 @@ function renderApps(date) {
   return `<section>${categoriesHtml}</section>${transparencyHtml}`;
 }
 
+function renderBlog(date) {
+  const dayData = state.data?.tabs?.blog?.days?.[date];
+  if (!dayData) {
+    return `<div class="empty">这一天暂无博客精选内容。</div>`;
+  }
+  const main = dayData.main || [];
+  const uncertain = dayData.uncertain || [];
+  if (!main.length && !uncertain.length) {
+    return `<div class="empty">这一天暂无博客精选内容。</div>`;
+  }
+  const mainCards = main
+    .map((item) => {
+      const source = item.sourceName ? escapeHtml(item.sourceName) : '';
+      const published = item.publishedAt ? formatDateTime(item.publishedAt) : '';
+      const header = [source, published].filter(Boolean).join(' · ');
+      const insights = Array.isArray(item.coreInsights)
+        ? `<ul>${item.coreInsights.map((it) => `<li>${escapeHtml(it)}</li>`).join('')}</ul>`
+        : '';
+      const relevance = item.personalRelevance
+        ? `<div class="summary"><p><strong>启发：</strong></p>${toMultilineHtml(item.personalRelevance)}</div>`
+        : '';
+      const link = item.sourceUrl
+        ? `<p><a href="${escapeHtml(item.sourceUrl)}" target="_blank" rel="noopener noreferrer">打开原文 ↗</a></p>`
+        : '';
+      return `
+        <article class="card">
+          <div class="meta">${header}</div>
+          <h3 class="title">${escapeHtml(item.title || '未命名')}</h3>
+          <div class="summary">${toMultilineHtml(item.briefSummary)}</div>
+          ${insights}
+          ${relevance}
+          ${link}
+        </article>
+      `;
+    })
+    .join('');
+  const uncertainCards = uncertain
+    .map((u) => {
+      const intro = u.oneSentenceIntro ? `<p class="uncertain-intro">${escapeHtml(u.oneSentenceIntro)}</p>` : '';
+      const source = u.sourceName ? escapeHtml(u.sourceName) : '';
+      const link = u.link
+        ? `<p><a href="${escapeHtml(u.link)}" target="_blank" rel="noopener noreferrer">打开原文 ↗</a></p>`
+        : '';
+      return `
+        <article class="card card-uncertain">
+          <h4 class="title">${escapeHtml(u.title || '未命名')}</h4>
+          ${intro}
+          <div class="meta">${source}</div>
+          ${link}
+        </article>
+      `;
+    })
+    .join('');
+  const uncertainSection =
+    uncertainCards &&
+    `<section class="blog-uncertain"><h3 class="section-title">其他可阅</h3>${uncertainCards}</section>`;
+  return `<section class="youtube-list">${mainCards}</section>${uncertainSection || ''}`;
+}
+
 function render() {
   if (!state.data || !state.selectedDate) {
     contentEl.innerHTML = '<div class="loading">加载中...</div>';
@@ -198,7 +259,15 @@ function render() {
   }
 
   const date = state.selectedDate;
-  contentEl.innerHTML = state.selectedTab === 'youtube' ? renderYoutube(date) : renderApps(date);
+  if (state.selectedTab === 'youtube') {
+    contentEl.innerHTML = renderYoutube(date);
+  } else if (state.selectedTab === 'apps') {
+    contentEl.innerHTML = renderApps(date);
+  } else if (state.selectedTab === 'blog') {
+    contentEl.innerHTML = renderBlog(date);
+  } else {
+    contentEl.innerHTML = renderYoutube(date);
+  }
 }
 
 async function loadData() {
@@ -243,5 +312,6 @@ async function init() {
 
 tabYoutubeEl.addEventListener('click', () => setActiveTab('youtube'));
 tabAppsEl.addEventListener('click', () => setActiveTab('apps'));
+if (tabBlogEl) tabBlogEl.addEventListener('click', () => setActiveTab('blog'));
 
 init();
