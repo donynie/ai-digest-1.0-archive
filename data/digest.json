@@ -1,19 +1,52 @@
 {
-  "generatedAt": "2026-03-21T00:15:41.132Z",
+  "generatedAt": "2026-03-22T00:11:30.378Z",
   "windowDays": 7,
   "dates": [
+    "2026-03-22",
     "2026-03-21",
     "2026-03-20",
     "2026-03-19",
     "2026-03-18",
     "2026-03-17",
-    "2026-03-16",
-    "2026-03-15"
+    "2026-03-16"
   ],
   "tabs": {
     "youtube": {
       "label": "YouTube",
       "days": {
+        "2026-03-22": {
+          "items": [
+            {
+              "id": "yt-59103c0237798981846823cadc529b80",
+              "title": "YouTube新手如何开启首次直播：从验证到上线的完整指南",
+              "sourceName": "AI & I",
+              "sourceUrl": "https://www.youtube.com/watch?v=MWvpXswLFxA",
+              "publishedAt": "2026-03-22T00:00:02.197Z",
+              "briefSummary": "这期视频是YouTube官方团队出的一个**新手入门教程**，手把手教你怎么在YouTube上开第一次直播。主讲人Chris会告诉你，开直播前必须先**验证手机号**来开通权限，这个步骤在youtube.com/verify完成，而且开通后可能要等最多24小时才能用。视频还会简单介绍直播有哪些**不同的选项和设置**，帮你把最基础的流程走一遍。",
+              "coreInsights": [
+                "开启YouTube直播前，必须先在youtube.com/verify完成手机号验证。",
+                "验证通过后，获得直播权限可能需要等待最长24小时。",
+                "视频会讲解直播的基础设置和不同的流媒体选项。"
+              ],
+              "personalRelevance": null
+            }
+          ],
+          "transparency": {
+            "feedsConfigured": 7,
+            "totalVideosFetched": 1,
+            "withTranscript": 1,
+            "sortedCount": 1,
+            "includedInReport": 1,
+            "highPriorityCount": 0,
+            "lowPriorityCount": 1,
+            "bySource": [
+              {
+                "feedName": "AI & I",
+                "count": 1
+              }
+            ]
+          }
+        },
         "2026-03-21": {
           "items": [
             {
@@ -466,66 +499,362 @@
               }
             ]
           }
-        },
-        "2026-03-15": {
-          "items": [
-            {
-              "id": "yt-9a11694f5d020ab1ae5156994151b44e",
-              "title": "Pydantic创始人打造超快Python解释器Monty，专为AI Agent而生",
-              "sourceName": "Latent Space",
-              "sourceUrl": "https://www.youtube.com/watch?v=nxnQl4AcqFg",
-              "publishedAt": "2026-03-14T19:11:47.000Z",
-              "briefSummary": "这期播客采访了Pydantic创始人Samuel Colvin，他聊了刚开源的**超快Python解释器Monty**。Monty不是完整的CPython，而是专门为AI Agent场景设计的，它能在同一个进程里运行，**延迟极低**（微秒级），比传统沙箱方案快得多。Sam解释了为什么Pyodide等现有方案不适合AI工具调用，以及Monty如何在安全、表达能力和部署复杂度之间找到平衡点。他还分享了用AI（Claude Code、Gemini CLI）来辅助开发Monty的有趣经验。",
-              "coreInsights": [
-                "Monty是一个用Rust编写的超轻量Python解释器，专为AI Agent的代码执行设计，主打微秒级低延迟和进程内安全运行。",
-                "它定位在简单的工具调用和重量级沙箱之间，解决了企业自部署复杂、成本高和延迟大的痛点。",
-                "Monty不支持完整的CPython和第三方库，但允许通过注册主机函数来安全地扩展能力（如网络请求、数据验证）。",
-                "Sam分享了用多种AI编码助手（Claude Code、Gemini CLI）协作开发的经验，认为在API明确、测试简单的任务上，AI能带来百倍效率提升。",
-                "Monty的未来与Pydantic AI的“可序列化Agent”愿景结合，旨在优化和固化Agent的工作流与状态。"
-              ],
-              "personalRelevance": "如果你在构建或使用**AI Agent**，特别是涉及**工具调用**或**代码执行**的场景，Monty提供了一个全新的高性能、易集成的运行时选择，值得关注。"
-            },
-            {
-              "id": "yt-cd722562e0128410840f7b6b2e97f053",
-              "title": "一次迷幻体验如何让我找到写作的勇气",
-              "sourceName": "Lennys Podcast",
-              "sourceUrl": "https://www.youtube.com/watch?v=eE6tG42y5is",
-              "publishedAt": "2026-03-14T11:01:05.000Z",
-              "briefSummary": "这期播客里，嘉宾分享了一个非常私人的故事。他说，在刚开始写Newsletter时，自己其实很没信心。有一次在约书亚树国家公园参加单身派对，在某种**致幻物质的影响下**，他独自在一块石头上坐了三个小时。期间，他不断感受到一个念头：“我有智慧可以分享”，并且眼前出现了类似**静坐佛陀的幻象**。这个深刻的体验给了他巨大的信心，让他确信自己内心确实有值得分享的东西，从而迈出了写作的第一步。",
-              "coreInsights": [
-                "创作初期的自我怀疑很常见，需要契机来建立信心。",
-                "一次深刻的个人体验（如迷幻经历）可能成为突破心理障碍的关键转折点。",
-                "内心的信念（“我有智慧可以分享”）是驱动行动的重要力量。",
-                "外在的象征或幻象（如佛陀形象）有时能赋予人内在的勇气和确认感。"
-              ],
-              "personalRelevance": null
-            }
-          ],
-          "transparency": {
-            "feedsConfigured": 7,
-            "totalVideosFetched": 2,
-            "withTranscript": 2,
-            "sortedCount": 2,
-            "includedInReport": 2,
-            "highPriorityCount": 1,
-            "lowPriorityCount": 1,
-            "bySource": [
-              {
-                "feedName": "Latent Space",
-                "count": 1
-              },
-              {
-                "feedName": "Lennys Podcast",
-                "count": 1
-              }
-            ]
-          }
         }
       }
     },
     "apps": {
       "label": "Apps",
       "days": {
+        "2026-03-22": {
+          "generatedAt": "2026-03-22T00:08:57.464Z",
+          "categories": [
+            {
+              "category": "当日要闻",
+              "summary": "",
+              "items": []
+            },
+            {
+              "category": "热点热议",
+              "summary": "",
+              "items": [
+                {
+                  "title": "Hachette因AI写作指控下架小说，引发创作伦理大讨论",
+                  "summary": "·出版业AI审查：Hachette出版社因作者被指控使用AI写作而下架恐怖小说《Shy Girl》，引发对AI创作伦理的行业审查潮。\n·观点对立加剧：一方认为这是对AI的“猎巫”行动，未来将显得可笑；另一方则担忧AI对原创性的侵蚀，此事件仅是开端。\n·行业冲击预警：评论指出AI浪潮将席卷所有行业，当前的抵制在未来可能被视为徒劳。\n💡 AI创作工具普及后，“原创”定义与工作流透明度将成为内容创作者的新合规课题。"
+                }
+              ]
+            },
+            {
+              "category": "深度观点",
+              "summary": "",
+              "items": [
+                {
+                  "title": "Karpathy谈AI工程范式转变与Agent未来",
+                  "summary": "要点提炼：AI工程正经历范式转变，Agent能力是核心。\n· 工程实践正经历“阶段转变”，过去精心构建的架构可能迅速过时，需保持敏捷。\n· 编码Agent的掌握是重大未解挑战，技能（skills）将是所有Agent构建的基础抽象层。\n· 模型能力的每次跃升，在淘汰部分旧技术栈的同时，也会开启新的可能性。\n💡 Agent构建目前更偏向艺术而非科学，关注技能抽象层是理解其演进的关键。"
+                },
+                {
+                  "title": "AI加剧用户工作强度与可能性负担",
+                  "summary": "要点提炼：AI并未带来预期闲暇，反而因可能性爆炸加剧工作压力。\n· 多数AI高级用户在使用后感到更忙碌、压力更大，而非更轻松。\n· AI将生产力提升10倍，但随之而来的可能性催生了20倍的工作量，形成“可能性负担”。\n· 技术敏捷性要求极高，旧有产品经理方法论在模型快速迭代下已不适用。"
+                },
+                {
+                  "title": "Claude长上下文能力突破改变复杂分析范式",
+                  "summary": "要点提炼：Opus 4.6的100万token上下文窗口解决了长期瓶颈。\n· 去年还频繁触及上下文限制的问题，如今因100万token窗口得以大幅缓解。\n· 更长的上下文意味着更复杂的分析可以完全在上下文中完成，Claude Code等工具能力显著提升。\n· 这标志着技术的一个关键瓶颈被突破，现状将是“未来最差的情况”。"
+                },
+                {
+                  "title": "AI写作工具争议：辅助创作与“猎巫”现象",
+                  "summary": "要点提炼：AI作为写作辅助工具被广泛接受，但相关“猎巫”行为引发争议。\n· AI不会取代人类作家，但将成为写作流程中普遍的辅助工具，类似过去的文字处理器和编辑。\n· 当前因作者可能使用AI而抵制书籍的“猎巫”行为，在未来看会显得荒谬。\n· 作者使用AI审阅作品、提供反馈已是常见实践，这是工具演进的必然。"
+                },
+                {
+                  "title": "AI时代能否构建如社交网络般的长期飞轮效应存疑",
+                  "summary": "要点提炼：AI领域尚未证明能建立类似社交网络的持久网络效应。\n· LinkedIn、YouTube、Twitter等平台凭借网络效应获得了长期生命力。\n· 目前尚不清楚AI时代能否构建自己强大的飞轮（如数据循环）。\n· 这引发了关于AI商业模式长期可持续性的根本问题。"
+                }
+              ]
+            },
+            {
+              "category": "新产品推荐",
+              "summary": "",
+              "items": [
+                {
+                  "title": "Garry Tan 宣布 Conductor 新增 Garry Mode，加速 GStack 项目开发",
+                  "summary": "·**Conductor 新增 Garry Mode**：被 Garry Tan 称为启动 GStack 新项目的绝对最快方式。\n·**操作模式与思考过程**：该模式允许用户像他一样操作，阅读所有推理轨迹以确保模型正确思考代码变更。\n·**GStack 用户基础**：GStack 已有数千日活真实用户，发展势头强劲。\n💡 关注 AI 辅助编程工具的“思考过程”可视化，对理解 Agent 决策和优化工作流有直接参考价值。"
+                },
+                {
+                  "title": "Hamel Husain 评价 Claude Code 新功能，指出其 UX 长尾问题",
+                  "summary": "·**Claude Code 新增频道控制**：可通过 Telegram 和 Discord 等 MCP 从手机控制 Claude Code 会话。\n·**用户体验存在短板**：Hamel Husain 指出其不如 Cline，主要问题在于执行任务时无前台对话反馈，用户无法知晓进度。\n·**长尾体验至关重要**：他认为对于大型编码任务，这种缺乏反馈的体验不理想，强调了 UX 细节的重要性。"
+                },
+                {
+                  "title": "Garry Tan 称 GStack 正实现 Claude in Chrome MCP 的愿景",
+                  "summary": "·**GStack 的定位演变**：Garry Tan 表示，他基本上是将 GStack 构建成 Claude in Chrome MCP 本该成为的样子。\n·**工具愿景的实践**：这条推文暗示 GStack 在实现某种浏览器内 AI 助手或集成开发体验的原始构想。"
+                }
+              ]
+            },
+            {
+              "category": "AI 实践与 Use Case",
+              "summary": "",
+              "items": [
+                {
+                  "title": "Garry Tan 展示 GStack 全流程 AI 开发工作流，实现功能从规划到上线",
+                  "summary": "Garry Tan 展示其开源项目 GStack 如何通过一系列 AI 指令（如 /plan-ceo-review, /plan-eng-review, /review）完成一个真实功能的完整开发冲刺。\n· 工作流演示：从 CEO 评审、工程评审到构建、审查和上线的全流程自动化。\n· 设计咨询能力：/design-consultation 能分析现有网站，发现不一致性，并提出设计语言更新建议。\n· 开源与可定制：该项目免费开源，用户可复刻并定制自己的版本。\n💡 展示了将 AI 深度集成到 PM 及工程工作流的具体路径，可复用于个人项目。"
+                },
+                {
+                  "title": "Garry Tan 分享 GStack 设计评审指令，可将平庸设计提升至满分",
+                  "summary": "Garry Tan 介绍其 GStack 中的 /plan-design-review 指令，能够将平庸的设计或线框图大幅提升至视觉上的完美。\n· 评分与提升框架：通过询问“在 0-10 分中打几分，以及如何达到 10 分”来引导 LLM 进行系统性改进。\n· 能力验证：展示了 LLM 在理解设计质量并提供具体优化建议方面的强大能力。\n💡 提供了一个具体的提示词框架，用于引导 AI 进行质量评估和迭代优化，适用于各类评审场景。"
+                },
+                {
+                  "title": "Claude 自动检测并协调其他 AI 提供第二意见，实现智能体协作",
+                  "summary": "Garry Tan 引用案例，展示 Claude 在开发流程中展现出自主协作的智能行为。\n· 自主发现与协作：Claude 检测到同一机器上运行的 Codex，主动提议将代码交给其进行评审，无需手动配置。\n· 工作流优化：这一行为恰好在用户准备手动设置时发生，无缝衔接了工作流。\n· 意义：标志着 AI 开始具备环境感知和主动协调多智能体完成任务的能力。\n💡 预示了未来多 AI 智能体间自主发现、协商与协作的潜力，可简化复杂工作流的搭建。"
+                },
+                {
+                  "title": "Hamel Husain 利用 Claude 逆向工程网页内部 API，赋能智能体自动化",
+                  "summary": "Hamel Husain 认为没有 API 的软件将面临淘汰，并分享其使用 Claude 扩展实现网页自动化的实践。\n· 逆向工程能力：Claude 通过访问开发者控制台，擅长反向推导网页应用的内部 API 接口。\n· 程序化执行：基于逆向得到的 API，Claude 可以编程式地执行任务，实现自动化。\n· 技能封装：将此类自动化流程记录并封装成可复用的“技能”（skill）。\n💡 提供了一种绕过官方 API 限制，直接通过 AI 与软件交互并构建自动化工作流的高级技巧。"
+                },
+                {
+                  "title": "Peter Yang 展示 Claude Code 与 Figma MCP 组合，实现设计与代码双向转换",
+                  "summary": "Peter Yang 推荐 Claude Code 与 Figma MCP（模型上下文协议）的组合，用于高效的 AI 辅助设计开发。\n· 快速原型：可在 10 分钟内从 Figma 设计稿生成可运行的应用。\n· 双向工作流：支持从生成的应用程序代码反向创建可编辑的 Figma 矢量组件。\n· 高级应用：该组合还能用于构建带有 3D 动画的复杂网站。\n💡 揭示了连接设计（Figma）与开发（代码）的高效工具链，极大缩短了从设计到原型的迭代周期。"
+                },
+                {
+                  "title": "Garry Tan 分享高效 AI 对话技巧，用特定链接代替“继续”指令",
+                  "summary": "Garry Tan 分享了一个提升与 AI 对话效率的简单但有效的技巧。\n· 指令优化：过去使用“continue”或“keep going”，现在直接发送一个特定链接（https://t.co/tO4sKDNtQP）来让 AI 继续。\n· 实践意义：这个技巧可能触发了 AI 更连贯、更符合上下文的延续行为，或是其内部工作流的一部分。\n💡 提供了一个具体、可立即试用的提示词优化技巧，可能提升长文本生成或复杂任务执行的连贯性。"
+                }
+              ]
+            },
+            {
+              "category": "其他",
+              "summary": "",
+              "items": [
+                {
+                  "title": "AI生成剧《水果恋爱岛》在TikTok爆火，吸引数亿观看",
+                  "summary": "AI生成内容在短视频平台取得现象级成功。\n· 首个AI生成真人秀《水果恋爱岛》在TikTok首播一周后迅速走红，吸引了数亿观众观看和数千人投票参与。\n· 该内容由账号@ai.cinema021制作发布，标志着AI生成娱乐内容已具备大规模吸引主流受众的潜力。\nAI生成的娱乐内容正以极低成本创造全球性文化热点。"
+                },
+                {
+                  "title": "开发者分享AI Agent开发过程，探索安全直播方法",
+                  "summary": "开发者积极构建并乐于分享AI Agent开发流程。\n· @trq212 表示搭建AI Agent的过程非常有趣，并正在寻找一种能够直播开发过程但又不至于立即被攻击（“owned”）的方法。\n· 这反映了AI Agent开发社区对透明、共享工作流的热情，同时也对暴露系统脆弱性存在顾虑。\n💡 构建AI工作流时，需在分享热情与系统安全之间找到平衡点。"
+                },
+                {
+                  "title": "设计师分享未来感UI概念，引发广泛关注",
+                  "summary": "具象化的未来UI设计概念获得高热度讨论。\n· @ryolu_ 分享了一个未来主义、略带玻璃质感的用户界面设计概念图，并表示相关趋势“仍处早期但已更清晰”。\n· 该推文获得了超过3.4万次浏览和300多个点赞，表明社区对具象化的下一代交互设计充满兴趣。\n高关注度显示市场对下一代UI/UX的具象化预览需求强烈。"
+                },
+                {
+                  "title": "开发者讨论AI Agent与外部工具（Telegram）通信的可靠性问题",
+                  "summary": "AI Agent在实际集成中面临消息传递的可靠性挑战。\n· @HamelHusain 在与@trq212和@weswinder的讨论中指出，其AI Agent有时无法可靠接收来自Telegram的消息，需要用户重复发送。\n· 他通过监控Claude代码会话终端确认了消息未被接收的问题，并提及了尝试解决此问题的方法。\n💡 构建依赖外部通信的AI工作流时，必须设计健壮的消息接收与错误处理机制。"
+                }
+              ]
+            }
+          ],
+          "transparency": {
+            "accountsConfigured": 31,
+            "totalTweetsFetched": 36,
+            "includedInReport": 24,
+            "nonAICount": 12,
+            "byBlock": {
+              "热点热议": 1,
+              "深度观点": 8,
+              "新产品推荐": 4,
+              "AI 实践与 Use Case": 7,
+              "其他": 4,
+              "非 AI": 12
+            },
+            "byConfiguredAccount": [
+              {
+                "handle": "karpathy",
+                "originalCount": 0,
+                "retweetCount": 0,
+                "quoteCount": 1,
+                "includedCount": 1
+              },
+              {
+                "handle": "swyx",
+                "originalCount": 0,
+                "retweetCount": 0,
+                "quoteCount": 0,
+                "includedCount": 0
+              },
+              {
+                "handle": "gregisenberg",
+                "originalCount": 0,
+                "retweetCount": 0,
+                "quoteCount": 0,
+                "includedCount": 0
+              },
+              {
+                "handle": "lennysan",
+                "originalCount": 1,
+                "retweetCount": 0,
+                "quoteCount": 0,
+                "includedCount": 0
+              },
+              {
+                "handle": "joshwoodward",
+                "originalCount": 0,
+                "retweetCount": 0,
+                "quoteCount": 0,
+                "includedCount": 0
+              },
+              {
+                "handle": "kevinweil",
+                "originalCount": 0,
+                "retweetCount": 0,
+                "quoteCount": 0,
+                "includedCount": 0
+              },
+              {
+                "handle": "petergyang",
+                "originalCount": 1,
+                "retweetCount": 0,
+                "quoteCount": 1,
+                "includedCount": 2
+              },
+              {
+                "handle": "thenanyu",
+                "originalCount": 0,
+                "retweetCount": 0,
+                "quoteCount": 1,
+                "includedCount": 0
+              },
+              {
+                "handle": "realmadhuguru",
+                "originalCount": 0,
+                "retweetCount": 0,
+                "quoteCount": 0,
+                "includedCount": 0
+              },
+              {
+                "handle": "stevenbjohnson",
+                "originalCount": 0,
+                "retweetCount": 0,
+                "quoteCount": 0,
+                "includedCount": 0
+              },
+              {
+                "handle": "mckaywrigley",
+                "originalCount": 0,
+                "retweetCount": 0,
+                "quoteCount": 0,
+                "includedCount": 0
+              },
+              {
+                "handle": "AmandaAskell",
+                "originalCount": 0,
+                "retweetCount": 0,
+                "quoteCount": 0,
+                "includedCount": 0
+              },
+              {
+                "handle": "_catwu",
+                "originalCount": 0,
+                "retweetCount": 0,
+                "quoteCount": 0,
+                "includedCount": 0
+              },
+              {
+                "handle": "trq212",
+                "originalCount": 2,
+                "retweetCount": 0,
+                "quoteCount": 1,
+                "includedCount": 2
+              },
+              {
+                "handle": "GoogleLabs",
+                "originalCount": 0,
+                "retweetCount": 0,
+                "quoteCount": 0,
+                "includedCount": 0
+              },
+              {
+                "handle": "george__mack",
+                "originalCount": 0,
+                "retweetCount": 0,
+                "quoteCount": 0,
+                "includedCount": 0
+              },
+              {
+                "handle": "raizamrtn",
+                "originalCount": 0,
+                "retweetCount": 0,
+                "quoteCount": 0,
+                "includedCount": 0
+              },
+              {
+                "handle": "amasad",
+                "originalCount": 0,
+                "retweetCount": 0,
+                "quoteCount": 0,
+                "includedCount": 0
+              },
+              {
+                "handle": "rauchg",
+                "originalCount": 1,
+                "retweetCount": 0,
+                "quoteCount": 0,
+                "includedCount": 0
+              },
+              {
+                "handle": "rileybrown",
+                "originalCount": 1,
+                "retweetCount": 0,
+                "quoteCount": 1,
+                "includedCount": 0
+              },
+              {
+                "handle": "alexalbert__",
+                "originalCount": 0,
+                "retweetCount": 0,
+                "quoteCount": 0,
+                "includedCount": 0
+              },
+              {
+                "handle": "HamelHusain",
+                "originalCount": 2,
+                "retweetCount": 0,
+                "quoteCount": 1,
+                "includedCount": 3
+              },
+              {
+                "handle": "levie",
+                "originalCount": 0,
+                "retweetCount": 0,
+                "quoteCount": 1,
+                "includedCount": 1
+              },
+              {
+                "handle": "ryolu_",
+                "originalCount": 0,
+                "retweetCount": 0,
+                "quoteCount": 1,
+                "includedCount": 1
+              },
+              {
+                "handle": "garrytan",
+                "originalCount": 11,
+                "retweetCount": 0,
+                "quoteCount": 2,
+                "includedCount": 9
+              },
+              {
+                "handle": "lulumeservey",
+                "originalCount": 0,
+                "retweetCount": 0,
+                "quoteCount": 1,
+                "includedCount": 0
+              },
+              {
+                "handle": "venturetwins",
+                "originalCount": 1,
+                "retweetCount": 0,
+                "quoteCount": 2,
+                "includedCount": 3
+              },
+              {
+                "handle": "mattturck",
+                "originalCount": 0,
+                "retweetCount": 0,
+                "quoteCount": 1,
+                "includedCount": 1
+              },
+              {
+                "handle": "joulee",
+                "originalCount": 0,
+                "retweetCount": 0,
+                "quoteCount": 0,
+                "includedCount": 0
+              },
+              {
+                "handle": "PJaccetturo",
+                "originalCount": 1,
+                "retweetCount": 0,
+                "quoteCount": 0,
+                "includedCount": 0
+              },
+              {
+                "handle": "zarazhangrui",
+                "originalCount": 1,
+                "retweetCount": 0,
+                "quoteCount": 0,
+                "includedCount": 1
+              }
+            ],
+            "sumMatchesTotal": true
+          }
+        },
         "2026-03-21": {
           "generatedAt": "2026-03-21T00:11:11.644Z",
           "categories": [
@@ -2961,338 +3290,297 @@
             ],
             "sumMatchesTotal": true
           }
-        },
-        "2026-03-15": {
-          "generatedAt": "2026-03-15T00:14:20.913Z",
-          "categories": [
-            {
-              "category": "当日要闻",
-              "summary": "",
-              "items": [
-                {
-                  "title": "Axiom AI 获 2 亿美元融资，CEO 谈 AI 数学家的潜力与验证",
-                  "summary": "·AI 数学家的潜力：Axiom AI 宣布完成 2 亿美元 A 轮融资，其 CEO Carina Hong 认为 AI 将推动数学复兴和重大科学发现。\n·验证是关键：对话核心探讨了验证作为实现推理超级智能缺失的一环，旨在追求 AI 100% 的正确性。\n·能力展示：Axiom AI 在世界上最难的数学测试中取得了 12/12 的满分成绩。\n💡 关注“验证层”作为提升 AI 推理可靠性的技术方向，对构建可信 Agent 有参考价值。"
-                }
-              ]
-            },
-            {
-              "category": "热点热议",
-              "summary": "",
-              "items": [
-                {
-                  "title": "雅虎CEO警告AI生成PPT泛滥，引发内部管理难题",
-                  "summary": "·雅虎CEO谈AI生成PPT的管理问题：AI制作的劣质幻灯片（slop）正在公司内部制造管理难题。\n·管理层的应对方案：首次犯错给予严厉警告，再犯则解雇，以此方式在可能的裁员前进行人员汰换。\n·事件反映的深层问题：AI工具滥用导致工作质量下降，已成为企业需要明确政策应对的新管理挑战。\n💡 AI工具在工作流中需明确使用规范与质量红线，避免“垃圾进，垃圾出”影响决策效率。"
-                },
-                {
-                  "title": "AI新工具发布过快，从业者感叹难以跟上节奏",
-                  "summary": "·从业者的普遍焦虑：AI领域每天都有大量新的智能体、CLI工具发布，让人应接不暇，产生“需要尝试”的FOMO（错失恐惧症）。\n·问题的核心矛盾：信息过载与学习成本激增，如何筛选有价值的新工具成为日常挑战。\n·一个讽刺的解决方案：面对“如何跟上所有新发布”的提问，最直接的答案竟是“用AI来解决”。"
-                }
-              ]
-            },
-            {
-              "category": "深度观点",
-              "summary": "",
-              "items": [
-                {
-                  "title": "初创公司与大企业在AI应用、人才和组织上存在巨大鸿沟",
-                  "summary": "·AI应用与组织鸿沟：初创公司与大企业在AI使用、人才选拔和团队组织方式上存在显著差异。\n·观点来源：该观察基于对行业实践的广泛接触，指出了不同规模企业在技术采纳和运营模式上的根本性分歧。\n·核心启示：企业规模是决定其AI战略、文化和工作流程的关键变量。"
-                },
-                {
-                  "title": "Agentic AI本质是后端工程，开发者需掌握分布式系统等技能",
-                  "summary": "·技术本质迁移：智能体（Agentic）AI的核心是后端工程问题，而非纯粹的AI研究。\n·关键技能栈：规模化构建智能体需要掌握事件驱动系统、数据管道、分布式系统、API设计和可观测性等工程技能。\n·行业趋势：任何技术规模化抽象后，最终都会回归工程挑战。\n💡 Agent开发者应将学习重点转向分布式系统等后端工程技能。"
-                },
-                {
-                  "title": "反驳“AI处于DOS时代”类比，自然语言是LLM原生交互方式",
-                  "summary": "·观点反驳：认为“AI处于DOS时代”的类比是错误的。\n·核心论据：自然语言是大语言模型（LLM）的原生交互界面，正如语言是人类管理团队的天然方式。\n·正确类比：提供了一个更准确的类比框架来理解当前AI的交互阶段。"
-                },
-                {
-                  "title": "LLM揭示人类文化低复杂度，或导致思维趋同与个性丧失",
-                  "summary": "·文化低复杂度：LLM的成功揭示了大量人类知识和社会结构具有极低的柯尔莫哥洛夫复杂度。\n·潜在风险：为迎合机器（损失最小化）可能导致文化极度单一化，压制多样性和个体性。\n·核心警告：智能与个性是“用进废退”的，无意识地服从算法优化将带来不乐观的后果。"
-                }
-              ]
-            },
-            {
-              "category": "新产品推荐",
-              "summary": "",
-              "items": []
-            },
-            {
-              "category": "AI 实践与 Use Case",
-              "summary": "",
-              "items": [
-                {
-                  "title": "Greg Isenberg征集OpenClaw自动化实用案例，引发广泛讨论",
-                  "summary": "Greg Isenberg发起关于OpenClaw自动化实用任务的公开讨论，旨在收集真实世界的应用案例。\n· 实用任务征集：询问社区使用OpenClaw自动化完成的最有用任务，以探索其实际应用边界。\n· 社区高参与度：该提问获得超3万次浏览和数百次互动，显示开发者对AI自动化实践的高度关注。\n💡 关注社区分享的OpenClaw具体用例，可发现AI代理在自动化工作流中的实际潜力。"
-                },
-                {
-                  "title": "Greg Isenberg分享利用LLM和AI代理构建创意的观点",
-                  "summary": "Greg Isenberg引用他人内容，强调利用大语言模型和AI代理来构建想法的重要性。\n· 构建方式转变：将“利用LLM和AI代理构建想法”列为重要事项，暗示AI已成为创意实现的核心工具。\n· 内容引发共鸣：该推文获得高浏览量，说明其倡导的“AI赋能创造”理念与广泛受众产生连接。"
-                },
-                {
-                  "title": "Zara Zhang分享公开构建与X平台增长的经验访谈",
-                  "summary": "Zara Zhang分享其关于公开构建产品和在X平台实现快速增长旅程的访谈。\n· 增长经验公开：访谈涵盖在X平台的内容策略、6个月内从2k增长到47k粉丝的具体方法。\n· 面向构建者：内容被标记为公开构建者的必看资源，强调了可操作的增长洞察。\n💡 关注其内容共鸣策略与增长时间线，可借鉴用于个人或产品的AI领域公开构建。"
-                },
-                {
-                  "title": "Riley Brown展示OpenClaw自动生成缩略图并运行评估的工作流",
-                  "summary": "Riley Brown展示其OpenClaw代理已能自动生成缩略图并运行评估测试，实现工作流自动化。\n· 工作流自动化：代理能根据“MrBeast风格”等指令生成10张缩略图，上传至图库并返回链接。\n· 持续优化与测试：计划进行多轮夜间自动化测试，表明其正通过迭代评估来提升输出质量。\n💡 展示了从Telegram指令到成品交付的端到端AI工作流，是AI PM自动化流程的具体案例。"
-                }
-              ]
-            },
-            {
-              "category": "其他",
-              "summary": "",
-              "items": [
-                {
-                  "title": "Zara Zhangrui分享职业洞察：你认为显而易见的事对他人未必如此",
-                  "summary": "· 核心观点：个人认为显而易见或极度小众的需求，对大众而言可能并非如此。\n· 关键信息：引用他人观点，指出从业者常因自身沉浸而高估他人认知。\n· 行动建议：若对某事着迷并认为其显而易见，应积极分享、投资或基于此进行创造。"
-                },
-                {
-                  "title": "Swyx指出计算基础设施需求激增，预警未来CPU短缺",
-                  "summary": "· 现象观察：自2025年12月起，包括Render在内的多家计算基础设施提供商的图表均显示服务创建量激增。\n· 核心判断：世界正全面“计算机化”，未来关键瓶颈可能并非GPU或内存，而是**CPU短缺**。\n· 依据来源：引用播客观点及Render的付费服务周创建量图表作为佐证。"
-                }
-              ]
-            }
-          ],
-          "transparency": {
-            "accountsConfigured": 31,
-            "totalTweetsFetched": 29,
-            "includedInReport": 15,
-            "nonAICount": 14,
-            "byBlock": {
-              "当日要闻": 1,
-              "热点热议": 2,
-              "深度观点": 5,
-              "AI 实践与 Use Case": 5,
-              "其他": 2,
-              "非 AI": 14
-            },
-            "byConfiguredAccount": [
-              {
-                "handle": "karpathy",
-                "originalCount": 0,
-                "retweetCount": 0,
-                "quoteCount": 0,
-                "includedCount": 0
-              },
-              {
-                "handle": "swyx",
-                "originalCount": 0,
-                "retweetCount": 0,
-                "quoteCount": 4,
-                "includedCount": 3
-              },
-              {
-                "handle": "gregisenberg",
-                "originalCount": 1,
-                "retweetCount": 0,
-                "quoteCount": 3,
-                "includedCount": 2
-              },
-              {
-                "handle": "lennysan",
-                "originalCount": 0,
-                "retweetCount": 0,
-                "quoteCount": 0,
-                "includedCount": 0
-              },
-              {
-                "handle": "joshwoodward",
-                "originalCount": 0,
-                "retweetCount": 0,
-                "quoteCount": 0,
-                "includedCount": 0
-              },
-              {
-                "handle": "kevinweil",
-                "originalCount": 0,
-                "retweetCount": 0,
-                "quoteCount": 1,
-                "includedCount": 0
-              },
-              {
-                "handle": "petergyang",
-                "originalCount": 1,
-                "retweetCount": 0,
-                "quoteCount": 1,
-                "includedCount": 0
-              },
-              {
-                "handle": "thenanyu",
-                "originalCount": 3,
-                "retweetCount": 0,
-                "quoteCount": 5,
-                "includedCount": 3
-              },
-              {
-                "handle": "realmadhuguru",
-                "originalCount": 0,
-                "retweetCount": 0,
-                "quoteCount": 0,
-                "includedCount": 0
-              },
-              {
-                "handle": "stevenbjohnson",
-                "originalCount": 0,
-                "retweetCount": 0,
-                "quoteCount": 0,
-                "includedCount": 0
-              },
-              {
-                "handle": "mckaywrigley",
-                "originalCount": 0,
-                "retweetCount": 0,
-                "quoteCount": 0,
-                "includedCount": 0
-              },
-              {
-                "handle": "AmandaAskell",
-                "originalCount": 0,
-                "retweetCount": 0,
-                "quoteCount": 0,
-                "includedCount": 0
-              },
-              {
-                "handle": "_catwu",
-                "originalCount": 0,
-                "retweetCount": 0,
-                "quoteCount": 0,
-                "includedCount": 0
-              },
-              {
-                "handle": "trq212",
-                "originalCount": 0,
-                "retweetCount": 0,
-                "quoteCount": 0,
-                "includedCount": 0
-              },
-              {
-                "handle": "GoogleLabs",
-                "originalCount": 0,
-                "retweetCount": 0,
-                "quoteCount": 0,
-                "includedCount": 0
-              },
-              {
-                "handle": "george__mack",
-                "originalCount": 0,
-                "retweetCount": 0,
-                "quoteCount": 0,
-                "includedCount": 0
-              },
-              {
-                "handle": "raizamrtn",
-                "originalCount": 0,
-                "retweetCount": 0,
-                "quoteCount": 0,
-                "includedCount": 0
-              },
-              {
-                "handle": "amasad",
-                "originalCount": 0,
-                "retweetCount": 0,
-                "quoteCount": 0,
-                "includedCount": 0
-              },
-              {
-                "handle": "rauchg",
-                "originalCount": 0,
-                "retweetCount": 0,
-                "quoteCount": 0,
-                "includedCount": 0
-              },
-              {
-                "handle": "rileybrown",
-                "originalCount": 2,
-                "retweetCount": 0,
-                "quoteCount": 0,
-                "includedCount": 2
-              },
-              {
-                "handle": "alexalbert__",
-                "originalCount": 0,
-                "retweetCount": 0,
-                "quoteCount": 0,
-                "includedCount": 0
-              },
-              {
-                "handle": "HamelHusain",
-                "originalCount": 0,
-                "retweetCount": 0,
-                "quoteCount": 0,
-                "includedCount": 0
-              },
-              {
-                "handle": "levie",
-                "originalCount": 0,
-                "retweetCount": 0,
-                "quoteCount": 0,
-                "includedCount": 0
-              },
-              {
-                "handle": "ryolu_",
-                "originalCount": 0,
-                "retweetCount": 0,
-                "quoteCount": 0,
-                "includedCount": 0
-              },
-              {
-                "handle": "garrytan",
-                "originalCount": 0,
-                "retweetCount": 0,
-                "quoteCount": 0,
-                "includedCount": 0
-              },
-              {
-                "handle": "lulumeservey",
-                "originalCount": 1,
-                "retweetCount": 0,
-                "quoteCount": 1,
-                "includedCount": 0
-              },
-              {
-                "handle": "venturetwins",
-                "originalCount": 0,
-                "retweetCount": 0,
-                "quoteCount": 0,
-                "includedCount": 0
-              },
-              {
-                "handle": "mattturck",
-                "originalCount": 0,
-                "retweetCount": 0,
-                "quoteCount": 1,
-                "includedCount": 1
-              },
-              {
-                "handle": "joulee",
-                "originalCount": 0,
-                "retweetCount": 0,
-                "quoteCount": 1,
-                "includedCount": 0
-              },
-              {
-                "handle": "PJaccetturo",
-                "originalCount": 0,
-                "retweetCount": 0,
-                "quoteCount": 0,
-                "includedCount": 0
-              },
-              {
-                "handle": "zarazhangrui",
-                "originalCount": 1,
-                "retweetCount": 0,
-                "quoteCount": 3,
-                "includedCount": 4
-              }
-            ],
-            "sumMatchesTotal": true
-          }
         }
       }
     },
     "blog": {
       "label": "博客精选",
       "days": {
+        "2026-03-22": {
+          "date": "2026-03-22",
+          "main": [
+            {
+              "id": "9c0ca5a0d389",
+              "title": "用AI分析Hacker News用户评论，生成用户画像的探索",
+              "sourceName": "simonwillison.net",
+              "sourceUrl": "https://simonwillison.net/2026/Mar/21/profiling-hacker-news-users/#atom-everything",
+              "publishedAt": "2026-03-21T23:59:47.000Z",
+              "briefSummary": "这篇文章讲的是作者在尝试一个有点“反乌托邦”的玩法：用AI给Hacker News用户“画肖像”。他通过一个公开的API，能轻松获取任何用户最近的1000条评论。然后，他把这些评论一股脑儿地扔给像Claude Opus这样的高级AI模型，直接下指令“分析一下这个用户”，就能得到一份用户画像。文章主要分享了实现这个想法的技术路径和工具，比如如何获取数据、怎么用AI来解读。目前给出的内容片段有限，主要展示了这个想法的起点和实现方法。",
+              "coreInsights": [
+                "作者利用公开的Algolia API，可以轻松获取Hacker News用户的历史评论数据。",
+                "通过将大量用户评论输入给Claude Opus等大模型，可以快速生成用户画像分析。",
+                "这是一个探索性的AI应用案例，展示了如何结合公开数据与LLM进行自动化分析。"
+              ],
+              "personalRelevance": "这属于一个很具体的 **AI use case**，展示了如何将公开数据与 **Claude Opus** 等大模型结合，自动化完成用户分析任务。你可以借鉴这个思路，用类似方法分析其他社区的用户行为或内容趋势。",
+              "value": "高",
+              "tags": [
+                "Use case 分享",
+                "技术解读"
+              ]
+            },
+            {
+              "id": "ed04679fe871",
+              "title": "如何让AI编程助手用好Git版本控制工具",
+              "sourceName": "simonwillison.net",
+              "sourceUrl": "https://simonwillison.net/guides/agentic-engineering-patterns/using-git-with-coding-agents/#atom-everything",
+              "publishedAt": "2026-03-21T22:08:24.000Z",
+              "briefSummary": "这篇文章主要讲的是，当我们和AI编程助手（比如GitHub Copilot这类工具）一起工作时，怎么用好Git这个版本控制工具。作者说，因为AI助手本身就很懂Git的各种操作，所以我们自己不用死记硬背那些复杂的Git命令，反而可以更大胆地去尝试Git的高级功能。文章还简单介绍了Git的基础概念，比如仓库、提交、分支这些，核心观点是，把代码交给Git管理，能让我们和AI助手协作时更放心，方便追踪改动、查找问题甚至回滚错误。",
+              "coreInsights": [
+                "Git是管理AI编程助手所写代码的关键工具，能记录代码变化并方便回溯错误。",
+                "AI助手精通Git操作，这让我们可以更自由地探索Git的高级功能，无需死记命令。",
+                "Git通过仓库、提交和分支等基本结构来组织和管理代码的版本历史。"
+              ],
+              "personalRelevance": "如果你正在用**AI编程助手**（如Cursor、Copilot）写代码，这篇文章提醒你可以更放心地利用**Git**来管理AI生成的代码，形成可靠的**AI协作工作流**，不必担心改乱代码。",
+              "value": "高",
+              "tags": [
+                "AI 方法论",
+                "Use case 分享"
+              ]
+            },
+            {
+              "id": "7b8116a5ae81",
+              "title": "如何让你的开源项目吸引AI机器人来提交代码",
+              "sourceName": "nesbitt.io",
+              "sourceUrl": "https://nesbitt.io/2026/03/21/how-to-attract-ai-bots-to-your-open-source-project.html",
+              "publishedAt": "2026-03-21T10:00:00.000Z",
+              "briefSummary": "这篇文章的作者发现，自己维护的几十个挺受欢迎的开源项目，居然没有一个AI机器人来提交过代码（就是那种AI自动发现并修复问题的PR）。而一些同事的小项目，每周都能收到好几个AI提交的PR。作者觉得肯定是自己哪里没做对，于是就去研究了那些特别受AI机器人“青睐”的项目，总结出了一套能有效吸引AI机器人的做法。文章主要就是分享这些发现，告诉你该怎么调整你的项目设置。",
+              "coreInsights": [
+                "作者发现自己的开源项目虽然受欢迎，但从未收到过AI机器人提交的PR，而一些小型项目却频繁收到。",
+                "作者通过研究，总结出了一套与AI机器人高参与度强相关的项目实践方法。",
+                "实施这些方法，有望让你的项目也吸引到AI机器人的贡献。"
+              ],
+              "personalRelevance": "如果你在搞**开源项目**，或者对**AI Agent**如何与开发者协作感兴趣，这篇文章给出了具体的、可操作的吸引**AI机器人贡献**的方法，值得参考。",
+              "value": "高",
+              "tags": [
+                "AI use case",
+                "AI 方法论"
+              ]
+            },
+            {
+              "id": "aeb9b2f6ab43",
+              "title": "AI时代下，不同岗位间的相互鄙视与协作危机",
+              "sourceName": "blog.jim-nielsen.com",
+              "sourceUrl": "https://blog.jim-nielsen.com/2026/re-people-arent-friction/",
+              "publishedAt": "2026-03-20T19:00:00.000Z",
+              "briefSummary": "这篇文章主要讨论了AI浪潮下，一个有趣又令人担忧的现象：不同岗位的人（比如设计师、前后端工程师、管理层）都在幻想用AI“干掉”自己看不顺眼的同事。设计师觉得AI能搞定一切，工程师就多余了；工程师觉得AI设计也够用了；前后端工程师也互相觉得对方的工作能被AI轻松取代。作者引用了一段话，点明了核心：你热爱的专业，如果没有你鄙视的那些专业配合，其实一文不值。这其实是在提醒我们，别被AI冲昏头脑，团队协作和不同专业间的尊重，才是创造价值的关键。",
+              "coreInsights": [
+                "AI的潜在承诺是“自动化掉所有挡路的任务和人”，这加剧了不同岗位间的紧张和对立。",
+                "设计师、工程师、管理层都可能陷入“AI能取代对方”的幻想，导致相互鄙视和协作危机。",
+                "一个残酷的事实是：任何你热爱的专业，如果离开了你鄙视的其他专业协作，将变得毫无价值。"
+              ],
+              "personalRelevance": null,
+              "value": "高",
+              "tags": [
+                "行业动态",
+                "AI 方法论"
+              ]
+            },
+            {
+              "id": "e892b1a7799a",
+              "title": "谷歌搜索开始用AI改写新闻标题，引发媒体担忧",
+              "sourceName": "daringfireball.net",
+              "sourceUrl": "https://www.theverge.com/tech/896490/google-replace-news-headlines-in-search-canary-coal-mine-experiment?view_token=eyJhbGciOiJIUzI1NiJ9.eyJpZCI6IjI0Q05IV0dlS3EiLCJwIjoiL3RlY2gvODk2NDkwL2dvb2dsZS1yZXBsYWNlLW5ld3MtaGVhZGxpbmVzLWluLXNlYXJjaC1jYW5hcnktY29hbC1taW5lLWV4cGVyaW1lbnQiLCJleHAiOjE3NzQ0NzIwOTAsImlhdCI6MTc3NDA0MDA5MH0.3exwHWG6qdR5YeFLjzS1qvUy3tgfASQhbFZDTbHrkKE&utm_medium=gift-link",
+              "publishedAt": "2026-03-20T21:00:09.000Z",
+              "briefSummary": "这篇文章主要讲的是，谷歌正在搜索结果的“10个蓝色链接”里，悄悄用AI改写新闻媒体的原标题。The Verge的记者发现，谷歌会把他们精心撰写的标题替换成更短、甚至意思都变了的版本。比如，一篇批评某个“万能作弊”AI工具的文章，标题被谷歌缩成了“‘Cheat on everything’ AI tool”，听起来反而像是在推荐这个工具。谷歌官方承认这只是个“小范围”实验，但拒绝透露具体规模有多大。这件事让媒体担心，AI可能会曲解原意，影响读者判断。",
+              "coreInsights": [
+                "谷歌正在搜索结果的“10个蓝色链接”中，用AI实验性地自动改写新闻标题。",
+                "改写有时会严重改变原标题的含义，甚至可能让批评文章听起来像在推荐产品。",
+                "谷歌称这只是“小范围、有限”的实验，但拒绝透露具体规模，媒体已多次发现实例。",
+                "这一做法引发了媒体对AI可能曲解原意、误导读者的担忧。"
+              ],
+              "personalRelevance": null,
+              "value": "低",
+              "tags": [
+                "时事新闻",
+                "行业动态"
+              ]
+            },
+            {
+              "id": "81849cc0e5ce",
+              "title": "用AI逆向工程39KB的经典编程工具Turbo Pascal",
+              "sourceName": "simonwillison.net",
+              "sourceUrl": "https://simonwillison.net/2026/Mar/20/turbo-pascal/#atom-everything",
+              "publishedAt": "2026-03-20T23:59:14.000Z",
+              "briefSummary": "这篇文章讲的是作者受一篇2011年文章的启发，那篇文章列举了比1985年Borland公司发布的Turbo Pascal 3.02A（一个仅39,731字节的可执行文件）还要大的东西。作者觉得很有趣，就去网上找到了这个早已免费发布的程序文件，然后用AI工具Claude来解读这个二进制文件，并尝试对它进行反编译。结果Claude做得很好，作者就让它创建了一个交互式的展示成果，把整个程序按功能分段、标注，并把反汇编的代码展示出来，方便大家理解这个经典小程序的内部结构。",
+              "coreInsights": [
+                "1985年的Turbo Pascal 3.02A仅39KB，却集成了完整的文本编辑器、IDE和编译器。",
+                "作者利用现代AI工具Claude成功对这款经典软件的二进制文件进行了解读和反编译。",
+                "最终成果是一个交互式展示，将程序分段、标注并展示反汇编代码，便于理解其内部结构。"
+              ],
+              "personalRelevance": "这是一个非常具体的 **AI use case**，展示了如何用 **AI 协作工作流**（让Claude解读、反编译、构建展示）来处理一个复古技术项目，为探索历史代码或逆向工程提供了直接思路。",
+              "value": "高",
+              "tags": [
+                "技术解读",
+                "Use case 分享"
+              ]
+            },
+            {
+              "id": "6f912dc64538",
+              "title": "Cursor 新版 AI 编辑器基于 Kimi 模型打造，展现开放生态合作",
+              "sourceName": "simonwillison.net",
+              "sourceUrl": "https://simonwillison.net/2026/Mar/20/cursor-on-kimi/#atom-everything",
+              "publishedAt": "2026-03-20T20:29:23.000Z",
+              "briefSummary": "这篇文章是 Kimi.ai 官方对 Cursor 发布 Composer 2 版本的回应。Kimi 很高兴看到自家的 Kimi-k2.5 模型成为了 Cursor 新版本的基础。他们强调，这种通过持续预训练和高强度强化学习训练来有效整合模型的方式，正是他们所支持和热爱的开放模型生态系统。同时，文章也特别说明，Cursor 是通过与 Fireworks AI 的授权商业合作来使用 Kimi 模型的。总的来说，这是一则关于 AI 开发工具与底层模型供应商之间成功合作的行业动态。",
+              "coreInsights": [
+                "Cursor 最新发布的 Composer 2 版本，其底层 AI 能力建立在 Kimi 的 Kimi-k2.5 模型之上。",
+                "Kimi 赞赏这种通过深度训练（预训练和 RL 训练）来整合模型的合作模式，认为这代表了理想的开放 AI 生态。",
+                "Cursor 是通过 Fireworks AI 的平台来调用 Kimi 模型的，这是一项获得授权的商业合作。"
+              ],
+              "personalRelevance": null,
+              "value": "低",
+              "tags": [
+                "产品发布",
+                "行业动态"
+              ]
+            },
+            {
+              "id": "f1e35dccfa63",
+              "title": "Bluesky 时隔近一年公布融资，是透明还是反常？",
+              "sourceName": "daringfireball.net",
+              "sourceUrl": "https://bsky.app/profile/flooey.org/post/3mhiznh4d7c2j",
+              "publishedAt": "2026-03-20T20:49:07.000Z",
+              "briefSummary": "这篇文章讨论了一个挺有意思的现象：去中心化社交平台 Bluesky 在融资完成近一年后才公布了一笔1亿美元的融资消息。作者原本觉得这种做法很奇怪，甚至有点让人不舒服。但经过和一位业内人士的交流，他意识到自己可能想错了。原来，很多公司在融资完成后很久才公布消息是行业常见操作，而 Bluesky 的“反常”之处在于，它在公布时特意说明了融资是在近一年前完成的。所以，这反而可能是一种比同行更透明的表现。",
+              "coreInsights": [
+                "Bluesky 公布了一笔在近一年前就已完成的1亿美元融资，时间点引发讨论。",
+                "业内人士指出，公司融资完成很久后才公布消息，在创投圈其实很常见。",
+                "Bluesky 的特别之处在于，它在公布时主动披露了融资完成的具体时间点。",
+                "因此，这一行为在作者看来，反而可能是一种比许多风投公司更透明的做法。"
+              ],
+              "personalRelevance": null,
+              "value": "低",
+              "tags": [
+                "行业动态",
+                "商业观察"
+              ]
+            },
+            {
+              "id": "b9854b222edb",
+              "title": "Bluesky 一年前融资1亿美元，创始人卸任CEO专注技术",
+              "sourceName": "daringfireball.net",
+              "sourceUrl": "https://bsky.social/about/blog/03-19-2026-series-b",
+              "publishedAt": "2026-03-20T16:46:01.000Z",
+              "briefSummary": "这篇文章主要讲了两个事。第一，去中心化社交平台Bluesky其实在去年4月就拿到了1亿美元的B轮融资，但不知道为什么现在才公布。第二，它的创始人Jay Graber最近从CEO的位置上退下来，转任首席创新官，说是要专心搞技术。不过作者也表达了自己的担忧，他觉得Bluesky最近发展有点停滞不前，人气不上不下的，既不算冷清也不算火爆，有点尴尬。",
+              "coreInsights": [
+                "Bluesky在2025年4月完成了1亿美元B轮融资，但直到现在才披露。",
+                "创始人Jay Graber已卸任CEO，转任首席创新官，专注于技术开发。",
+                "作者认为Bluesky的增长已陷入停滞，处于不温不火的尴尬状态。"
+              ],
+              "personalRelevance": null,
+              "value": "低",
+              "tags": [
+                "行业动态",
+                "时事新闻"
+              ]
+            },
+            {
+              "id": "e4b200d36baa",
+              "title": "正则表达式最难的不是写正则，而是这些环境问题",
+              "sourceName": "johndcook.com",
+              "sourceUrl": "https://www.johndcook.com/blog/2026/03/20/embedded-regex-flags/",
+              "publishedAt": "2026-03-20T16:58:42.000Z",
+              "briefSummary": "这篇文章主要讨论了使用正则表达式时，真正困难的地方往往不是编写正则表达式本身。作者认为，两大难点在于：一是不同编程语言或工具中正则表达式的语法细节有差异；二是正则表达式之外的各种“环境”问题。文中提到的“嵌入式正则表达式修饰符”就是用来解决其中一个环境问题的，它把一些控制选项直接写在正则表达式里面，而不是通过外部代码来设置。内容片段有限，但核心观点很明确。",
+              "coreInsights": [
+                "使用正则表达式的最大挑战，并非编写正则本身，而是语法差异和环境因素。",
+                "不同实现之间的细微语法差异是主要难点之一。",
+                "正则表达式之外的“环境”设置和交互是另一大复杂点。",
+                "嵌入式正则表达式修饰符旨在通过将选项内置于表达式来简化环境配置。"
+              ],
+              "personalRelevance": null,
+              "value": "低",
+              "tags": [
+                "技术解读",
+                "编程技巧"
+              ]
+            },
+            {
+              "id": "401d5eacb55e",
+              "title": "全球热点速览：能源设施受损、房地产泡沫与制造业投资",
+              "sourceName": "construction-physics.com",
+              "sourceUrl": "https://www.construction-physics.com/p/reading-list-032126",
+              "publishedAt": "2026-03-21T12:03:50.000Z",
+              "briefSummary": "这篇文章看起来是一个“阅读清单”或简报，汇总了近期值得关注的几件全球性事件。它提到了卡塔尔拉斯拉凡液化天然气设施受损、房地产市场的泡沫风险、朝鲜的海军生产能力，以及贝佐斯投入1000亿美元用于制造业自动化等话题。内容片段比较简短，像是新闻标题的集合，没有展开详细分析。",
+              "coreInsights": [
+                "卡塔尔的拉斯拉凡液化天然气设施遭到破坏，可能影响全球能源供应。",
+                "房地产市场存在泡沫风险，这是一个值得警惕的经济信号。",
+                "贝佐斯计划投入1000亿美元巨资推动制造业自动化，显示了对该领域未来的巨大押注。",
+                "朝鲜的海军生产动态也被提及，涉及地缘政治与军事层面。"
+              ],
+              "personalRelevance": null,
+              "value": "低",
+              "tags": [
+                "时事新闻",
+                "行业动态"
+              ]
+            },
+            {
+              "id": "bf021ba2ae51",
+              "title": "为什么Adobe成了科技界最招人恨的垄断巨头？",
+              "sourceName": "wheresyoured.at",
+              "sourceUrl": "https://www.wheresyoured.at/hatersguide-adobe/",
+              "publishedAt": "2026-03-20T16:25:42.000Z",
+              "briefSummary": "这篇文章主要讲的是，Adobe这家公司在科技行业里特别招人恨。作者说，很多人对科技行业都挺生气的，但Adobe是其中最让人火大的公司之一。因为它在软件、网页和平面设计领域几乎是垄断的，而且搞出了一套特别霸道、像高利贷一样压榨用户的商业模式，简直成了资本主义里最糟糕的“畸形秀”之一。内容片段有限，但能看出这是一篇情绪强烈、批判Adobe商业行为的文章。",
+              "coreInsights": [
+                "Adobe是科技行业中最让用户愤怒的公司之一，其商业模式被形容为“充满恶意的、高利贷式的畸形秀”。",
+                "Adobe在软件、网页和平面设计领域拥有近乎垄断的地位，这助长了其商业行为的霸道。",
+                "文章反映了科技行业用户对Adobe滥用市场地位、压榨用户的普遍不满情绪。"
+              ],
+              "personalRelevance": null,
+              "value": "低",
+              "tags": [
+                "行业批判",
+                "商业评论"
+              ]
+            },
+            {
+              "id": "e2bb70dc1b3d",
+              "title": "为什么民主会成为被操纵的目标？",
+              "sourceName": "geohot.github.io",
+              "sourceUrl": "https://geohot.github.io//blog/jekyll/update/2026/03/21/democracy-liability.html",
+              "publishedAt": "2026-03-20T16:00:00.000Z",
+              "briefSummary": "这篇文章主要讨论了一个有点反直觉的观点：即使你老了、没钱了，广告和宣传也不会放过你。为什么呢？因为你还有投票权。作者认为，当人们没什么可消费的时候，操纵你的“信念”就变得更有价值，因为可以影响政治权力。他还用篮球不是民主来比喻，指出某些政治机器为了生存，会系统性地维持其支持者的错觉。内容片段有限，但观点很尖锐。",
+              "coreInsights": [
+                "即使个人失去消费能力，只要拥有投票权，就依然是政治宣传和操纵的目标。",
+                "当经济价值减少时，影响“暴力垄断”（指国家权力）的政治价值就会上升，导致更恶劣的信念操纵。",
+                "某些政治体系像篮球比赛一样并非民主，其核心是维持支持者群体的信念以保障自身存续。"
+              ],
+              "personalRelevance": null,
+              "value": "高",
+              "tags": [
+                "观点评论",
+                "社会观察"
+              ]
+            },
+            {
+              "id": "680a2d1fec7c",
+              "title": "游戏背后的真实历史：解密雷恩堡之谜与媒体炒作",
+              "sourceName": "filfre.net",
+              "sourceUrl": "https://www.filfre.net/2026/03/the-mystery-of-rennes-le-chateau-part-2-secret-codes-and-hidden-messages/",
+              "publishedAt": "2026-03-20T18:09:52.000Z",
+              "briefSummary": "这篇文章是系列文章的第二部分，主要讲述了经典游戏《狩魔猎人3》背后那个著名的历史谜团——法国雷恩堡的故事。它重点介绍了这个小镇如何从一个普通村庄变成媒体热点的过程，特别是1956年记者阿尔伯特·萨拉蒙的报道和后来一部法国纪录片，是如何一步步把这个充满“秘密代码和隐藏信息”的传说推向大众视野的。文章看起来是在探讨真实历史与虚构传说如何交织，并最终成为流行文化素材的历程。",
+              "coreInsights": [
+                "文章探讨了游戏《狩魔猎人3》故事背景所依据的法国雷恩堡历史谜团。",
+                "雷恩堡首次成为媒体现象是在1956年，源于记者阿尔伯特·萨拉蒙的报道。",
+                "该地第二次受到广泛关注，是因为一部关于村庄的法国纪录片播出。",
+                "内容揭示了真实历史与伪历史如何共同构建了一个流行的文化传说。"
+              ],
+              "personalRelevance": null,
+              "value": "高",
+              "tags": [
+                "文化解析",
+                "历史探秘",
+                "游戏背景"
+              ]
+            }
+          ],
+          "uncertain": [
+            {
+              "title": "Terence Tao – Kepler, Newton, and the true nature of mathematical discovery",
+              "link": "https://www.dwarkesh.com/p/terence-tao",
+              "sourceName": "dwarkesh.com",
+              "oneSentenceIntro": "陶哲轩探讨开普勒、牛顿与数学发现的本质，涉及数学史与科学哲学。"
+            }
+          ]
+        },
         "2026-03-21": {
           "date": "2026-03-21",
           "main": [
@@ -6179,416 +6467,6 @@
               "link": "https://garymarcus.substack.com/p/breaking-expensive-new-evidence-that",
               "sourceName": "garymarcus.substack.com",
               "oneSentenceIntro": "Gary Marcus 在其博客中提出新证据，质疑当前 AI 领域‘规模即一切’的主流观点。"
-            }
-          ]
-        },
-        "2026-03-15": {
-          "date": "2026-03-15",
-          "main": [
-            {
-              "id": "9df8827db37d",
-              "title": "程序员如何一步步拥抱AI编程助手：从提问到让AI写代码",
-              "sourceName": "simonwillison.net",
-              "sourceUrl": "https://simonwillison.net/2026/Mar/14/pragmatic-summit/#atom-everything",
-              "publishedAt": "2026-03-14T18:19:38.000Z",
-              "briefSummary": "这篇文章是作者在Pragmatic Summit上关于“智能体工程”炉边谈话的精华摘录。主要聊了程序员使用AI工具的几个不同阶段：一开始只是用ChatGPT问问题，后来升级到让AI编程助手写代码，直到某个时刻，AI写的代码量超过了你自己。作者还提到，最新的变化是，你甚至都不用读AI生成的代码了。内容片段有限，但清晰地展示了AI辅助编程的演进过程。",
-              "coreInsights": [
-                "程序员采用AI工具会经历几个明确的阶段，从用ChatGPT提问开始。",
-                "关键转折点是开始使用能写代码的AI智能体，并最终让AI写的代码量超过自己。",
-                "作者本人大约在六个月前才达到“AI写代码比自己多”的阶段。",
-                "最新的趋势（约三周前）是，程序员甚至不再需要阅读AI生成的代码。"
-              ],
-              "personalRelevance": "如果你在探索**AI协作工作流**，特别是如何让**AI Agent**融入你的编程流程，这篇文章提供了一个清晰的阶段划分，帮你定位自己当前的状态，并了解下一步可能的发展方向。",
-              "value": "高",
-              "tags": [
-                "深度访谈",
-                "AI 方法论",
-                "Use case 分享"
-              ]
-            },
-            {
-              "id": "36a4a05f393d",
-              "title": "AI垃圾代码泛滥，开源社区Jazzband被迫关闭",
-              "sourceName": "simonwillison.net",
-              "sourceUrl": "https://simonwillison.net/2026/Mar/14/jannis-leidel/#atom-everything",
-              "publishedAt": "2026-03-14T18:41:25.000Z",
-              "briefSummary": "这篇文章讲的是，因为AI生成的垃圾代码和问题请求（PRs）实在太多了，一个叫Jazzband的开源社区撑不住了，只能关闭。Jazzband本来是个很开放的组织，谁加入都能直接提交代码，但现在AI搞出来的PRs，10个里只有1个能达标，连著名的curl项目都被迫关掉了漏洞悬赏。GitHub自己都搞了个“紧急开关”来完全禁止PRs。所以，这种对所有人开放提交权限的模式，在AI垃圾泛滥的时代，已经没法安全运行了。",
-              "coreInsights": [
-                "AI生成的垃圾PRs和问题泛滥，导致开源社区Jazzband的开放提交模式无法继续运行。",
-                "AI生成的PRs质量极低，仅有约10%符合项目标准，严重影响了开源项目的维护效率。",
-                "GitHub的应对措施是提供“紧急开关”来完全禁用PRs，反映出问题已严重到需要极端手段。",
-                "curl项目因AI垃圾提交导致确认率低于5%，被迫关闭其漏洞悬赏计划。"
-              ],
-              "personalRelevance": null,
-              "value": "高",
-              "tags": [
-                "行业动态",
-                "AI 伦理"
-              ]
-            },
-            {
-              "id": "8e2f60890354",
-              "title": "程序员如何用五天时间打造自己的完美记账软件",
-              "sourceName": "simonwillison.net",
-              "sourceUrl": "https://simonwillison.net/2026/Mar/13/craig-mod/#atom-everything",
-              "publishedAt": "2026-03-13T17:14:29.000Z",
-              "briefSummary": "这篇文章讲的是一个程序员（作者引用了Craig Mod的话）因为找不到合适的现成记账软件，被各种繁琐的跨国财务、税务问题折磨了好几年后，终于下定决心自己动手开发。他只用了五天时间，就做出了一个完全本地运行、速度极快、功能强大的个人记账系统。这个系统能处理多币种、自动获取汇率、导入各种格式的账单（如CSV、PDF），还能根据美国和日本的税务要求自动分类整理费用和医疗账单，甚至能通过历史数据学习，实现自动分类。",
-              "coreInsights": [
-                "当通用软件无法满足复杂个性化需求时，自己动手开发可能是最高效的解决方案。",
-                "一个理想的个人财务工具应具备多币种支持、自动汇率更新、灵活的账单导入和智能分类能力。",
-                "软件可以通过学习用户的历史分类行为，实现未来交易的自动化处理，提升效率。",
-                "处理国际电汇等复杂交易时，需要考虑汇率微小波动和转账时间差等因素。"
-              ],
-              "personalRelevance": null,
-              "value": "高",
-              "tags": [
-                "Use case 分享",
-                "个人效率工具"
-              ]
-            },
-            {
-              "id": "d9e359470aaf",
-              "title": "FAIR包管理器：为防垄断而生的去中心化解决方案",
-              "sourceName": "nesbitt.io",
-              "sourceUrl": "https://nesbitt.io/2026/03/14/whats-going-on-with-fair-package-manager.html",
-              "publishedAt": "2026-03-14T10:00:00.000Z",
-              "briefSummary": "这篇文章主要讲了FAIR包管理器的来龙去脉。它诞生于2024年WordPress插件库被用作商业斗争武器的事件之后，开发者们为了不让单一公司或个人再控制核心资源，就联手搞了这个去中心化的包管理器。文章还讨论了它面临的一个经典难题（Zooko三角），以及为了实际可用，它又不得不重建一些中心化的基础设施，比如发现服务和信任标签系统。内容片段有限，但可以看出是在分析去中心化系统的理想与现实。",
-              "coreInsights": [
-                "FAIR包管理器是为应对WordPress插件库被商业武器化而诞生的去中心化解决方案。",
-                "它采用了联邦式分发、加密身份和类似Bluesky的标签系统来确保安全与去中心化。",
-                "系统设计时面临Zooko三角难题，最终选择了安全与去中心化，牺牲了完全的人类可读性。",
-                "为了让系统可用，FAIR又不得不重建了中心化的发现（AspireCloud）和信任（标签器）基础设施。"
-              ],
-              "personalRelevance": null,
-              "value": "高",
-              "tags": [
-                "技术解读",
-                "行业动态"
-              ]
-            },
-            {
-              "id": "78f6a7c10347",
-              "title": "AI泡沫背后的真相：软件行业超增长时代的终结",
-              "sourceName": "wheresyoured.at",
-              "sourceUrl": "https://www.wheresyoured.at/hatersguide-saas/",
-              "publishedAt": "2026-03-13T16:53:23.000Z",
-              "briefSummary": "这篇文章主要想告诉我们，要理解现在的AI热潮，不能只看AI本身，得把它放在更大的背景里看。作者认为，这个更大的背景就是软件行业那个疯狂增长的“黄金时代”已经结束了，他管这叫“腐烂互联网泡沫”。文章提到，生成式AI刚出现的时候，看起来好像是新的增长引擎，但作者想提醒我们，这可能只是更大趋势的一部分。内容片段有限，但能看出作者在质疑当前AI热潮的可持续性，认为它可能只是上一个泡沫时代的延续。",
-              "coreInsights": [
-                "理解AI泡沫需要放在软件行业超增长时代结束的大背景下。",
-                "作者将当前软件行业的衰退称为“腐烂互联网泡沫”。",
-                "生成式AI最初被视为新的增长点，但可能只是更大趋势的一部分。"
-              ],
-              "personalRelevance": null,
-              "value": "低",
-              "tags": [
-                "行业动态",
-                "技术解读"
-              ]
-            },
-            {
-              "id": "c7fdf5bb0fac",
-              "title": "Ars Technica 记者因使用 AI 编造引语被解雇",
-              "sourceName": "daringfireball.net",
-              "sourceUrl": "https://futurism.com/artificial-intelligence/ars-technica-fires-reporter-ai-quotes",
-              "publishedAt": "2026-03-14T17:22:05.000Z",
-              "briefSummary": "这篇文章讲的是科技媒体 Ars Technica 的一名记者 Benj Edwards 被解雇的事。原因是他发表的一篇报道里，用了 AI 工具编造出来的假引语，还把这些话安到了一个真实存在的人（Scott Shambaugh）头上。事情被当事人发现后，Ars Technica 撤回了报道，总编也公开道歉，说这是“我们标准的严重失误”。记者本人后来也在社交平台上承认了错误，承担了全部责任。",
-              "coreInsights": [
-                "Ars Technica 记者因在报道中使用 AI 生成的虚假引语而被解雇。",
-                "虚假引语被安在真实人物 Scott Shambaugh 身上，导致报道被撤回。",
-                "总编公开道歉，承认这是编辑标准的严重失误，但称其为孤立事件。",
-                "涉事记者在社交平台承认错误并承担全部责任。"
-              ],
-              "personalRelevance": null,
-              "value": "低",
-              "tags": [
-                "时事新闻",
-                "行业动态"
-              ]
-            },
-            {
-              "id": "f9b1a13e8a8c",
-              "title": "AI写代码的预言与现实：一年后回看Anthropic CEO的预测",
-              "sourceName": "daringfireball.net",
-              "sourceUrl": "https://www.businessinsider.com/anthropic-ceo-ai-90-percent-code-3-to-6-months-2025-3",
-              "publishedAt": "2026-03-13T16:31:54.000Z",
-              "briefSummary": "这篇文章回顾了一年前Anthropic CEO达里奥·阿莫代伊的大胆预测。当时他说，AI可能在3到6个月内写出90%的代码，一年内写出几乎所有代码。现在一年过去了，作者发现阿莫代伊的预测虽然不完全准确，但方向没错——今天（2026年3月）确实可能有超过90%的代码行是由AI生成的。不过作者认为，阿莫代伊的说法太简单化了，实际情况没那么单纯，不是AI简单取代程序员写代码那么简单。",
-              "coreInsights": [
-                "一年前Anthropic CEO预测AI将在3-6个月内写出90%的代码，一年内写出几乎所有代码",
-                "现在回看，虽然预测不完全准确，但方向正确——今天可能真有超过90%的代码行是AI生成的",
-                "作者认为CEO的说法过于简单化，实际情况比‘AI取代程序员写代码’要复杂得多"
-              ],
-              "personalRelevance": null,
-              "value": "低",
-              "tags": [
-                "时事新闻",
-                "行业动态"
-              ]
-            },
-            {
-              "id": "b44975ba0c8f",
-              "title": "Anthropic 推出百万上下文免费升级，打破行业收费惯例",
-              "sourceName": "simonwillison.net",
-              "sourceUrl": "https://simonwillison.net/2026/Mar/13/1m-context/#atom-everything",
-              "publishedAt": "2026-03-13T18:29:13.000Z",
-              "briefSummary": "这篇文章主要讲的是 AI 公司 Anthropic 的最新动态。他们宣布，旗下的 Claude Opus 4.6 和 Sonnet 4.6 模型现在都正式支持 100 万 tokens 的超长上下文了，而且重点是：整个 100 万窗口都按标准价格收费，没有额外加价。作者对此感到意外，并拿 OpenAI 和 Google 的 Gemini 来对比，指出这两家都会对超过特定长度的输入额外收费。文章片段主要聚焦于这个定价策略的对比和变化。",
-              "coreInsights": [
-                "Anthropic 的 Claude Opus 4.6 和 Sonnet 4.6 模型现已全面支持 100 万 tokens 的上下文长度。",
-                "最关键的是，使用这完整的 100 万上下文窗口，都按标准价格收费，没有“长上下文溢价”。",
-                "这与 OpenAI 的 GPT-5.4 和 Google 的 Gemini 3.1 Pro 形成鲜明对比，后两者都会对超过特定长度的输入额外收费。"
-              ],
-              "personalRelevance": null,
-              "value": "低",
-              "tags": [
-                "产品发布",
-                "行业动态"
-              ]
-            },
-            {
-              "id": "b20387df3603",
-              "title": "iFixit拆解MacBook Neo：平价与易维修如何兼得？",
-              "sourceName": "daringfireball.net",
-              "sourceUrl": "https://www.ifixit.com/News/116152/macbook-neo-is-the-most-repairable-macbook-in-14-years",
-              "publishedAt": "2026-03-14T22:06:02.000Z",
-              "briefSummary": "这篇文章讲的是iFixit拆解苹果新款平价笔记本MacBook Neo的发现和观点。核心讨论点是：这款更便宜的MacBook，反而成了14年来最容易维修的型号。文章里提到，拆开它不再像以前那样要和胶水、隐藏零件“搏斗”，电池托盘用螺丝固定、键盘维修更简单，这让维修人员都欢呼了。作者还提出了一个有趣的观点：它之所以好修，可能不是因为价格低“牺牲”了什么，恰恰是因为价格低——为了降低组装成本，设计得更简单，而好组装自然就好拆。最后还留了个悬念：为什么功能更少的Neo，重量却和MacBook Air M3一样呢？",
-              "coreInsights": [
-                "MacBook Neo是14年来最易维修的MacBook，告别了胶水粘合和零件深埋的难题。",
-                "其易维修性可能源于其平价定位：为降低组装成本而简化设计，意外地也方便了拆解。",
-                "一个未解之谜是，功能更简的Neo为何与更高端的MacBook Air M3重量相同。"
-              ],
-              "personalRelevance": null,
-              "value": "高",
-              "tags": [
-                "产品发布",
-                "技术解读"
-              ]
-            },
-            {
-              "id": "375d38d05a0e",
-              "title": "PC厂商为何仍低估MacBook Neo的实力？",
-              "sourceName": "daringfireball.net",
-              "sourceUrl": "https://www.theverge.com/report/894090/macbook-neo-pc-windows-laptop-competition-asus-footinmouth",
-              "publishedAt": "2026-03-14T20:02:36.000Z",
-              "briefSummary": "这篇文章主要讲的是，PC厂商（比如华硕的CFO）似乎还没看懂苹果MacBook Neo的真正竞争力。他们觉得Neo只有8GB内存，可能更适合“内容消费”，像平板一样。但作者用数据反驳说，Neo的A18 Pro芯片在日常任务（单核测试）中，性能甚至超过了华硕自家2400美元的高端笔记本用的最新英特尔芯片。虽然承认Neo在重负载任务上可能不如那些更贵的Windows笔记本，但文章核心是在说，PC厂商对Neo的定位和性能判断可能完全错了。",
-              "coreInsights": [
-                "华硕CFO认为MacBook Neo的8GB内存限制使其更像平板，主打内容消费，与主流笔记本场景不同。",
-                "实际性能测试显示，Neo的A18 Pro芯片在单核基准测试（代表日常任务）中击败了包括华硕高端Zenbook Duo在内的多款Windows笔记本。",
-                "作者指出PC厂商可能误判了Neo的定位和性能，其性价比和日常体验被低估了。",
-                "文章承认Neo在重度任务（如图像/视频编辑、高要求游戏）上不如某些高端Windows笔记本。"
-              ],
-              "personalRelevance": null,
-              "value": "高",
-              "tags": [
-                "行业动态",
-                "技术解读"
-              ]
-            },
-            {
-              "id": "75b7ba0e74fb",
-              "title": "苹果“小访达”广告引热议，作者呼吁保留这个有趣的创意",
-              "sourceName": "daringfireball.net",
-              "sourceUrl": "https://basicappleguy.com/basicappleblog/lil-finder-guy",
-              "publishedAt": "2026-03-14T16:21:34.000Z",
-              "briefSummary": "这篇文章主要聊了苹果最近在TikTok上推出的MacBook Neo广告，里面有个叫“Lil Finder Guy”（小访达）的角色。作者觉得这是苹果很久以来最有趣的一次营销活动，他本人非常喜欢。虽然不知道这个角色未来会怎样，但作者明确表示希望苹果能把这个“小访达”保留下来，并且认为我们还会再见到它。内容片段有限，主要表达了作者对这次创意营销的喜爱和期待。",
-              "coreInsights": [
-                "苹果为MacBook Neo在TikTok推出的广告是近年来最有趣的营销活动。",
-                "广告中的“Lil Finder Guy”（小访达）角色备受作者喜爱。",
-                "作者希望苹果能保留这个“小访达”角色，并认为它还会出现。"
-              ],
-              "personalRelevance": null,
-              "value": "低",
-              "tags": [
-                "行业动态",
-                "产品发布"
-              ]
-            },
-            {
-              "id": "4625f55eb9cf",
-              "title": "库克纪念苹果50周年：回顾“非同凡想”精神，评价其致辞风格",
-              "sourceName": "daringfireball.net",
-              "sourceUrl": "https://www.apple.com/50-years-of-thinking-different/",
-              "publishedAt": "2026-03-13T23:49:17.000Z",
-              "briefSummary": "这篇文章主要讲了苹果CEO蒂姆·库克为纪念苹果公司成立50周年发表的一封公开信，以及外界对这封信的评价。库克在信中感谢了团队、开发者和用户，并引用了苹果30年前的经典广告语“非同凡想”。文章作者（来自Daring Fireball）认为，这封信非常符合库克的风格：简短、真诚、朴实，但同时也过于平淡，缺乏让人印象深刻的亮点，最有价值的部分反而是他引用的那句老广告词。内容片段有限，主要是对公开信内容的呈现和简短评论。",
-              "coreInsights": [
-                "蒂姆·库克在苹果50周年之际发表公开信，感谢团队、开发者和用户，并引用经典广告语“非同凡想”。",
-                "评论认为这封信体现了库克一贯的风格：简短、真诚、朴实，但内容平淡，缺乏记忆点。",
-                "信中唯一被称赞的部分是直接引用了苹果30年前的经典广告文案。"
-              ],
-              "personalRelevance": null,
-              "value": "低",
-              "tags": [
-                "时事新闻",
-                "行业动态"
-              ]
-            },
-            {
-              "id": "3f0556cfe2dc",
-              "title": "Meta 新款 AI 模型“牛油果”因性能不及对手而推迟发布",
-              "sourceName": "daringfireball.net",
-              "sourceUrl": "https://www.nytimes.com/2026/03/12/technology/meta-avocado-ai-model-delayed.html?unlocked_article_code=1.S1A.vI_6.4j717gwtFem0",
-              "publishedAt": "2026-03-13T17:04:44.000Z",
-              "briefSummary": "这篇文章主要讲的是，Meta 内部开发了好几个月的新一代基础 AI 模型（代号“牛油果”），在内部测试中，其推理、编码和写作能力都没能赶上谷歌、OpenAI 和 Anthropic 等竞争对手的领先模型。虽然它比 Meta 自己的旧模型和谷歌去年三月的 Gemini 2.5 要强，但比不过去年十一月的 Gemini 3.0。因为这个原因，Meta 把“牛油果”的发布时间从本月推迟到了至少五月。文章最后还提到一个有趣的矛盾点：既然五月离现在只有两个月，如果 Meta 真的在考虑临时授权使用 Gemini 来应急，那这个推迟就显得有点奇怪了。",
-              "coreInsights": [
-                "Meta 的新 AI 模型“牛油果”在关键能力测试中落后于谷歌、OpenAI 等主要竞争对手。",
-                "由于性能未达预期，Meta 已将“牛油果”的发布时间从本月推迟到至少五月。",
-                "Meta 内部甚至讨论了临时授权使用谷歌的 Gemini 模型来应急，但尚未做出决定。",
-                "文章作者对“短期推迟”与“考虑授权对手技术”这两件事的逻辑一致性提出了疑问。"
-              ],
-              "personalRelevance": null,
-              "value": "低",
-              "tags": [
-                "行业动态",
-                "时事新闻"
-              ]
-            },
-            {
-              "id": "9957ff49ea6a",
-              "title": "体育节目占近三成广告电视收视，流媒体成非体育内容主力",
-              "sourceName": "daringfireball.net",
-              "sourceUrl": "https://deadline.com/2026/03/sports-tv-viewing-advertising-nielsen-1236750721/",
-              "publishedAt": "2026-03-13T16:55:46.000Z",
-              "briefSummary": "这篇文章主要讲的是尼尔森公司发布的最新数据，揭示了体育节目在电视收视中的惊人占比。数据显示，在2025年第四季度，体育节目占据了25-54岁人群所有广告支持电视收视的29.2%，几乎占了三分之一。如果把体育节目拿掉再看剩下的收视情况，传统广播只占9.8%，有线电视占18%，而流媒体平台（比如Netflix、Prime Video这些）占了非体育收视的43%，是绝对的大头。这说明现在大家看电视的习惯变化很大，体育节目特别受欢迎，而平时看剧看电影，更多人会选择流媒体。",
-              "coreInsights": [
-                "体育节目在广告支持的电视收视中占比高达29.2%，显示出其强大的吸引力。",
-                "在非体育类节目中，流媒体平台收视份额高达43%，远超广播和有线电视。",
-                "数据反映了流媒体平台广告业务的整体增长趋势。"
-              ],
-              "personalRelevance": null,
-              "value": "低",
-              "tags": [
-                "时事新闻",
-                "行业动态"
-              ]
-            },
-            {
-              "id": "a661d9b2fb32",
-              "title": "Digg社交网站的兴衰：从社区情怀到再次关停",
-              "sourceName": "idiallo.com",
-              "sourceUrl": "https://idiallo.com/byte-size/digg-is-gone-again?src=feed",
-              "publishedAt": "2026-03-14T08:41:00.000Z",
-              "briefSummary": "这篇文章是作者回忆自己与社交网站Digg的故事。作者说，Digg是他最早参与的线上社区，比Reddit还早，是他的互联网起点。他提到，当年Digg推出V4版本改版时，社区感觉被“打了一巴掌”，大家不喜欢新设计，而且网站还移除了“踩”（bury）按钮，这让社区失去了表达不满的渠道。作者感慨，很多社交网站都取消了踩的功能，这让他很不理解。2026年1月，Digg宣布回归，作者立刻申请了邀请，重新登录时感觉非常怀旧，社区似乎正在重建。但就在今天，他读到Digg又要关停的消息。他自己在科技板块发的唯一一条帖子，刚开始有点热度，结果“砰”一声，Digg又没了。文章主要表达了对一个经典社区兴衰的个人感受和遗憾。",
-              "coreInsights": [
-                "Digg是Reddit的前身，曾是互联网上重要的社区聚集地，承载了早期用户的网络记忆。",
-                "Digg V4改版因无视社区意见、移除“踩”按钮等决策，引发了用户强烈不满，成为其衰落的关键节点。",
-                "2026年Digg短暂回归又迅速宣布关停，凸显了老牌社区在新时代重建与维持的艰难。",
-                "作者通过个人经历，反映了用户对网络社区“话语权”和“反馈机制”（如踩/赞）的重视。"
-              ],
-              "personalRelevance": null,
-              "value": "低",
-              "tags": [
-                "个人叙事",
-                "行业动态"
-              ]
-            },
-            {
-              "id": "0e63368bae10",
-              "title": "美国两党罕见联手，通过法案限制私募收购住房",
-              "sourceName": "pluralistic.net",
-              "sourceUrl": "https://pluralistic.net/2026/03/14/ill-have-what-xis-having/",
-              "publishedAt": "2026-03-14T15:15:42.000Z",
-              "briefSummary": "这篇文章主要讲了一件挺让人意外的事儿：美国参议院最近以压倒性多数票通过了一项由伊丽莎白·沃伦提出的住房法案。这个法案的核心是严格限制私募股权公司大量购买独栋住宅，然后把这些房子变成出租屋来赚钱。作者认为这事儿很重要，因为自从2008年金融危机以来，美国的住房自有率下降了不少，而像黑石集团这样的大公司却趁机买了很多房子当房东，这可能让普通人更难买到房了。文章里还提到了其他一些杂七杂八的链接和话题。",
-              "coreInsights": [
-                "美国两党罕见地以89:10的压倒性票数通过了限制私募收购住房的法案。",
-                "该法案旨在遏制私募股权公司将独栋住宅转为出租房，以应对住房自有率下降问题。",
-                "作者认为这是对“腐败的反腐败”现象的观察，暗示立法行动本身可能成为利益博弈的焦点。"
-              ],
-              "personalRelevance": null,
-              "value": "低",
-              "tags": [
-                "时事新闻",
-                "政策解读"
-              ]
-            },
-            {
-              "id": "ba1eca33f6eb",
-              "title": "一个让人类作者证明自己身份的网络协议",
-              "sourceName": "evanhahn.com",
-              "sourceUrl": "https://evanhahn.com/human-dot-json/",
-              "publishedAt": "2026-03-14T00:00:00.000Z",
-              "briefSummary": "这篇文章介绍了一个叫 human.json 的网络协议。简单来说，这个协议就是让网站作者能证明‘这个网站内容是我写的，我是真人’，并且还能互相为其他真人作者作证。它利用你拥有某个网址来确认身份，信任关系通过网站之间的互相‘担保’网络来传播。作者觉得这个想法挺酷，所以就在自己的网站上添加了这个协议文件。内容片段有限，主要是对这个协议的介绍和作者的个人实践。",
-              "coreInsights": [
-                "human.json 是一个让人类作者声明网站内容所有权并互相证明‘人性’的协议。",
-                "它使用网址所有权作为身份标识，信任通过可爬取的网站间担保网络传播。",
-                "作者认可这个想法，并已将其应用在自己的个人网站上。"
-              ],
-              "personalRelevance": null,
-              "value": "低",
-              "tags": [
-                "技术解读",
-                "Use case 分享"
-              ]
-            },
-            {
-              "id": "22b36117dd00",
-              "title": "一周要闻速览：地缘冲突、房产新政与商业动态",
-              "sourceName": "construction-physics.com",
-              "sourceUrl": "https://www.construction-physics.com/p/reading-list-031426",
-              "publishedAt": "2026-03-14T12:02:30.000Z",
-              "briefSummary": "这篇文章看起来是一个每周阅读清单或新闻简报，汇总了近期值得关注的多领域事件。内容片段提到了几个关键点：霍尔木兹海峡的关闭（影响全球能源运输）、美国可能禁止“建后出租”住宅模式、本田在电动车业务上的亏损、前Uber CEO特拉维斯·卡兰尼克的新公司动向，以及科珀斯克里斯蒂市的水危机。由于给出的只是简短的内容提要，信息有限，但能看出它旨在为读者快速梳理全球范围内的经济、地缘政治和商业动态。",
-              "coreInsights": [
-                "霍尔木兹海峡关闭，可能影响全球石油运输与地缘政治格局。",
-                "美国考虑禁止‘建后出租’住宅模式，或影响房地产市场结构。",
-                "本田电动车业务出现亏损，反映传统车企转型的挑战。",
-                "前Uber CEO特拉维斯·卡兰尼克创办了新公司，值得关注其新动向。",
-                "美国科珀斯克里斯蒂市面临水危机，属于重要的基础设施问题。"
-              ],
-              "personalRelevance": null,
-              "value": "低",
-              "tags": [
-                "时事新闻",
-                "行业动态"
-              ]
-            },
-            {
-              "id": "2f61111f509d",
-              "title": "电视首轮辛迪加模式为何走向衰落？",
-              "sourceName": "tedium.co",
-              "sourceUrl": "https://feed.tedium.co/link/15204/17299183/television-first-run-syndication-decline",
-              "publishedAt": "2026-03-14T01:41:56.000Z",
-              "briefSummary": "这篇文章主要讨论了电视行业里一个重要的商业模式——首轮辛迪加（first-run syndication）——可能正在失去活力。简单来说，这种模式就是电视节目不通过大型电视网首播，而是直接卖给各个地方电视台，让它们在任意时段播放。文章提到，在第四大电视网出现之前，这种模式是独立电视台能够运作的关键。像《星际迷航：下一代》、《海滩救护队》、《布偶秀》这些经典节目，当初都是靠辛迪加模式才火遍全国的。它还能让一些节目在首播结束后，依然在文化中保持生命力，比如《查尔斯当家》要不是成功转型辛迪加，今天可能就被遗忘了。文章还指出，这种模式对节目创作者来说也更有吸引力，因为他们不用完全受制于电视网。不过，根据给出的片段，文章似乎正要开始探讨这种模式现在面临的问题和变化，但完整内容有限。",
-              "coreInsights": [
-                "首轮辛迪加曾是电视业关键模式，让节目跳过电视网，直接卖给地方台在任意时段播放。",
-                "该模式催生了《星际迷航：下一代》等经典节目，并让一些剧集在首播后仍能长期流行。",
-                "对创作者而言，辛迪加模式比单纯依赖电视网更具商业吸引力和自主性。",
-                "文章暗示，这一曾经重要的商业模式如今可能正在衰落或面临挑战。"
-              ],
-              "personalRelevance": null,
-              "value": "高",
-              "tags": [
-                "行业动态",
-                "文化观察"
-              ]
-            }
-          ],
-          "uncertain": [
-            {
-              "title": "Dylan Patel — Deep dive on the 3 big bottlenecks to scaling AI compute",
-              "link": "https://www.dwarkesh.com/p/dylan-patel",
-              "sourceName": "dwarkesh.com",
-              "oneSentenceIntro": "Dwarkesh 播客对 AI 算力扩展三大瓶颈的深度技术分析。"
-            },
-            {
-              "title": "The Collective Superstitions of People Who Talk to Machines",
-              "link": "https://worksonmymachine.ai/p/the-collective-superstitions-of-people",
-              "sourceName": "worksonmymachine.substack.com",
-              "oneSentenceIntro": "探讨与机器对话者群体迷信现象的科技文化评论。"
-            },
-            {
-              "title": "Big tech engineers need big egos",
-              "link": "https://seangoedecke.com/big-tech-needs-big-egos/",
-              "sourceName": "seangoedecke.com",
-              "oneSentenceIntro": "关于大型科技公司工程师为何需要强烈自我意识的职场观察。"
-            },
-            {
-              "title": "BREAKING: Expensive new evidence that scaling is not all you need",
-              "link": "https://garymarcus.substack.com/p/breaking-expensive-new-evidence-that",
-              "sourceName": "garymarcus.substack.com",
-              "oneSentenceIntro": "Gary Marcus 提出昂贵新证据，质疑 AI 领域‘规模即一切’的观点。"
-            },
-            {
-              "title": "This Week on The Analog Antiquarian",
-              "link": "https://www.filfre.net/2026/03/this-week-on-the-analog-antiquarian/",
-              "sourceName": "filfre.net",
-              "oneSentenceIntro": "《模拟古董商》本周更新，内容涉及数字历史或复古计算。"
             }
           ]
         }
