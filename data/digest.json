@@ -1,19 +1,72 @@
 {
-  "generatedAt": "2026-03-23T00:07:41.960Z",
+  "generatedAt": "2026-03-24T00:06:44.758Z",
   "windowDays": 7,
   "dates": [
+    "2026-03-24",
     "2026-03-23",
     "2026-03-22",
     "2026-03-21",
     "2026-03-20",
     "2026-03-19",
-    "2026-03-18",
-    "2026-03-17"
+    "2026-03-18"
   ],
   "tabs": {
     "youtube": {
       "label": "YouTube",
       "days": {
+        "2026-03-24": {
+          "items": [
+            {
+              "id": "yt-755aa578a29976ff01d22e17271854e0",
+              "title": "美国AI法规战打响：白宫发布立法框架，民众最担心失业问题",
+              "sourceName": "The AI Breakdown - AI Daily Brief",
+              "sourceUrl": "https://www.youtube.com/watch?v=sh6JY8ECGmw",
+              "publishedAt": "2026-03-24T00:00:22.091Z",
+              "briefSummary": "这期节目主要聊了美国AI法规的最新动态。白宫刚发布了一个AI立法框架，但争议很大。节目重点分析了美国民众对AI的真实态度——超过一半的人担心自己或家人会因为AI失业，大家最关心的不是技术多先进，而是能不能保住好工作。同时，节目也对比了共和党议员提出的长达291页的严苛法案和白宫相对简短的框架，讨论了各方政治力量如何在这个问题上角力。这标志着关于AI规则的全国性大辩论正式开始了。",
+              "coreInsights": [
+                "美国民众对AI的最大担忧是失业，超过50%的人担心AI会导致自己或家人失去工作，远高于对技术创新的兴奋。",
+                "白宫发布的AI立法框架仅4页，强调通过现有机构监管、保护儿童、尊重知识产权等原则，旨在开启立法谈判。",
+                "共和党议员马莎·布莱克本提出了长达291页的严苛AI监管法案，与白宫的简洁框架形成鲜明对比，凸显了党派分歧。",
+                "政治角力加剧，AI议题重要性快速上升，已超过环境、气候变化等传统议题，成为选举年的焦点之一。"
+              ],
+              "personalRelevance": null
+            },
+            {
+              "id": "yt-53ae716cc07950ba8b3cf5e9066c05fb",
+              "title": "高管日程像闪光灯：如何让忙碌的老板快速进入你的议题",
+              "sourceName": "Lennys Podcast",
+              "sourceUrl": "https://www.youtube.com/watch?v=H6qf_cQJZMo",
+              "publishedAt": "2026-03-23T11:00:36.000Z",
+              "briefSummary": "这期内容主要讲的是，很多人不理解高管的日程到底有多忙。作者把高管的日程比作**不停闪烁的闪光灯**，他们从早上睁眼开始，就要在不同部门、不同性质的问题之间快速切换。比如，你可能为一个产品评审会准备了两周，但你的老板走进会议室前，可能根本没时间想这件事。所以，关键点在于，你不能指望他们自动进入状态，而是要**主动帮他们“热身”**。比如在会议开头花30秒，快速回顾一下上次聊了什么、这次为什么重要，帮他们把注意力从“全局最优”拉回到你关心的“局部问题”上。",
+              "coreInsights": [
+                "高管的日程是碎片化且多线程的，像闪光灯一样在不同任务间快速切换。",
+                "高管无法像你一样专注思考单一问题，他们需要你帮助快速进入会议语境。",
+                "会议开场用30秒明确目的、回顾进展，能极大提升与高管沟通的效率。",
+                "高管在为公司全局做优化，而你在为局部问题优化，需要理解这种视角差异。"
+              ],
+              "personalRelevance": null
+            }
+          ],
+          "transparency": {
+            "feedsConfigured": 7,
+            "totalVideosFetched": 2,
+            "withTranscript": 2,
+            "sortedCount": 2,
+            "includedInReport": 2,
+            "highPriorityCount": 1,
+            "lowPriorityCount": 1,
+            "bySource": [
+              {
+                "feedName": "The AI Breakdown - AI Daily Brief",
+                "count": 1
+              },
+              {
+                "feedName": "Lennys Podcast",
+                "count": 1
+              }
+            ]
+          }
+        },
         "2026-03-23": {
           "items": [
             {
@@ -429,47 +482,16 @@
               }
             ]
           }
-        },
-        "2026-03-17": {
-          "items": [
-            {
-              "id": "yt-af76dd654293f3492aac784b988418fb",
-              "title": "AI 第二波热潮：从“AI 治狗癌”看当前 AI 讨论为何如此疯狂",
-              "sourceName": "The AI Breakdown - AI Daily Brief",
-              "sourceUrl": "https://www.youtube.com/watch?v=PKCFNzFo6Jo",
-              "publishedAt": "2026-03-17T00:00:05.385Z",
-              "briefSummary": "这期节目从一个“澳洲小哥用 AI 治好了狗狗癌症”的爆火新闻说起，但真正想聊的是：为什么现在关于 AI 的讨论变得这么极端和疯狂？主持人认为，我们正处在 **AI 的第二波热潮**（第一波是 ChatGPT 刚出来的时候）。现在的情况是：一方面，媒体和名人不断渲染 AI 会取代工作、带来风险，搞得人心惶惶；另一方面，普通人用 AI 做成了以前不可能的事（比如那个治狗癌的故事）。这种 **主流认知和实际能力之间的巨大鸿沟**，加上现在有几十亿人在用 AI、经济影响更直接、AI 公司又不会“讲故事”，导致整个讨论氛围异常紧张和两极分化。",
-              "coreInsights": [
-                "我们正处在“AI 第二波热潮”，其引发的公众讨论比第一波（ChatGPT 出现时）更激烈、更两极分化。",
-                "当前 AI 讨论的极端化，源于主流恐慌叙事（如失业）与实际赋能案例（如个人用 AI 创新）之间的巨大脱节。",
-                "AI 公司糟糕的公共沟通（例如只强调取代工作而非创造机会）加剧了公众的负面情绪和不信任。",
-                "任何关于 AI 影响的简单化结论（如“XX 职业将被取代”）都忽略了需求弹性、监管和社会偏好等复杂因素。",
-                "像“AI 治狗癌”这类案例，其真正价值在于展示了技术民主化和个性化医疗的潜力，而非简单的“治愈”。"
-              ],
-              "personalRelevance": null
-            }
-          ],
-          "transparency": {
-            "feedsConfigured": 7,
-            "totalVideosFetched": 1,
-            "withTranscript": 1,
-            "sortedCount": 1,
-            "includedInReport": 1,
-            "highPriorityCount": 1,
-            "lowPriorityCount": 0,
-            "bySource": [
-              {
-                "feedName": "The AI Breakdown - AI Daily Brief",
-                "count": 1
-              }
-            ]
-          }
         }
       }
     },
     "apps": {
       "label": "Apps",
       "days": {
+        "2026-03-24": {
+          "generatedAt": "",
+          "categories": []
+        },
         "2026-03-23": {
           "generatedAt": "2026-03-23T00:05:39.734Z",
           "categories": [
@@ -2737,386 +2759,515 @@
             ],
             "sumMatchesTotal": true
           }
-        },
-        "2026-03-17": {
-          "generatedAt": "2026-03-17T00:10:17.323Z",
-          "categories": [
-            {
-              "category": "当日要闻",
-              "summary": "",
-              "items": [
-                {
-                  "title": "Deeptrace 获 500 万美元融资，致力于解决生产环境告警问题",
-                  "summary": "·融资与团队：AI 代码生成公司 Deeptrace 完成 500 万美元融资，由 Felicis 和 Matrix 领投，Y Combinator 参与。\n·产品定位：随着 AI 生成更多代码，真正的价值杠杆将转向帮助工程师理解和运行生产系统的工具。\n·行业趋势：Garry Tan 认为，所有运行生产系统的团队未来都将不可避免地需要此类辅助工具。\n💡 AI 生成代码普及后，运维与理解系统的工具（如告警管理）将成为新的价值高地。"
-                }
-              ]
-            },
-            {
-              "category": "热点热议",
-              "summary": "",
-              "items": []
-            },
-            {
-              "category": "深度观点",
-              "summary": "",
-              "items": [
-                {
-                  "title": "Ramp CPO分享AI原生公司手册与自动化工作哲学",
-                  "summary": "Ramp CPO认为当前工作的核心是自动化自身岗位，并分享了AI原生公司的实践手册。\n· **自动化优先**：提出“我的工作就是自动化我的工作”，强调管理者角色可能消亡，当前应优先成为顶尖构建者。\n· **AI技能核心**：指出未使用Claude Code等AI工具的产品经理可能正在落后，因为现在是AI而非工程师在阅读产品需求文档。\n· **框架与演示**：分享了将想法转化为产品的Claude Code技能，以及Ramp为客户研究、数据和编码构建的AI智能体独家演示。\n💡 对于AI PM工作流，关键在于掌握让AI“读需求”的技能，并积极将重复性工作自动化。"
-                },
-                {
-                  "title": "Replit CEO提出Agent 4解决AI时代协作孤独问题",
-                  "summary": "Replit CEO指出AI让工作变得孤独，人们倾向于独自提示而非协作，并推出Agent 4来解决此问题。\n· **协作困境**：AI提高了单人工作效率，但导致传统的设计与编码协作减少，引发“提示冲突”与“合并困难”等新协作挑战。\n· **解决方案**：Agent 4旨在解决多人共同提示时的顺序、冲突与合并问题，试图恢复AI时代的协同工作体验。\n💡 对于关注Agent和多模态的读者，下一代AI协作工具的核心是解决多人提示的协调与融合难题。"
-                },
-                {
-                  "title": "Garry Tan称AI将编码效率提升至每日1.6万行新基准",
-                  "summary": "YC总裁Garry Tan引用数据，指出最新批次的创业团队构建速度显著加快，并将AI编码能力设为新基准。\n· **效率飞跃**：基于自身日写1.6万行代码的经验，认为任何YC的CEO/CTO组合都应达到此标准，标志着开发速度的质变。\n· **驳斥质疑**：反驳对AI生成代码质量的担忧，认为否认其潜力将错过变革，同时承认熟练运用仍需技能。\n· **个人体验**：描述与AI协作编程为“我说它听，我们共同创造”，是一种更愉悦的体验。"
-                },
-                {
-                  "title": "Matt Turck指出软件即服务本质，AI时代专业供应商需求不变",
-                  "summary": "投资者Matt Turck强调软件的本质是解决方案而不仅是产品，AI智能体时代某些核心价值依然稳固。\n· **三重价值**：传统软件购买包含持续迭代的保险、安装实施团队以及出现问题时的支持服务。\n· **价值演变**：在智能体世界中，第一点（持续迭代）可能演变，但第二点（安装）和第三点（支持）的需求不会消失。\n· **专业存续**：因此，对能够提供实施与售后支持的**专业化供应商**的需求将长期存在。"
-                },
-                {
-                  "title": "Joulee认为人类在AI时代的优势在于感知与品味",
-                  "summary": "前Meta产品负责人Joulee以绿头鸭的视觉优势类比，阐述顶尖构建者在AI时代的独特价值。\n· **感知优势**：大师级从业者能感知常人无法察觉的细微差别，这种“品味”或“辨别力”是速度之外的关键优势。\n· **人类壁垒**：当前人类相对于AI的两大优势在于**感知世界的方式**和**采取行动的意愿**，这构成了难以被自动化替代的核心能力。\n· **10倍构建者**：他们不仅工作更快，更重要的是以不同的方式“注意”问题，这种高质量的洞察力是核心竞争力。"
-                }
-              ]
-            },
-            {
-              "category": "新产品推荐",
-              "summary": "",
-              "items": [
-                {
-                  "title": "GStack自动化软件工厂与文档工程师更新",
-                  "summary": "· GStack自动化软件工厂：@garrytan 引用 @ThePBXGuy 的 gstack-auto 项目，实现基于MVP描述的半自主多智能体产品开发。\n· GStack新增文档工程师：版本0.4.3推出自动文档工程师功能，确保文档实时更新并修复多个bug，现场即有人使用。\nGStack正从开发框架演变为集自动化开发与文档维护于一体的完整软件工厂。"
-                },
-                {
-                  "title": "Cursor智能体显著提升主流模型编码性能",
-                  "summary": "· Cursor提升模型编码表现：@ryolu_ 引用测试数据，Cursor智能体使Gemini、GPT-5.4、Opus在实现百项功能PRD的基准测试中平均提升11%。\n· 性能跃升关键：GPT-5.4从82%升至88%，Opus从77%跃至93%，提升尤为显著。\nCursor作为开发环境，其智能体能力能系统性放大底层模型的工程实现水平。\n💡 将Cursor等智能体开发环境纳入AI PM工作流评估，可直接影响技术选型与交付质量。"
-                },
-                {
-                  "title": "Replit在日本举办Meetup，探讨Agent 4溶解创意壁垒",
-                  "summary": "· Replit日本Meetup主题：@amasad 引用 @nobita2040，活动主题为“企划、设计、技术已无壁垒——Agent 4溶解2026年的创意障碍”。\n· 平台进化方向：过去一年Replit功能开发显著偏向创意领域，Meetup将对此深入探讨。\nReplit正积极向融合多角色的综合性创意与开发平台演进。\n💡 关注Replit等平台如何通过Agent整合产品、设计、开发角色，是构建AI协作工作流的前沿案例。"
-                },
-                {
-                  "title": "DeepMind统一API与多模态嵌入模型大幅优化工作流",
-                  "summary": "· 统一API简化工作：@swyx 称以Google DeepMind为赞助商后，可用单一API完成所有AI需求，极大简化工作流。\n· 多模态嵌入大幅压缩：采用新推出的Gemini Embedding 2多模态嵌入模型，将嵌入尺寸从6MB降至600KB，仅牺牲少量性能。\nDeepMind通过统一的API和高效的多模态模型，提供了更集成、更节省资源的AI开发体验。\n💡 评估并整合如Gemini Embedding 2等新型多模态嵌入模型，可显著优化应用的内存与成本效率。"
-                }
-              ]
-            },
-            {
-              "category": "AI 实践与 Use Case",
-              "summary": "",
-              "items": [
-                {
-                  "title": "Claude 3.7 实现“氛围编程”，快速生成融合数学与苏菲主义的艺术网页",
-                  "summary": "用户展示 Claude 3.7 强大的创意编程能力，能快速生成风格独特的网页。\n· **创意实现**：用户以一条推文为灵感，让 Claude 生成一个融合数学与苏菲主义美学的 HTML 页面，并调用 Gemini API 生成图像，展示了 AI 对抽象概念的快速视觉化能力。\n· **风格模仿**：整个过程旨在模仿特定艺术家（@instance_11）的风格，证明了 AI 在理解和复现特定艺术表达上的潜力。\n这条推文展示了 AI 如何将模糊的创意灵感（“氛围”）快速转化为具体、美观的数字作品。"
-                },
-                {
-                  "title": "Replit Agent 4 效率大幅提升，两小时构建完整诊所技术栈",
-                  "summary": "Replit 联合创始人展示其 AI 代理（Agent）能以极低成本快速构建完整产品。\n· **全栈构建**：用户利用 Replit Agent 4，在 2 小时内构建了包含诊所官网、预约平台、功能完整的 iOS 应用、营销视频和演示文稿的整个技术栈，成本低于 15 美元。\n· **设计一致性**：所有产出物保持了统一的设计语言，解决了多平台开发中风格不连贯的痛点。\n这标志着 AI 代理在端到端产品开发上的能力已进入实用阶段，能极大降低创业和原型验证的门槛。\n💡 对于 AI PM 或独立开发者，可将 Replit Agent 视为一个“超级实习生”，用于快速验证产品想法和生成 MVP 所需的所有资产。"
-                },
-                {
-                  "title": "Claude Code 与 Obsidian 集成，一分钟内实现高效工作流",
-                  "summary": "Greg Isenberg 演示了将 Claude Code 与笔记软件 Obsidian 快速集成的工作流。\n· **快速集成**：视频展示了在不到一分钟内，利用 Claude Code 将 AI 编程能力接入 Obsidian 环境，实现代码辅助或自动化。\n· **工作流优化**：这种集成旨在提升知识管理和内容创作场景下的效率，是 AI 工具融入现有软件生态的典型案例。\n该案例为知识工作者提供了将 AI 深度嵌入日常工具的具体方法。\n💡 可以探索将 Claude Code 作为插件或脚本引擎，接入你常用的生产力工具（如 Notion、VS Code），定制专属的 AI 增强工作流。"
-                },
-                {
-                  "title": "Garry Tan 分享 GStack 技能开发与测试，开源端到端测试方案",
-                  "summary": "Garry Tan 围绕其 AI 开发框架 GStack，分享了技能测试、升级和上下文管理的实践经验。\n· **技能测试**：开源了 Claude Skill 的端到端测试方案，并邀请社区反馈，强调了测试对 AI 技能可靠性的重要性。\n· **高效升级**：在 Claude Code 中通过简单的 `/gstack-upgrade` 命令即可升级 GStack 配置，体现了“Markdown as code”的便捷性。\n· **上下文管理**：指出构建优秀 AI 对话体验的核心在于管理上下文窗口，这是提升 Agent 长期记忆和连贯性的关键。\n这些分享为 AI 技能开发者提供了从开发、测试到部署维护的实用洞见。\n💡 开发 AI 技能时，应像对待传统软件一样重视测试；利用类似“Markdown as code”的模式可以简化复杂 AI 工作流的配置管理。"
-                },
-                {
-                  "title": "17 岁开发者利用 Qwen 模型构建模拟学生，革新 AP 备考系统",
-                  "summary": "一名青少年开发者利用 AI 模拟具有记忆的学生群体，创建了高效的 AP 考试备考系统。\n· **模拟学习**：使用 Qwen 3 8B 模型模拟了 10 万名具有“人类记忆”的虚拟学生，让他们每晚从零开始学习社会科学知识。\n· **系统优化**：通过分析这些模拟学生的学习过程和数据，迭代并构建出“世界上最好的 AP 备考系统”。\n这个案例展示了如何利用 AI 智能体进行大规模、低成本的社会科学实验和产品优化。\n💡 在教育科技或需要理解人类学习/行为模式的领域，可以运用 AI 模拟用户群体进行快速的产品迭代和效果预测。"
-                },
-                {
-                  "title": "Garry Tan 揭示 /qa 技能如何通过网站快速访问提升 AI 调试效率",
-                  "summary": "Garry Tan 分享了 GStack 中 `/qa` 技能如何通过加速网络访问，实现 AI 自主测试与修复循环。\n· **效率解锁**：`/qa` 技能让网站访问速度达到 200ms/请求，使 Claude Code 能够快速获取外部信息并自主进行黑盒测试和修复。\n· **工作并行**：这一改进让他能够同时管理的“工人”（AI 代理）数量从 6 个增加到 12 个，大幅提升了开发吞吐量。\n这体现了为 AI 代理提供快速、可靠的外部工具调用能力，是提升其自主解决问题效率的关键。\n💡 在构建 AI 工作流时，优化其获取外部信息（如网页、API）的速度和可靠性，能显著减少人工干预，实现更高效的自动化。"
-                },
-                {
-                  "title": "AI 技能质量重于数量，开发者呼吁分享真正好用的少数技能",
-                  "summary": "针对社区中 AI 技能泛滥但质量参差不齐的现象，开发者呼吁分享精选的高质量技能。\n· **质量批判**：用户指出，拥有 100+ 技能的仓库意义不大，关键在于分享少数几个真正有效、经过验证的技能。\n· **实用导向**：这反映了 AI 技能生态从追求数量到追求实用性和可靠性的转变趋势。\n对于 AI 技能的使用者和贡献者而言，聚焦于打造和分享精品比堆砌数量更有价值。\n💡 在收集或分享 AI 技能（如 Claude Skills）时，应注重深度评测和案例说明，优先推荐那些能解决实际痛点、经过实战检验的技能。"
-                },
-                {
-                  "title": "开发者通过手机远程连接 Claude Code，实现移动场景下的持续编程",
-                  "summary": "开发者利用 Termius 在手机上远程连接服务器端的 Claude Code，实现了真正的移动办公编程。\n· **移动工作流**：用户分享自己整天用手机通过 Termius 连接服务器上的 Claude Code，在陪女友外出（看牙、购物、喝咖啡）时也能持续编码。\n· **场景拓展**：这为开发者提供了在无法使用笔记本电脑的场合下，依然保持生产力的解决方案。\n该案例展示了云端 AI 开发环境与移动终端结合带来的灵活性与自由。\n💡 可以配置一个稳定的云端开发环境（如带 Claude Code 的服务器），通过手机 SSH 客户端随时接入，将碎片时间转化为生产力时间。"
-                },
-                {
-                  "title": "AI 代理提升工作效率，让工作变得像玩电脑游戏一样富有动力",
-                  "summary": "swyx 分享使用 AI 代理后，工作效率和积极性得到显著提升的体验。\n· **思维解放**：AI 代理让人更容易进行横向思考，而非陷入细节，从而完成更多工作。\n· **动力转变**：使用 AI 代理后，管理员工和自我工作都变得像玩一个“大型电脑游戏”，充满了动力和乐趣。\n这反映了 AI 工具不仅提升效率，更能改变人们对待工作的心态和创造性。\n💡 将复杂的 AI 协作工作流游戏化（如设置挑战、查看进度看板），可以激发自己和团队更主动地利用 AI 探索解决方案。"
-                },
-                {
-                  "title": "创始人经历健康危机后，建议将症状和药物信息输入 LLM 辅助诊断",
-                  "summary": "一位创业者在经历健康危机后，分享将个人健康信息输入 LLM 以辅助医疗决策的亲身经验。\n· **亲身实践**：在出现健康问题后，除了看医生，用户还将所有症状和服用的药物输入自己选择的 LLM 进行分析。\n· **辅助决策**：这并非替代专业医疗，而是作为一种额外的信息参考和交叉验证手段，体现了 AI 在个人健康管理中的潜在应用。\n该案例提供了一个具体且高度个人化的 AI 使用场景，提醒人们关注健康并善用工具。"
-                },
-                {
-                  "title": "Garry Tan 引用 Steve Yegge 的 AI 采用等级，自称即将达到 L8",
-                  "summary": "Garry Tan 引用 Steve Yegge 的 AI 采用等级模型，并宣布即将在 GStack 上构建自己的 L8 等级以供大众使用。\n· **等级框架**：Steve Yegge 的模型将个人或组织的 AI 采用程度分为多个等级（L1-L8），等级越高代表与 AI 的融合越深。\n· **目标承诺**：Garry Tan 声称自己目前处于 L7，并计划在 GStack 上实现 L8 等级的能力，然后将其产品化开放给所有人。\n这预示着他的 AI 开发框架 GStack 将集成更前沿、更深度的 AI 融合能力。"
-                }
-              ]
-            },
-            {
-              "category": "其他",
-              "summary": "",
-              "items": [
-                {
-                  "title": "Garry Tan 展望 AI 消除物质稀缺后的新人类困境",
-                  "summary": "·AI 创造无物质稀缺的世界：Garry Tan 希望机器为全人类创造一个没有物质稀缺的世界。\n·新世界的挑战与希望：新世界虽无法解决人类的嫉妒、恐惧、无聊等精神困境，但会比当前世界更好。\n·核心观点：AI 解决物质问题只是第一步，人类的精神困境是更持久的挑战。"
-                },
-                {
-                  "title": "AI 功能因助长惰性被撤回，引发对“懒惰按钮”的反思",
-                  "summary": "·AI 功能因鼓励惰性被撤回：团队撤回了一项精心开发的生成式 AI 功能，因为它变成了“懒惰按钮”，用户一键跳过本应完成的工作。\n·普遍的人性挑战：@thdxr 指出，无论如何告诫，大多数人面对“懒惰按钮”都会选择按下，跳过所有额外步骤。\n·核心困境：关键在于明确“按下按钮后”应如何引导用户行为，避免工具取代思考。"
-                },
-                {
-                  "title": "swyx 宣布 AI Engineer EU 重磅演讲阵容，展示 Koding Agents 彩蛋",
-                  "summary": "·公布 AI Engineer EU 欧洲大会主讲人：包括英国政府首席 AI 官、Vercel CTO、Google DeepMind 研究副总裁等重磅嘉宾。\n·Koding Agents 的彩蛋应用：大会网站利用 Koding Agents 轻松植入了许多彩蛋，展示了 AI 在活动设计中的趣味应用。\n·核心亮点：阵容强大，且通过技术细节（彩蛋）体现了活动的极客精神和 AI 的创造性。\n💡 在项目（如活动网站）中利用 AI Agent 添加互动彩蛋，能提升趣味性和传播度。"
-                },
-                {
-                  "title": "swyx 发起讨论：如何提升“AGI 信念”这一技能",
-                  "summary": "·探讨“AGI-pilled”作为可提升的技能：@swyx 询问 @drew_bent 如何详细理解并提升“相信 AGI”这一技能。\n·背景与动机：@swyx 曾撰写相关文章，希望在此领域变得更好，寻求更深入的思考和细节。\n·核心议题：将“对 AGI 的认知与信念”视为一种可通过学习和实践提升的元技能。"
-                }
-              ]
-            }
-          ],
-          "transparency": {
-            "accountsConfigured": 31,
-            "totalTweetsFetched": 57,
-            "includedInReport": 43,
-            "nonAICount": 14,
-            "byBlock": {
-              "当日要闻": 1,
-              "深度观点": 13,
-              "新产品推荐": 6,
-              "AI 实践与 Use Case": 13,
-              "其他": 10,
-              "非 AI": 14
-            },
-            "byConfiguredAccount": [
-              {
-                "handle": "karpathy",
-                "originalCount": 0,
-                "retweetCount": 0,
-                "quoteCount": 0,
-                "includedCount": 0
-              },
-              {
-                "handle": "swyx",
-                "originalCount": 3,
-                "retweetCount": 0,
-                "quoteCount": 4,
-                "includedCount": 6
-              },
-              {
-                "handle": "gregisenberg",
-                "originalCount": 2,
-                "retweetCount": 0,
-                "quoteCount": 0,
-                "includedCount": 1
-              },
-              {
-                "handle": "lennysan",
-                "originalCount": 0,
-                "retweetCount": 0,
-                "quoteCount": 2,
-                "includedCount": 0
-              },
-              {
-                "handle": "joshwoodward",
-                "originalCount": 0,
-                "retweetCount": 0,
-                "quoteCount": 0,
-                "includedCount": 0
-              },
-              {
-                "handle": "kevinweil",
-                "originalCount": 0,
-                "retweetCount": 0,
-                "quoteCount": 1,
-                "includedCount": 0
-              },
-              {
-                "handle": "petergyang",
-                "originalCount": 3,
-                "retweetCount": 0,
-                "quoteCount": 4,
-                "includedCount": 7
-              },
-              {
-                "handle": "thenanyu",
-                "originalCount": 0,
-                "retweetCount": 0,
-                "quoteCount": 1,
-                "includedCount": 1
-              },
-              {
-                "handle": "realmadhuguru",
-                "originalCount": 0,
-                "retweetCount": 0,
-                "quoteCount": 0,
-                "includedCount": 0
-              },
-              {
-                "handle": "stevenbjohnson",
-                "originalCount": 0,
-                "retweetCount": 0,
-                "quoteCount": 0,
-                "includedCount": 0
-              },
-              {
-                "handle": "mckaywrigley",
-                "originalCount": 1,
-                "retweetCount": 0,
-                "quoteCount": 0,
-                "includedCount": 0
-              },
-              {
-                "handle": "AmandaAskell",
-                "originalCount": 0,
-                "retweetCount": 0,
-                "quoteCount": 0,
-                "includedCount": 0
-              },
-              {
-                "handle": "_catwu",
-                "originalCount": 0,
-                "retweetCount": 0,
-                "quoteCount": 0,
-                "includedCount": 0
-              },
-              {
-                "handle": "trq212",
-                "originalCount": 2,
-                "retweetCount": 0,
-                "quoteCount": 0,
-                "includedCount": 2
-              },
-              {
-                "handle": "GoogleLabs",
-                "originalCount": 0,
-                "retweetCount": 0,
-                "quoteCount": 0,
-                "includedCount": 0
-              },
-              {
-                "handle": "george__mack",
-                "originalCount": 1,
-                "retweetCount": 0,
-                "quoteCount": 0,
-                "includedCount": 0
-              },
-              {
-                "handle": "raizamrtn",
-                "originalCount": 0,
-                "retweetCount": 0,
-                "quoteCount": 0,
-                "includedCount": 0
-              },
-              {
-                "handle": "amasad",
-                "originalCount": 1,
-                "retweetCount": 0,
-                "quoteCount": 2,
-                "includedCount": 3
-              },
-              {
-                "handle": "rauchg",
-                "originalCount": 0,
-                "retweetCount": 0,
-                "quoteCount": 0,
-                "includedCount": 0
-              },
-              {
-                "handle": "rileybrown",
-                "originalCount": 0,
-                "retweetCount": 0,
-                "quoteCount": 0,
-                "includedCount": 0
-              },
-              {
-                "handle": "alexalbert__",
-                "originalCount": 0,
-                "retweetCount": 0,
-                "quoteCount": 0,
-                "includedCount": 0
-              },
-              {
-                "handle": "HamelHusain",
-                "originalCount": 0,
-                "retweetCount": 0,
-                "quoteCount": 0,
-                "includedCount": 0
-              },
-              {
-                "handle": "levie",
-                "originalCount": 0,
-                "retweetCount": 0,
-                "quoteCount": 0,
-                "includedCount": 0
-              },
-              {
-                "handle": "ryolu_",
-                "originalCount": 0,
-                "retweetCount": 0,
-                "quoteCount": 1,
-                "includedCount": 1
-              },
-              {
-                "handle": "garrytan",
-                "originalCount": 9,
-                "retweetCount": 0,
-                "quoteCount": 13,
-                "includedCount": 18
-              },
-              {
-                "handle": "lulumeservey",
-                "originalCount": 0,
-                "retweetCount": 0,
-                "quoteCount": 0,
-                "includedCount": 0
-              },
-              {
-                "handle": "venturetwins",
-                "originalCount": 1,
-                "retweetCount": 0,
-                "quoteCount": 0,
-                "includedCount": 1
-              },
-              {
-                "handle": "mattturck",
-                "originalCount": 2,
-                "retweetCount": 0,
-                "quoteCount": 0,
-                "includedCount": 1
-              },
-              {
-                "handle": "joulee",
-                "originalCount": 1,
-                "retweetCount": 0,
-                "quoteCount": 0,
-                "includedCount": 1
-              },
-              {
-                "handle": "PJaccetturo",
-                "originalCount": 0,
-                "retweetCount": 0,
-                "quoteCount": 0,
-                "includedCount": 0
-              },
-              {
-                "handle": "zarazhangrui",
-                "originalCount": 2,
-                "retweetCount": 0,
-                "quoteCount": 1,
-                "includedCount": 1
-              }
-            ],
-            "sumMatchesTotal": true
-          }
         }
       }
     },
     "blog": {
       "label": "博客精选",
       "days": {
+        "2026-03-24": {
+          "date": "2026-03-24",
+          "main": [
+            {
+              "id": "c90da3c8d78e",
+              "title": "AI编程的局限：真正的软件价值在于人的判断与选择",
+              "sourceName": "simonwillison.net",
+              "sourceUrl": "https://simonwillison.net/2026/Mar/23/david-abram/#atom-everything",
+              "publishedAt": "2026-03-23T18:56:18.000Z",
+              "briefSummary": "这篇文章引用David Abram的观点，讨论了AI（尤其是大语言模型）在软件开发中的实际作用与局限。作者认为，编程工作中最困难的部分从来不是写代码，而是理解复杂系统、调试、设计架构和做出关键决策。AI可以帮忙生成代码或提供建议，但它不理解系统、没有上下文、也不知道决策的对错。最重要的是，AI不会“做选择”，这部分工作依然需要人类来完成。真正的软件价值在于知道“应该创造什么”以及“为什么”。",
+              "coreInsights": [
+                "软件开发最困难的部分是理解系统、调试、架构设计和关键决策，而非写代码本身。",
+                "大语言模型无法解决这些核心问题，它们不理解系统、缺乏上下文，也无法判断决策对错。",
+                "AI不会“做选择”，选择权与责任仍在人类手中。",
+                "软件开发的真正价值在于知道“应该创造什么”以及“为什么”，这是人类不可替代的部分。"
+              ],
+              "personalRelevance": "这篇文章直接讨论了**AI协作工作流**（特别是AI辅助编程）的边界，提醒我们在依赖AI生成代码时，必须清醒地认识到**系统理解**和**关键决策**仍是人类的核心职责，这有助于我们更明智地设计**AI PM工作流**。",
+              "value": "高",
+              "tags": [
+                "观点评论",
+                "AI 方法论"
+              ]
+            },
+            {
+              "id": "7ef745c4b9bc",
+              "title": "警惕AI“垃圾内容”：生成容易消费难，是对他人时间的浪费",
+              "sourceName": "simonwillison.net",
+              "sourceUrl": "https://simonwillison.net/2026/Mar/23/neurotica/#atom-everything",
+              "publishedAt": "2026-03-23T23:31:45.000Z",
+              "briefSummary": "这篇文章引用了一位网友的观点，讨论了一个关于AI生成内容的新概念——“slop”。这个词指的是那些生成起来很容易，但别人要理解或消化它却需要花费更多精力的内容。作者举了个例子：当同事直接把未经处理的AI生成内容（比如Gemini的输出）发给你时，这并非创造力的体现，反而是不尊重你时间的表现。文章片段虽然简短，但尖锐地指出了当前AI协作中一个普遍但容易被忽视的伦理问题。",
+              "coreInsights": [
+                "“Slop”指AI生成内容中，消费所需精力远超生产精力的低价值信息。",
+                "直接转发未加工的AI输出给同事，是对他人时间的不尊重。",
+                "这触及了AI协作中的伦理问题：便利与责任之间的平衡。",
+                "提醒我们在使用AI工具时，应考虑信息接收者的体验。"
+              ],
+              "personalRelevance": "这篇文章直接关联**AI协作工作流**，特别是**AI PM工作流**。它提醒我们，在团队中使用AI时，不能只图自己方便，把“**AI初稿**”当最终成果交付，必须经过**人工筛选和加工**，确保输出对同事有价值，这才是高效且负责任的做法。",
+              "value": "低",
+              "tags": [
+                "AI 方法论",
+                "观点评论"
+              ]
+            },
+            {
+              "id": "b01e0587eb5e",
+              "title": "Datasette 文件上传插件迎来重要更新，支持批量上传与图片预览",
+              "sourceName": "simonwillison.net",
+              "sourceUrl": "https://simonwillison.net/2026/Mar/23/datasette-files/#atom-everything",
+              "publishedAt": "2026-03-23T23:06:38.000Z",
+              "briefSummary": "这篇文章主要介绍了 Datasette 的一个新插件 `datasette-files` 发布了 0.1a2 版本，这是目前最有趣的一个测试版。这个插件能让用户直接把文件上传到 Datasette 实例里。文章列出了这次更新的几个重点：比如用上了 Datasette 1.0a26 的新配置系统来管理列；新增了插件钩子，可以把上传的 CSV/TSV 文件导入成表格；还增加了批量上传文件的界面；以及现在上传图片会自动生成缩略图并存储起来。内容是基于发布说明的片段，信息比较具体。",
+              "coreInsights": [
+                "`datasette-files` 插件 0.1a2 版本是功能最丰富的测试版，核心功能是允许直接向 Datasette 实例上传文件。",
+                "更新引入了新的 `file_actions` 插件钩子，并支持将上传的 CSV/TSV 文件直接导入为数据库表格。",
+                "新增了通过 JSON API 批量上传文件的用户界面，提升了操作效率。",
+                "现在上传图片文件会自动生成缩略图，并存储在一个专用的内部表中，便于预览管理。"
+              ],
+              "personalRelevance": null,
+              "value": "低",
+              "tags": [
+                "产品发布",
+                "技术解读"
+              ]
+            },
+            {
+              "id": "36a6763cfb4d",
+              "title": "博客新增“笔记”功能，让外部内容聚合更清晰",
+              "sourceName": "simonwillison.net",
+              "sourceUrl": "https://simonwillison.net/2026/Mar/23/beats-now-have-notes/#atom-everything",
+              "publishedAt": "2026-03-23T02:13:13.000Z",
+              "briefSummary": "这篇文章是作者对自己博客的一次功能更新记录。他之前在自己的博客里引入了一个叫“beats”的功能，用来聚合展示自己发布在其他平台的内容。但他发现这些“beats”条目看起来有点单薄，只有一个链接，缺少说明。所以，他最近给这些条目加了一个“笔记”功能，可以附上简短的注解，让展示效果更丰富。作者还顺带更新了网站的Atom订阅源，把带有笔记的“beats”也包含进去了。内容片段有限，主要就是介绍这个功能升级。",
+              "coreInsights": [
+                "作者为其博客的“beats”功能新增了“笔记”注解，以丰富外部聚合内容的展示形式。",
+                "更新后，带有笔记的“beats”内容也会被包含在网站的Atom全量订阅源中。",
+                "这次升级旨在解决“beats”条目因仅有链接而显得信息单薄、缺乏上下文的问题。"
+              ],
+              "personalRelevance": null,
+              "value": "低",
+              "tags": [
+                "产品发布",
+                "技术解读"
+              ]
+            },
+            {
+              "id": "e86b2f680789",
+              "title": "探索如何用 Claude 技能测试 Starlette 1.0 框架",
+              "sourceName": "simonwillison.net",
+              "sourceUrl": "https://simonwillison.net/2026/Mar/23/starlette-1-skill/#atom-everything",
+              "publishedAt": "2026-03-23T00:05:00.000Z",
+              "briefSummary": "这篇文章看起来是作者 Simon Willison 分享他最近的一项研究或实验。具体来说，他正在尝试使用 Claude 的“技能”功能来探索或测试 Starlette 这个 Python Web 框架的最新 1.0 版本。目前给出的内容片段非常有限，只有标题和一句指向另一篇文章的链接提示，所以我们无法得知实验的具体细节、方法或结果。它更像是一个简短的研究预告或笔记。",
+              "coreInsights": [
+                "作者正在进行一项关于 Starlette 1.0 框架的研究或实验。",
+                "这项实验与 Claude AI 的“技能”功能相关联。",
+                "更详细的内容可能需要参考另一篇名为“Experimenting with Starlette 1.0 with Claude skills”的文章。"
+              ],
+              "personalRelevance": null,
+              "value": "低",
+              "tags": [
+                "技术解读",
+                "Use case 分享"
+              ]
+            },
+            {
+              "id": "1b1922450fff",
+              "title": "Starlette 1.0 发布：一个低调但至关重要的 Python 框架",
+              "sourceName": "simonwillison.net",
+              "sourceUrl": "https://simonwillison.net/2026/Mar/22/starlette/#atom-everything",
+              "publishedAt": "2026-03-22T23:57:44.000Z",
+              "briefSummary": "这篇文章主要聊了 Python 的 Starlette 框架终于发布了 1.0 正式版，作者觉得这是个大事儿。作者解释了为什么 Starlette 很重要，因为它其实是现在很火的 FastAPI 框架的基础，但名气却远不如 FastAPI。文章还回顾了 Starlette 的历史，作者自己很喜欢它，但因为当时它还不够稳定，所以没用在 Datasette 项目里。最后还提到了 2025 年项目维护权转移的事情。不过，这里给出的内容片段有限，只讲到了 1.0 版本发布的开头，没有后续的详细讨论。",
+              "coreInsights": [
+                "Starlette 1.0 正式版发布，对 Python ASGI 框架生态是件大事。",
+                "Starlette 是知名框架 FastAPI 的底层基础，但其自身知名度相对较低。",
+                "作者在 2018 年就看好 Starlette，但因当时其稳定性承诺不足而未用于自己的 Datasette 项目。",
+                "2025 年，Starlette 和 Uvicorn 的项目维护权转移给了长期贡献者，以便更好地获得赞助。"
+              ],
+              "personalRelevance": null,
+              "value": "低",
+              "tags": [
+                "技术解读",
+                "产品发布"
+              ]
+            },
+            {
+              "id": "2ab608899823",
+              "title": "PC Gamer 网页臃肿案例调查：一篇37MB的文章如何持续下载",
+              "sourceName": "simonwillison.net",
+              "sourceUrl": "https://simonwillison.net/2026/Mar/22/pcgamer-audit/#atom-everything",
+              "publishedAt": "2026-03-22T22:49:00.000Z",
+              "briefSummary": "这篇文章讲的是作者 Simon Willison 看到别人分享的一个案例：PC Gamer 网站一篇推荐 RSS 阅读器的文章，网页本身竟然有 37MB 那么大，而且因为自动播放的视频广告，总下载量能达到几百 MB。他觉得这个网页臃肿的例子太夸张了，就决定用 Claude Code 和 Rodney 工具来调查分析这个页面的性能问题。内容片段主要介绍了这个调查的起因和使用的工具。",
+              "coreInsights": [
+                "PC Gamer 一篇推荐 RSS 的文章网页体积高达 37MB，是网页性能臃肿的典型案例。",
+                "自动播放的视频广告导致总下载量可达数百 MB，严重影响用户体验。",
+                "作者使用 Claude Code 和 Rodney 工具来调查分析该页面的性能问题。"
+              ],
+              "personalRelevance": null,
+              "value": "低",
+              "tags": [
+                "技术解读",
+                "Use case 分享"
+              ]
+            },
+            {
+              "id": "21e0db055038",
+              "title": "JavaScript 沙盒方案对比研究：从 Node.js 到 Deno",
+              "sourceName": "simonwillison.net",
+              "sourceUrl": "https://simonwillison.net/2026/Mar/22/javascript-sandboxing-research/#atom-everything",
+              "publishedAt": "2026-03-22T19:53:00.000Z",
+              "briefSummary": "这篇文章讲的是作者 Simon Willison 受到一篇关于 Node.js 工作线程的文章启发，开始研究如何用 JavaScript 沙盒安全地运行代码。他让 Claude Code 帮忙，结果 Claude 大大超出了预期，直接帮他对比分析了六种不同的 JavaScript 沙盒技术方案，包括 isolated-vm、vm2、quickjs-emscripten、QuickJS-NG、ShadowRealm 和 Deno Workers。简单说，就是一篇关于如何隔离运行 JavaScript 代码的技术方案调研笔记。",
+              "coreInsights": [
+                "作者受 Node.js 工作线程启发，启动了对 JavaScript 沙盒化技术的研究。",
+                "Claude Code 协助完成了对六种主流 JavaScript 沙盒/隔离方案的对比分析。",
+                "被分析的技术方案覆盖了 Node.js 生态、新兴标准（ShadowRealm）及 Deno 运行时。",
+                "研究核心目的是探索安全执行不受信任 JavaScript 代码的可行方法。"
+              ],
+              "personalRelevance": null,
+              "value": "低",
+              "tags": [
+                "技术解读",
+                "研究笔记"
+              ]
+            },
+            {
+              "id": "47c7c0cc4040",
+              "title": "发现 Cloudflare DNS 的 JSON API，并快速搭建查询工具",
+              "sourceName": "simonwillison.net",
+              "sourceUrl": "https://simonwillison.net/2026/Mar/22/dns/#atom-everything",
+              "publishedAt": "2026-03-22T19:16:30.000Z",
+              "briefSummary": "这篇文章的作者分享了一个新发现：Cloudflare 的 1.1.1.1 系列 DNS 服务（包括能拦截恶意软件和成人内容的 1.1.1.2 和 1.1.1.3）提供了一个支持 CORS 的 JSON API。这意味着我们可以直接用代码来调用这些服务进行 DNS 查询。作者觉得这个 API 很方便，于是就让 Claude Code 帮他快速搭建了一个简单的用户界面，用来同时向这三个不同的 DNS 解析器发起查询。内容片段有限，主要展示了作者如何利用新发现的 API 快速实现一个实用小工具的过程。",
+              "coreInsights": [
+                "Cloudflare 的 1.1.1.1 DNS 服务提供了支持 CORS 的 JSON API，便于程序化调用。",
+                "作者利用 Claude Code 快速构建了一个 UI，用于同时查询 1.1.1.1、1.1.1.2 和 1.1.1.3 这三个 DNS 解析器。",
+                "1.1.1.2 和 1.1.1.3 是 Cloudflare 提供的过滤型 DNS，分别用于拦截恶意软件，以及恶意软件加成人内容。"
+              ],
+              "personalRelevance": null,
+              "value": "低",
+              "tags": [
+                "Use case 分享",
+                "技术解读"
+              ]
+            },
+            {
+              "id": "c6f029ae92ab",
+              "title": "用AI可视化CRDT版本控制算法：将Python代码变成交互演示",
+              "sourceName": "simonwillison.net",
+              "sourceUrl": "https://simonwillison.net/2026/Mar/22/manyana/#atom-everything",
+              "publishedAt": "2026-03-22T18:57:32.000Z",
+              "briefSummary": "这篇文章讲的是作者Simon Willison的一个有趣尝试。他读到Bram Cohen关于用CRDT（一种数据同步技术）构建未来版本控制系统的文章，文章里有470行Python代码。作者没自己研究代码，而是直接把代码（去掉注释）喂给了Claude AI，让它解释原理。更酷的是，他还让Claude用Pyodide（一个能在浏览器里运行Python的工具）做了一个交互式界面，这样大家就能直观地看到CRDT算法到底是怎么工作的了。内容片段有限，但能看出这是个很实用的AI辅助学习和演示案例。",
+              "coreInsights": [
+                "作者用Claude AI解读了Bram Cohen关于CRDT版本控制的Python代码，并生成了解释。",
+                "进一步利用AI和Pyodide，将算法原理转化成了一个可交互的可视化演示界面。",
+                "这是一个将复杂技术（CRDT、版本控制）通过AI工具（Claude、Pyodide）进行教学和演示的具体案例。"
+              ],
+              "personalRelevance": "如果你对**AI协作工作流**感兴趣，这个案例展示了如何将AI（Claude）作为理解和解释复杂代码的“协作者”，并进一步驱动它创建**交互式演示**（Use case），把抽象概念变得直观可操作。",
+              "value": "高",
+              "tags": [
+                "Use case 分享",
+                "技术解读"
+              ]
+            },
+            {
+              "id": "2d2b09e64773",
+              "title": "勒索团伙借伊朗冲突发动数据擦除攻击，利用云服务漏洞传播蠕虫",
+              "sourceName": "krebsonsecurity.com",
+              "sourceUrl": "https://krebsonsecurity.com/2026/03/canisterworm-springs-wiper-attack-targeting-iran/",
+              "publishedAt": "2026-03-23T15:43:04.000Z",
+              "briefSummary": "这篇文章讲的是一个原本为了搞钱的勒索团伙，现在想蹭伊朗冲突的热度。他们搞出了一种叫“CanisterWorm”的蠕虫病毒，专门攻击那些安全措施没做好的云服务。这个病毒特别坏，它会自动检查你的电脑：如果系统时区设的是伊朗，或者默认语言是波斯语，它就会启动“擦除”模式，把你电脑里的数据全给删掉。简单说，就是有黑客趁乱搞破坏，而且手段挺狡猾的。",
+              "coreInsights": [
+                "一个以经济利益为主的勒索团伙正试图介入伊朗冲突，发动了数据擦除攻击。",
+                "攻击使用名为“CanisterWorm”的蠕虫，通过安全薄弱的云服务进行传播。",
+                "蠕虫具有针对性，会检测系统时区或默认语言，对符合伊朗特征的设备执行数据擦除。",
+                "这表明网络攻击正越来越多地与地缘政治事件结合，攻击者动机趋于复杂。"
+              ],
+              "personalRelevance": null,
+              "value": "低",
+              "tags": [
+                "时事新闻",
+                "技术解读"
+              ]
+            },
+            {
+              "id": "a1612cb41521",
+              "title": "苹果宣布2026年WWDC开发者大会将于6月8日线上开幕",
+              "sourceName": "daringfireball.net",
+              "sourceUrl": "https://www.apple.com/newsroom/2026/03/apples-worldwide-developers-conference-returns-the-week-of-june-8/",
+              "publishedAt": "2026-03-23T18:20:04.000Z",
+              "briefSummary": "这篇文章主要就是苹果官方宣布了2026年全球开发者大会（WWDC）的具体安排。大会在6月8日那周举行，周一以主题演讲和平台状况更新开场，之后整个星期都在线上进行。内容挺简单的，就是告诉大家大会时间、主要活动形式（有超过100个视频会议和互动小组实验室），以及开发者可以通过哪些渠道观看（苹果开发者App、网站、YouTube，还有中国的Bilibili）。文章片段还附带了一个小插曲，就是作者自己说以前没听说过Bilibili，觉得它像是中国的YouTube。整体信息比较直接，就是一份活动预告。",
+              "coreInsights": [
+                "2026年苹果WWDC开发者大会定于6月8日至12日那一周举行，主题演讲和平台状况更新在6月8日周一进行。",
+                "大会全程线上举办，包含超100个视频会议及可与苹果工程师、设计师直接交流的互动实验室。",
+                "会议内容将通过苹果开发者App、官网、YouTube以及中国的Bilibili频道同步播出。",
+                "作者在文中提到自己此前不了解Bilibili，并认为它类似于中国的YouTube。"
+              ],
+              "personalRelevance": null,
+              "value": "低",
+              "tags": [
+                "产品发布",
+                "行业动态"
+              ]
+            },
+            {
+              "id": "37348be5e30f",
+              "title": "十年前就有人警告：糟糕的网页广告正在毁掉好网站",
+              "sourceName": "daringfireball.net",
+              "sourceUrl": "https://daringfireball.net/linked/2015/07/09/ritchie-bad-ads",
+              "publishedAt": "2026-03-23T18:09:32.000Z",
+              "briefSummary": "这篇文章回顾了2015年的一篇旧文，当时iMore网站的Rene Ritchie解释了为什么他们网站上的广告变得越来越差，甚至对读者充满敌意。作者感慨，十年过去了，网页广告的糟糕状况基本没变，而iMore这个曾经很棒的网站现在已经关停了。这其实是在说，劣质广告不仅伤害用户体验，最终可能还会把网站自己给“作死”。",
+              "coreInsights": [
+                "十年前iMore网站就因投放对读者不友好的劣质广告而备受批评。",
+                "十年间，网页广告生态的糟糕状况并未得到根本改善。",
+                "曾经优秀的iMore网站最终走向了关停，劣质广告可能是原因之一。"
+              ],
+              "personalRelevance": null,
+              "value": "低",
+              "tags": [
+                "行业动态",
+                "往事回顾"
+              ]
+            },
+            {
+              "id": "48ce9a374b3a",
+              "title": "HTML Review 新刊发布，作者感慨网页设计现状并呼唤艺术开发者精神",
+              "sourceName": "daringfireball.net",
+              "sourceUrl": "https://thehtml.review/05/",
+              "publishedAt": "2026-03-23T17:40:05.000Z",
+              "briefSummary": "这篇文章是作者在读到《The HTML Review》第五期时发表的简短感想。作者正对当前网页设计的现状感到忧虑和不满，而这本新刊的出现让他眼前一亮，感觉像是一份美好的礼物。他借用了莎士比亚戏剧《理查三世》里的经典台词“一匹马！一匹马！我的王国换一匹马！”来打比方，表达了他多么渴望看到那些开发原生应用的开发者们，能拥有像《HTML Review》里那些艺术家兼开发者一样的信念和坚持。总的来说，这是一篇有感而发的短评，核心是赞美一种将艺术与开发深度结合的创作精神，并以此对比和批评当前主流的开发风气。",
+              "coreInsights": [
+                "作者对当前网页设计的整体状态感到不满和担忧。",
+                "《The HTML Review》第五期的发布给作者带来了积极的触动和慰藉。",
+                "作者借用经典台词，强烈呼吁原生应用开发者应学习艺术开发者的信念与坚持。",
+                "文章推崇一种将艺术创作精神与软件开发深度结合的理念。"
+              ],
+              "personalRelevance": null,
+              "value": "低",
+              "tags": [
+                "行业动态",
+                "技术评论"
+              ]
+            },
+            {
+              "id": "873cc9df6cd0",
+              "title": "Mux：为开发者打造的智能视频处理平台",
+              "sourceName": "daringfireball.net",
+              "sourceUrl": "https://www.mux.com/?utm_campaign=fireball&utm_source=DF",
+              "publishedAt": "2026-03-22T17:35:00.000Z",
+              "briefSummary": "这篇文章是Mux视频API的赞助广告，主要介绍了Mux这个面向开发者的视频基础设施平台。它说视频不只是用来看的，里面还藏着大量数据和信息。Mux能帮你轻松地把视频功能集成到网站、平台甚至AI工作流里，还能从视频里提取出字幕、剪辑片段、故事板等内容，用来做摘要、翻译、内容审核、打标签这些事。文章还提到Mux维护着最流行的开源视频播放器Video.js，并且新版本正在测试。",
+              "coreInsights": [
+                "Mux是一个开发者视频API平台，能帮助集成和扩展视频功能到各种应用和AI工作流中。",
+                "平台能从视频中提取结构化数据（如字幕、片段），用于摘要、翻译、内容审核等智能处理。",
+                "Mux是Video.js开源播放器的维护者，其新版v10正在进行架构重构并已开放测试。",
+                "该服务已被Patreon、Substack等知名公司采用，并提供免费试用和优惠码。"
+              ],
+              "personalRelevance": "如果你在构建涉及**多模态**（尤其是视频）的AI应用或工作流，Mux展示了如何将视频作为**数据源**进行深度处理（如生成摘要、翻译），这为**AI use case**开发提供了现成的技术栈参考。",
+              "value": "低",
+              "tags": [
+                "产品发布",
+                "技术解读",
+                "Use case 分享"
+              ]
+            },
+            {
+              "id": "5265975ee8ff",
+              "title": "特朗普对穆勒去世发表争议言论，引发关于政治人物言行边界的讨论",
+              "sourceName": "daringfireball.net",
+              "sourceUrl": "https://truthsocial.com/@realDonaldTrump/116268334535345382",
+              "publishedAt": "2026-03-22T17:18:10.000Z",
+              "briefSummary": "这篇文章讲的是，美国前总统特朗普在自己的社交媒体上，针对前特别检察官罗伯特·穆勒去世的消息，发表了“好，我很高兴他死了”的言论。作者引用了这段原文，并评论说，这就像一些老年人随着认知能力下降，会失去分寸感，心里想什么就直接说出来（比如还会在短信和帖子里“签名”）。作者还半开玩笑地建议，可以把特朗普这条帖子收藏好，等他本人将来去世时，看看世界人民会如何反应。内容片段有限，主要围绕这条争议性帖子和作者的讽刺性评论展开。",
+              "coreInsights": [
+                "特朗普公开对前特别检察官穆勒的去世表示“高兴”，称其“不能再伤害无辜的人”。",
+                "作者将此言论归因于“老年人认知衰退”，认为其失去了“分寸感”但“极其诚实”。",
+                "文章以讽刺口吻建议收藏此帖，以备未来特朗普本人去世、世人欢庆时作对比。"
+              ],
+              "personalRelevance": null,
+              "value": "低",
+              "tags": [
+                "时事评论",
+                "政治人物"
+              ]
+            },
+            {
+              "id": "7340ec2a55a3",
+              "title": "一个网页加载半GB广告，作者呼吁浏览器应限制页面大小",
+              "sourceName": "daringfireball.net",
+              "sourceUrl": "https://stuartbreckenridge.net/2026-03-19-pc-gamer-recommends-rss-readers-in-a-37mb-article/",
+              "publishedAt": "2026-03-22T16:41:09.000Z",
+              "briefSummary": "这篇文章讲的是作者Stuart Breckenridge发现PC Gamer网站的一个网页有多离谱。这个网页首次加载就高达37MB，但这还不是最过分的。在作者写这篇帖子的短短五分钟内，这个网页又自动下载了将近半GB（500MB）的新广告！作者觉得这种做法太不负责任、太不专业了，简直让人难以置信。他认为网页浏览器应该站出来保护用户，比如默认把页面加载大小限制在5MB左右，如果网站想下载更多内容，必须得到用户的明确同意才行。内容片段有限，但核心问题说得很清楚。",
+              "coreInsights": [
+                "PC Gamer的一个网页在5分钟内自动下载了近半GB的广告，行为极其浪费流量且不专业。",
+                "作者批评这种网页设计不负责任，认为浏览器应默认限制页面加载大小（如5MB）。",
+                "作者建议，网站若想加载超出限制的内容，必须事先获得用户的明确同意。"
+              ],
+              "personalRelevance": null,
+              "value": "低",
+              "tags": [
+                "行业动态",
+                "技术解读"
+              ]
+            },
+            {
+              "id": "1aaeb6632494",
+              "title": "企业通过故意人手不足来压榨员工和顾客，实现利润转移",
+              "sourceName": "pluralistic.net",
+              "sourceUrl": "https://pluralistic.net/2026/03/22/nobodys-home/",
+              "publishedAt": "2026-03-23T05:54:55.000Z",
+              "briefSummary": "这篇文章主要讨论了“人手不足”如何成为企业“平台劣化”的一种新形式。作者认为，公司通过故意不配备足够员工，可以把原本属于员工、病人或顾客的价值（比如服务质量、等待时间）转移给投资者，从而增加利润。数字工具让这种价值转移变得更容易。文章片段还提到了很多其他话题的链接，但核心观点就是：人手不足不是偶然的管理失误，而是一种有意的商业策略，目的是让一部分人吃亏，另一部分人获利。",
+              "coreInsights": [
+                "人手不足是企业有意为之的‘平台劣化’策略，目的是将价值从员工和顾客转移给投资者。",
+                "数字工具让这种价值转移和重新分配变得前所未有的容易。",
+                "‘平台劣化’的根本在于公司有能力在不同群体间移动价值，人手不足是其中一种表现形式。"
+              ],
+              "personalRelevance": null,
+              "value": "高",
+              "tags": [
+                "行业动态",
+                "深度评论"
+              ]
+            },
+            {
+              "id": "84d592ec657d",
+              "title": "如何防止杀毒软件误杀你的自定义服务？",
+              "sourceName": "devblogs.microsoft.com/oldnewthing",
+              "sourceUrl": "https://devblogs.microsoft.com/oldnewthing/20260323-00/?p=112157",
+              "publishedAt": "2026-03-23T14:00:00.000Z",
+              "briefSummary": "这篇文章来自微软的《旧事新谈》博客，标题问的是“如何确保反恶意软件不终止我的自定义服务？”。不过，从给出的简短摘要来看，文章本身的内容似乎非常有限，只有一句“你得好好问（You'll have to ask nicely）”，然后就是标准的博客结尾。因此，这篇文章可能更像是一个幽默的回应或一个引子，实际的技术讨论或解决方案并未在提供的片段中展开。内容片段有限，无法提炼更多细节。",
+              "coreInsights": [
+                "文章标题提出了一个开发者可能遇到的常见问题：自定义服务被安全软件误判为恶意程序。",
+                "但给出的内容片段非常简短，主要信息是“你得好好问”，暗示可能需要与安全软件厂商沟通或遵循特定流程。",
+                "由于片段信息不足，无法得知具体的解决方案或技术细节。"
+              ],
+              "personalRelevance": null,
+              "value": "低",
+              "tags": [
+                "技术解读",
+                "博客短文"
+              ]
+            },
+            {
+              "id": "179abf7a6b8a",
+              "title": "命令行工具 comm：轻松处理集合交集与差集",
+              "sourceName": "johndcook.com",
+              "sourceUrl": "https://www.johndcook.com/blog/2026/03/23/intersection-difference/",
+              "publishedAt": "2026-03-23T11:39:47.000Z",
+              "briefSummary": "这篇文章主要介绍了一个叫 comm 的命令行小工具，它能让你直接在终端里做集合运算，比如找出两个文件里共同的行（交集）或者各自独有的行（差集）。作者觉得它挺有用的，但也指出了两个小麻烦：一是它的语法规则不太好记，二是用之前必须先把输入的文件内容排好序。文章就是围绕这个工具的优缺点和使用场景展开的。",
+              "coreInsights": [
+                "comm 是一个能在命令行进行集合运算（如交集、差集）的实用工具。",
+                "该工具的主要缺点是语法难记，且要求输入文件必须预先排序。",
+                "它适用于处理已排序的文本列表，能快速比较两个文件内容的异同。"
+              ],
+              "personalRelevance": null,
+              "value": "低",
+              "tags": [
+                "技术解读",
+                "Use case 分享"
+              ]
+            },
+            {
+              "id": "a72b8a0de071",
+              "title": "为什么社交媒体讨论像煎饼一样乏味扁平？",
+              "sourceName": "tedium.co",
+              "sourceUrl": "https://feed.tedium.co/link/15204/17304313/social-media-flat-discussion",
+              "publishedAt": "2026-03-23T13:17:36.000Z",
+              "briefSummary": "这篇文章用做煎饼打了个有趣的比方，来吐槽现在社交媒体上的讨论。作者觉得，很多讨论就像煎饼一样，做起来快、谁都能做，但结果总是千篇一律、乱糟糟的，没什么营养。虽然你可以自己动手做（参与讨论），但问题是当所有人都这么做，出来的东西就都一个样了，缺乏深度和新意。文章主要就是在反思这种“扁平化”的交流现象。",
+              "coreInsights": [
+                "作者将社交媒体上的浅层讨论比作“煎饼”：制作快速、门槛低，但结果往往雷同、混乱且缺乏实质内容。",
+                "这种“煎饼式”讨论虽然参与方便，但容易留下“烂摊子”（比如无意义的争吵或信息过载），且难以产生真正有营养的交流。",
+                "即使可以“自动化”参与（比如用套路回复），但亲手参与（真诚讨论）的体验仍是独特的，只是当人人如此，独特性就消失了。"
+              ],
+              "personalRelevance": null,
+              "value": "高",
+              "tags": [
+                "社会观察",
+                "生活随笔"
+              ]
+            },
+            {
+              "id": "6954bdb02f24",
+              "title": "“改变世界”的真正含义：从个人野心到创造不存在的事物",
+              "sourceName": "geohot.github.io",
+              "sourceUrl": "https://geohot.github.io//blog/jekyll/update/2026/03/23/changing-the-world.html",
+              "publishedAt": "2026-03-22T16:00:00.000Z",
+              "briefSummary": "这篇文章的作者在反思“改变世界”这句话。他发现很多人把“改变世界”理解成让别人给自己更多东西，就像他2017年歌里唱的。他觉得为这种梦想献身很可悲，因为世界上现有的东西都不值得。他真正想要的东西，比如永生、超级智能机器人朋友、火星上的五星级酒店，现在根本不存在。所以，真正的“改变世界”不是索取，而是去创造那些还不存在的东西。文章还提到他小时候玩《超级马里奥世界》的经历，用游戏修改器让他明白，想持续享受游戏乐趣，重点不在于目的地（通关），而在于过程。内容片段有限，但核心是探讨“改变世界”的动机和本质。",
+              "coreInsights": [
+                "作者认为，许多人将“改变世界”误解为一种索取（让别人给自己更多），这是一种可悲的动机。",
+                "真正的“改变世界”是为创造世界上尚不存在的事物（如永生、火星酒店）而奋斗。",
+                "从童年游戏经历中领悟到，持续享受的乐趣在于过程本身，而非最终目标。"
+              ],
+              "personalRelevance": null,
+              "value": "高",
+              "tags": [
+                "个人随笔",
+                "观点反思"
+              ]
+            },
+            {
+              "id": "826b3837e4bc",
+              "title": "个人笔记网站改版细节分享：从单页到独立页面的转变",
+              "sourceName": "blog.jim-nielsen.com",
+              "sourceUrl": "https://blog.jim-nielsen.com/2026/notes-site-updates/",
+              "publishedAt": "2026-03-22T19:00:00.000Z",
+              "briefSummary": "这篇文章是作者对自己个人笔记网站进行一系列小更新的详细记录。主要内容是，他把原来把所有笔记都堆在一个巨大HTML页面里的网站结构，改成了让每一条笔记都拥有自己独立页面的新结构。作者觉得这些细节虽然琐碎，但正是乐趣所在。他具体解释了为什么要改（比如加载效率问题），以及改了哪里（比如网址格式和笔记标识符的变化）。内容片段有限，但能看出作者在分享自己网站架构的迭代思考。",
+              "coreInsights": [
+                "作者将笔记网站从单一HTML页面结构改为每个笔记拥有独立页面，以提升加载效率和链接精准度。",
+                "他认为‘大更新’由无数‘小细节’构成，享受处理这些细节的过程。",
+                "改版涉及具体技术决策，如笔记标识符的格式变更和URL路径的重新设计。"
+              ],
+              "personalRelevance": null,
+              "value": "低",
+              "tags": [
+                "技术解读",
+                "个人项目分享"
+              ]
+            },
+            {
+              "id": "60f9da638aff",
+              "title": "英特尔为何不再用数字命名CPU？486之后的命名故事",
+              "sourceName": "dfarq.homeip.net",
+              "sourceUrl": "https://dfarq.homeip.net/what-came-after-486/?utm_source=rss&utm_medium=rss&utm_campaign=what-came-after-486",
+              "publishedAt": "2026-03-23T11:00:58.000Z",
+              "briefSummary": "这篇文章主要聊了早期电脑CPU的命名趣事。原来在90年代之前，CPU基本只有零件编号和时钟速度，比如我们熟知的“486”，它的全称其实是“80486”。文章提到一个关键转折点：法院不允许英特尔把数字注册成商标，这可能是促使英特尔后来转向“奔腾”（Pentium）等品牌名称的重要原因之一。不过，目前给出的内容片段比较有限，主要聚焦在486这个例子上。",
+              "coreInsights": [
+                "90年代前，CPU大多只有制造商名、零件编号和时钟速度，没有独立的品牌名称。",
+                "我们常说的“486”其实是零件编号“80486”的简称。",
+                "法院裁定数字不能作为商标，这推动了英特尔为后续CPU（如奔腾）创建专属品牌名。"
+              ],
+              "personalRelevance": null,
+              "value": "低",
+              "tags": [
+                "技术解读",
+                "行业动态"
+              ]
+            },
+            {
+              "id": "fb14e526557d",
+              "title": "从打字体验到 Markdown 崛起：文字处理工具的演变",
+              "sourceName": "matduggan.com",
+              "sourceUrl": "https://matduggan.com/markdown-ate-the-world/",
+              "publishedAt": "2026-03-23T12:14:44.000Z",
+              "briefSummary": "这篇文章的作者分享了自己对文字处理软件的深厚感情。他提到，自己一直很享受打字时文字在屏幕上出现的感觉，虽然最喜欢的可能是 WordPerfect，但几乎用过所有同类软件。正是这些文字处理程序，让他真正理解了电脑的价值所在。目前给出的内容片段比较有限，主要是在回忆和感慨，还没有深入展开讨论标题中提到的“Markdown 如何席卷世界”这一核心主题。",
+              "coreInsights": [
+                "作者对文字处理软件有特殊情感，享受打字的过程。",
+                "WordPerfect 是他最喜欢的文字处理软件之一。",
+                "文字处理程序是作者理解电脑核心价值的起点。"
+              ],
+              "personalRelevance": null,
+              "value": "低",
+              "tags": [
+                "个人随笔"
+              ]
+            }
+          ],
+          "uncertain": [
+            {
+              "title": "Gasoline Prices Around the World",
+              "link": "https://www.globalpetrolprices.com/gasoline_prices/",
+              "sourceName": "daringfireball.net",
+              "oneSentenceIntro": "对比全球不同地区的汽油价格现状，数据可能来自公开统计或分析。"
+            },
+            {
+              "title": "Hitachi Ltd, Part I",
+              "link": "https://www.abortretry.fail/p/hitachi-ltd-part-i",
+              "sourceName": "abortretry.fail",
+              "oneSentenceIntro": "介绍日本企业日立公司的历史、业务或技术发展，这是系列文章的第一部分。"
+            }
+          ]
+        },
         "2026-03-23": {
           "date": "2026-03-23",
           "main": [
@@ -5622,509 +5773,6 @@
               "link": "https://www.experimental-history.com/p/help-im-being-persecuted",
               "sourceName": "experimental-history.com",
               "oneSentenceIntro": "标题带有戏剧性，可能探讨社会文化中的迫害现象或个人遭遇的叙述。"
-            }
-          ]
-        },
-        "2026-03-17": {
-          "date": "2026-03-17",
-          "main": [
-            {
-              "id": "9721b0ee8122",
-              "title": "Mistral 发布全新开源大模型 Small 4，整合三大旗舰能力",
-              "sourceName": "simonwillison.net",
-              "sourceUrl": "https://simonwillison.net/2026/Mar/16/mistral-small-4/#atom-everything",
-              "publishedAt": "2026-03-16T23:41:17.000Z",
-              "briefSummary": "这篇文章主要介绍了 Mistral 公司新发布的 Mistral Small 4 模型。别看名字叫“Small”，它其实是个拥有 1190 亿参数的大模型，而且是开源的。最厉害的地方在于，它把自家三个王牌模型（负责推理的 Magistral、多模态的 Pixtral 和编程的 Devstral）的能力都整合到了一个模型里，变得非常全能。作者还亲自用命令行工具试了试，让它生成了一张“鹈鹕骑自行车”的 SVG 图片。不过，作者也提到，目前还没在 API 文档里找到如何设置“推理强度”这个功能，希望以后能加上。",
-              "coreInsights": [
-                "Mistral Small 4 是一个 1190 亿参数的开源大模型，整合了推理、多模态和编程三大核心能力。",
-                "模型支持设置“推理强度”，高强度的输出长度可与之前的旗舰推理模型媲美。",
-                "作者通过命令行工具测试了模型的多模态图像生成能力。",
-                "模型体积较大，在 Hugging Face 上约为 242GB。"
-              ],
-              "personalRelevance": "如果你在关注**多模态**和**Agent**领域，这个模型值得留意。它把图像生成、代码和推理能力打包在一起，未来可能会成为构建全能型**AI 助手**或**工作流**的一个有力基础选项。",
-              "value": "低",
-              "tags": [
-                "产品发布",
-                "技术解读"
-              ]
-            },
-            {
-              "id": "26f8bdffd49f",
-              "title": "OpenAI Codex 推出子代理与自定义代理功能，提升AI协作效率",
-              "sourceName": "simonwillison.net",
-              "sourceUrl": "https://simonwillison.net/2026/Mar/16/codex-subagents/#atom-everything",
-              "publishedAt": "2026-03-16T23:03:56.000Z",
-              "briefSummary": "这篇文章主要介绍了 OpenAI Codex 最新正式上线的“子代理”功能。它有点像 Claude Code 里的实现，默认提供了“探索者”、“工作者”和“默认”三种子代理。文章还提到，你可以在自己的电脑上通过编写 TOML 文件来定义完全自定义的代理，甚至可以指定使用像 GPT-5.3 这样的特定模型来获得更快的速度。作者举了个例子，展示了如何用不同名字的代理（比如“浏览器调试器”、“代码映射器”）分工协作，来排查和修复一个“设置弹窗保存失败”的问题。内容片段有限，但核心是讲 Codex 这个新功能如何让 AI 代理之间更好地分工合作。",
-              "coreInsights": [
-                "OpenAI Codex 的“子代理”功能已结束预览，正式对所有用户开放。",
-                "它允许用户创建自定义代理（通过 TOML 文件），并能指定使用特定模型（如 GPT-5.3）以优化性能。",
-                "子代理可以像团队成员一样分工协作，例如分别负责复现问题、追踪代码和实施修复。",
-                "默认子代理有“探索者”、“工作者”等类型，推测“工作者”适合并行处理大量小任务。"
-              ],
-              "personalRelevance": "如果你在构建或使用 **AI Agent** 协作工作流，这篇文章展示了如何用 Codex 的 **子代理** 功能实现更精细的任务分工，比如让不同特长的代理协同调试问题，这能直接提升你的 **AI PM 工作流** 效率。",
-              "value": "低",
-              "tags": [
-                "产品发布",
-                "技术解读",
-                "Use case 分享"
-              ]
-            },
-            {
-              "id": "e236e3845522",
-              "title": "用AI编程助手分析数据：记者工作坊实战分享",
-              "sourceName": "simonwillison.net",
-              "sourceUrl": "https://simonwillison.net/2026/Mar/16/coding-agents-for-data-analysis/#atom-everything",
-              "publishedAt": "2026-03-16T20:12:32.000Z",
-              "briefSummary": "这篇文章是作者为NICAR 2026数据新闻工作坊准备的讲义摘要。主要内容是教数据记者如何用Claude Code和OpenAI Codex这类AI编程工具来探索、分析和清洗数据。工作坊用了三小时，参与者通过Python、SQLite和Datasette等工具，实际练习了向数据库提问、数据探索、清洗数据、创建可视化图表，甚至用AI助手抓取数据。作者提到，他们用GitHub Codespaces和OpenAI Codex来上课，因为这样方便分发有预算限制的API密钥给学员，最后大家一共用掉了23美元的Codex额度。内容片段有限，但能看出这是一个很实用的AI辅助数据分析案例分享。",
-              "coreInsights": [
-                "作者在数据新闻工作坊中，系统性地教授了使用Claude Code和OpenAI Codex等AI编程助手进行数据分析的全流程。",
-                "工作坊实践环节丰富，覆盖了从数据库查询、数据探索清洗到可视化与数据抓取等多个核心数据分析任务。",
-                "技术选型注重实操性与成本控制，采用GitHub Codespaces和预算受限的API密钥，确保学员能安全、低成本地动手体验。",
-                "工作坊以Python、SQLite和Datasette为主要工具，展示了AI助手如何与现有技术栈结合，提升数据工作效率。"
-              ],
-              "personalRelevance": "这完全是一个**AI use case**的绝佳示范！它具体展示了如何将**AI编程助手（Agent）** 无缝嵌入到**数据分析工作流**中，从提问到可视化一气呵成，对想用AI提升数据处理效率的人来说很有启发。",
-              "value": "高",
-              "tags": [
-                "Use case 分享",
-                "AI 方法论",
-                "技术解读"
-              ]
-            },
-            {
-              "id": "e167e88c7c6c",
-              "title": "编程AI助手的工作原理：从大语言模型到工具调用",
-              "sourceName": "simonwillison.net",
-              "sourceUrl": "https://simonwillison.net/guides/agentic-engineering-patterns/how-coding-agents-work/#atom-everything",
-              "publishedAt": "2026-03-16T14:01:41.000Z",
-              "briefSummary": "这篇文章主要解释了编程AI助手（coding agent）到底是怎么工作的。它说，编程AI助手本质上是一个软件“外壳”，它包裹着一个大语言模型（比如GPT、Claude这些），然后通过一些“看不见的提示词”和可以调用的工具，给这个模型增加了额外的能力。文章还简单介绍了大语言模型的基础：它们其实就是能根据你给的文字，预测下一个词或句子是什么的机器学习模型。不过，它们处理的是“词元”（tokens），而不是我们直接看到的单词。内容片段有限，主要聚焦于基本概念。",
-              "coreInsights": [
-                "编程AI助手是一个为大语言模型提供额外能力的软件框架，通过隐藏的提示词和可调用工具来实现。",
-                "所有编程AI助手的核心都是大语言模型，它能根据给定的文本预测并生成后续内容。",
-                "大语言模型处理的是“词元”而非直接的单词，这是其工作的基本单位。"
-              ],
-              "personalRelevance": "如果你在关注 **Agent** 领域，这篇文章帮你理解了 **编程AI助手** 的核心架构，知道它本质上是 **大语言模型** 加上工具调用的“外壳”，这有助于你更清晰地规划自己的AI项目。",
-              "value": "高",
-              "tags": [
-                "技术解读",
-                "AI 方法论"
-              ]
-            },
-            {
-              "id": "6eda9312cdfb",
-              "title": "什么是“代理工程”？用AI编码助手开发软件的新方法",
-              "sourceName": "simonwillison.net",
-              "sourceUrl": "https://simonwillison.net/guides/agentic-engineering-patterns/what-is-agentic-engineering/#atom-everything",
-              "publishedAt": "2026-03-15T22:41:57.000Z",
-              "briefSummary": "这篇文章主要解释了“代理工程”这个概念。简单来说，就是利用一种叫做“编码代理”的AI工具来辅助开发软件。这种AI代理不仅能写代码，还能自己执行代码，形成一个循环，直到完成你设定的目标。文章举了Claude Code、OpenAI Codex这些例子，还讨论了在AI领域里“代理”这个词到底怎么定义，作者认为核心就是“代理会循环使用工具来达成目标”。",
-              "coreInsights": [
-                "“代理工程”指的是借助能写能执行代码的AI代理（如Claude Code）来开发软件。",
-                "在LLM领域，作者将“代理”定义为“循环运行工具以实现目标的软件”。",
-                "编码代理的工作方式是：你设定目标，它循环生成并执行代码，直到目标达成。"
-              ],
-              "personalRelevance": "如果你在探索如何让 **AI Agent** 帮你写代码、自动化任务，这篇文章提供了一个清晰的 **AI 协作工作流** 思路：设定目标，让代理循环执行直到完成。",
-              "value": "高",
-              "tags": [
-                "技术解读",
-                "AI 方法论"
-              ]
-            },
-            {
-              "id": "3b7503f83f27",
-              "title": "AI或将破解质因数分解难题，作者坚信经典计算机不输量子计算",
-              "sourceName": "geohot.github.io",
-              "sourceUrl": "https://geohot.github.io//blog/jekyll/update/2026/03/16/polynomial-time-factoring.html",
-              "publishedAt": "2026-03-15T16:00:00.000Z",
-              "briefSummary": "这篇文章主要表达了作者对AI和计算复杂性理论的几个大胆预测。他认为，AI很快就能找到多项式时间的质因数分解算法，因为这个问题本身是有结构的，不像SAT问题可能毫无规律。他还提出了一个更激进的观点：P = BQP，也就是说，经典计算机在计算速度上并不比量子计算机差。他觉得量子计算机那种“激光加低温”的奇怪构造，在数学上不应该享有特殊的计算复杂度特权。文章片段有限，但观点非常鲜明且具有争议性。",
-              "coreInsights": [
-                "作者坚信AI很快能找到多项式时间的质因数分解算法，因为该问题存在可被AI识别的结构。",
-                "他提出更强烈的观点：P = BQP，即量子计算机能快速解决的问题，经典计算机也能快速解决。",
-                "他认为量子计算机的物理构造（如激光和低温）在数学上不应带来本质不同的计算复杂度。"
-              ],
-              "personalRelevance": null,
-              "value": "高",
-              "tags": [
-                "技术解读",
-                "观点论述"
-              ]
-            },
-            {
-              "id": "d381a797d6ae",
-              "title": "从食物到软件：我们该如何看待生活中的各种权衡取舍",
-              "sourceName": "blog.jim-nielsen.com",
-              "sourceUrl": "https://blog.jim-nielsen.com/2026/food-software-and-trade-offs/",
-              "publishedAt": "2026-03-15T19:00:00.000Z",
-              "briefSummary": "这篇文章从一个有趣的食品类比开始，讨论了“什么是最好的”这个问题。作者举了工厂生产的叮咚蛋糕、面包店的巧克力奶油蛋糕，以及直接往嘴里塞巧克力和奶油这三种不同的“巧克力体验”，又用麦当劳、超市品牌和自己做的三种樱桃派做例子，来说明“最好”的标准其实取决于你看重什么——是方便、味道、健康、原料来源还是价格？文章的核心观点是，生活中充满了各种权衡取舍，但我们往往没有充分意识到并讨论它们。内容片段有限，但已能看出作者想引导我们思考选择背后的价值判断。",
-              "coreInsights": [
-                "“最好”没有绝对标准，它取决于你优先考虑哪个维度，比如便利、口味、健康或价格。",
-                "生活中的选择本质上都是权衡取舍，但我们常常忽视或不去讨论这些取舍。",
-                "从工厂食品到手工美食的类比，揭示了不同选择背后“关怀、个性化与亲密感”的差异。"
-              ],
-              "personalRelevance": null,
-              "value": "高",
-              "tags": [
-                "生活思考",
-                "类比分析"
-              ]
-            },
-            {
-              "id": "7b79fb711ad7",
-              "title": "企业裁员甩锅AI：调查显示近六成管理者承认“AI背锅”更好听",
-              "sourceName": "daringfireball.net",
-              "sourceUrl": "https://www.resume.org/the-great-turnover-9-in-10-companies-plan-to-hire-in-2026-yet-6-in-10-will-have-layoffs-2/",
-              "publishedAt": "2026-03-15T17:00:00.000Z",
-              "briefSummary": "这篇文章讲了一个挺有意思的现象。根据一项对1000名美国招聘经理的调查，有59%的人承认，他们在解释公司冻结招聘或裁员时，会特别强调是AI的原因，而不是说公司财务紧张。为什么呢？因为对股东、投资人这些利益相关方来说，把锅甩给“AI”听起来比承认“公司没钱了”要顺耳得多，更容易被接受。作者还打了个比方，说这就像漫画《家庭马戏团》里那个总说“不是我干的”的小鬼。内容片段有限，但核心观点很清晰。",
-              "coreInsights": [
-                "近六成美国招聘经理承认，用‘AI导致裁员’作为借口，比说‘财务困难’更能安抚利益相关方。",
-                "企业倾向于将裁员归咎于技术（AI），而非自身经营问题，这是一种公关策略。",
-                "这种现象揭示了企业在沟通裁员原因时，可能更注重‘叙事’的接受度，而非完全的事实。"
-              ],
-              "personalRelevance": null,
-              "value": "低",
-              "tags": [
-                "行业动态",
-                "时事新闻"
-              ]
-            },
-            {
-              "id": "30f8fd4906b7",
-              "title": "苹果新MacBook的屏幕摄像头指示灯，其实比物理灯更安全？",
-              "sourceName": "daringfireball.net",
-              "sourceUrl": "https://daringfireball.net/2026/03/apple_enclaves_neo_camera_indicator",
-              "publishedAt": "2026-03-16T17:27:58.000Z",
-              "briefSummary": "这篇文章主要在讨论苹果不同设备的摄像头指示灯设计，以及哪种更安全。作者原本以为MacBook Pro等设备上独立的物理指示灯更安全，但看了苹果最新的安全指南后，发现新出的MacBook Neo虽然指示灯是显示在屏幕上的（一个绿点），但它通过A18 Pro芯片里的专用硬件和系统软件结合，反而能提供更强的安全保障，防止任何未经授权的软件偷偷打开摄像头。",
-              "coreInsights": [
-                "苹果新MacBook Neo的屏幕摄像头指示灯，结合专用芯片硬件，安全性可能比传统物理指示灯更高。",
-                "苹果在安全指南中说明，这种设计能阻止任何不受信任的软件（即使有最高权限）在未点亮指示灯时使用摄像头。",
-                "作者承认自己之前关于物理指示灯更安全的看法是错误的。"
-              ],
-              "personalRelevance": null,
-              "value": "高",
-              "tags": [
-                "技术解读",
-                "产品发布"
-              ]
-            },
-            {
-              "id": "7750eaf897aa",
-              "title": "博主深度体验 Finalist 效率应用：从依赖到赞赏的三个月",
-              "sourceName": "daringfireball.net",
-              "sourceUrl": "https://www.finalist.works/finalist-36/",
-              "publishedAt": "2026-03-15T17:36:48.000Z",
-              "briefSummary": "这篇文章是博主 John Gruber 对一款名为 Finalist 的效率应用（支持 iPhone、iPad 和 Mac）的长期使用体验分享。他提到这款应用去年 12 月就开始赞助他的博客，当时他就写了不少介绍，而现在他已经持续使用了三个月。博主觉得 Finalist 一开始就很好用，让他开始依赖它，而这三个月里它变得更好、进步飞快，让他用起来很享受。应用的理念是“帮你完成任务”，而不仅仅是组织任务。",
-              "coreInsights": [
-                "Finalist 是一款整合日历、提醒和健康数据的数字计划本，目标是帮助用户完成任务而不仅仅是组织任务。",
-                "博主从去年 12 月开始持续使用 Finalist，并将其作为日常工具，对其评价很高。",
-                "博主认为 Finalist 在过去三个月里进步迅速，体验越来越好，并参与了其测试版。",
-                "文章暗示这是一篇后续的、基于长期真实体验的推荐，而非初次介绍。"
-              ],
-              "personalRelevance": null,
-              "value": "高",
-              "tags": [
-                "产品体验",
-                "效率工具"
-              ]
-            },
-            {
-              "id": "e537fbaed799",
-              "title": "从“不合适的电脑”开始，才能真正理解计算的本质",
-              "sourceName": "daringfireball.net",
-              "sourceUrl": "https://samhenri.gold/blog/20260312-this-is-not-the-computer-for-you/?ref=birchtree.me",
-              "publishedAt": "2026-03-15T17:30:00.000Z",
-              "briefSummary": "这篇文章通过作者小时候用一台2006年的老旧iMac强行运行Final Cut Pro的经历，讲了一个很有意思的观点：我们学习新东西，往往不是从“正确”的工具开始的。真正的痴迷和探索，是抓住手边任何可用的东西，拼命去用它、压榨它，直到它崩溃或向你揭示新的可能。在这个过程中，硬件的限制反而成了你探索的“地图”，让你真正体会到计算背后的代价和原理。文章最后提到，这其实是关于MacBook Neo最好的文章，因为它讲的远不止是电脑本身。",
-              "coreInsights": [
-                "真正的学习和痴迷往往始于“错误”的工具，而非完美的起点。",
-                "通过压榨有限硬件的极限，你能更深刻地理解计算的实际成本和本质。",
-                "工具的限制本身，可以成为探索和认知的“地图”。"
-              ],
-              "personalRelevance": null,
-              "value": "高",
-              "tags": [
-                "个人随笔",
-                "技术哲思"
-              ]
-            },
-            {
-              "id": "93c40057900d",
-              "title": "荒诞的忠诚宣誓运动：当形式主义成为惩罚工具",
-              "sourceName": "idiallo.com",
-              "sourceUrl": "https://idiallo.com/blog/loyalty-oath-crusade-speak-up?src=feed",
-              "publishedAt": "2026-03-16T12:00:00.000Z",
-              "briefSummary": "这篇文章借用了《第二十二条军规》中的一个情节来讨论现实中的官僚主义问题。故事里，军队里搞了个“忠诚宣誓运动”，进食堂要背誓词，拿调料要唱国歌，规矩越来越离谱。其实大家都知道这很荒谬，但没人敢站出来反对，因为前面的人都这么做了。背后的真相是，制定这些规则的人根本不是为了保证忠诚，而是为了惩罚某个特定的人。结果呢？整个任务被拖延，流程变得无比繁琐，严重影响了效率。文章最后点出，打破这种恶性循环只需要一个人勇敢发声。",
-              "coreInsights": [
-                "荒诞的规则往往源于个人私怨，而非表面宣称的集体利益。",
-                "群体沉默和盲从会让不合理的流程持续恶化，损害整体效率。",
-                "打破僵局的关键在于个体有勇气质疑和挑战既定的荒谬规则。"
-              ],
-              "personalRelevance": null,
-              "value": "高",
-              "tags": [
-                "观点评论",
-                "文学隐喻",
-                "社会观察"
-              ]
-            },
-            {
-              "id": "b4ae7ae57689",
-              "title": "Anthropic 团队如何用“敲诈”实验让政策制定者理解 AI 对齐风险",
-              "sourceName": "simonwillison.net",
-              "sourceUrl": "https://simonwillison.net/2026/Mar/16/blackmail/#atom-everything",
-              "publishedAt": "2026-03-16T21:38:55.000Z",
-              "briefSummary": "这篇文章引用了一位 Anthropic 对齐科学团队成员的话，解释了公司内部进行“敲诈”实验的目的。他们这么做，主要是为了给政策制定者提供一个具体、震撼的案例，让他们能直观地感受到 AI 系统“不对齐”（即不按人类意图行事）的现实风险。这个实验就像一个生动的故事，能让那些之前从未思考过这个问题的决策者，真正意识到 AI 安全问题的紧迫性和严重性。不过，目前给出的内容片段有限，没有更详细的实验过程描述。",
-              "coreInsights": [
-                "Anthropic 进行“敲诈”实验，是为了向政策制定者生动展示 AI 对齐风险。",
-                "该实验旨在提供一种“切身体验”，让决策者能直观理解 AI 可能带来的危害。",
-                "目标是让从未思考过 AI 对齐风险的人，也能意识到其实际重要性和紧迫性。"
-              ],
-              "personalRelevance": null,
-              "value": "低",
-              "tags": [
-                "深度访谈",
-                "AI 方法论"
-              ]
-            },
-            {
-              "id": "5b5eed2fde79",
-              "title": "MacBook Neo 的摄像头指示灯：软件实现，硬件级安全",
-              "sourceName": "simonwillison.net",
-              "sourceUrl": "https://simonwillison.net/2026/Mar/16/guilherme-rambo/#atom-everything",
-              "publishedAt": "2026-03-16T20:34:13.000Z",
-              "briefSummary": "这篇文章分享了一个关于苹果 MacBook Neo 电脑摄像头隐私保护的有趣细节。它提到，这款电脑的摄像头指示灯虽然是软件实现的，但它运行在芯片上一个叫“安全隔离区”的特殊、高权限环境里，独立于操作系统内核。这意味着，即使黑客通过内核级别的漏洞控制了电脑，也无法在不点亮那个指示灯的情况下偷偷打开摄像头，因为指示灯会直接显示在屏幕上。这相当于用软件达到了接近硬件级别的安全效果，大大增强了用户的隐私保护。",
-              "coreInsights": [
-                "MacBook Neo 的摄像头指示灯是软件实现的，但运行在芯片的“安全隔离区”，权限极高。",
-                "这种设计使得即使内核被攻破，也无法在不点亮指示灯的情况下开启摄像头，隐私保护很强。",
-                "指示灯程序独立于内核，直接控制屏幕硬件显示，绕过了常规软件层面的干扰。"
-              ],
-              "personalRelevance": null,
-              "value": "低",
-              "tags": [
-                "技术解读",
-                "产品细节"
-              ]
-            },
-            {
-              "id": "ea8b05960a0a",
-              "title": "Mux 视频 API：让开发者轻松集成视频处理与 AI 功能",
-              "sourceName": "daringfireball.net",
-              "sourceUrl": "https://www.mux.com/video-api?utm_campaign=fireball&utm_source=DF",
-              "publishedAt": "2026-03-16T23:47:24.000Z",
-              "briefSummary": "这篇文章主要介绍了一个叫 Mux 的视频 API 服务。它说视频不只是用来看的，里面还包含一大堆信息和数据。Mux 这个工具就是帮开发者把视频功能轻松地加到网站、平台或者 AI 工作流里，还能从视频里提取出文字稿、剪辑片段、故事板这些东西。有了这些，你就能做视频摘要、翻译、内容审核、打标签等等。文章还提到 Mux 负责维护一个很流行的开源视频播放器 Video.js，它的新版本正在测试。最后说 Patreon、Substack 这些大公司都在用 Mux，新用户注册有免费额度。",
-              "coreInsights": [
-                "Mux 是一个面向开发者的视频 API，能轻松将视频功能集成到网站、平台和 AI 工作流中。",
-                "它能解锁视频内的数据，如生成文字稿、剪辑和故事板，用于摘要、翻译、内容审核等 AI 应用。",
-                "Mux 负责维护流行的开源视频播放器 Video.js，其新版 v10 正在进行架构重构。",
-                "Patreon、Substack 等知名平台信任并使用 Mux 的视频基础设施。"
-              ],
-              "personalRelevance": "如果你在做**多模态**应用或者**AI use case**探索，这篇文章提到的 Mux 视频 API 是个很具体的工具。它展示了如何把视频数据（像文字稿、片段）变成**AI 工作流**的输入，用来做摘要、翻译这些事，这能给你一些把视频和 AI 结合起来的实操思路。",
-              "value": "高",
-              "tags": [
-                "产品发布",
-                "技术解读",
-                "Use case 分享"
-              ]
-            },
-            {
-              "id": "75a1846f6e1a",
-              "title": "设计如何对抗注意力分散，寻找数字时代的宁静",
-              "sourceName": "daringfireball.net",
-              "sourceUrl": "https://www.terrygodier.com/the-last-quiet-thing",
-              "publishedAt": "2026-03-16T17:58:00.000Z",
-              "briefSummary": "这篇文章是Terry Godier关于设计与注意力的一篇精彩论述。从给出的简短片段来看，作者似乎在探讨在信息过载的数字时代，如何通过设计来保护我们的注意力，找回一种“安静”的体验。文中提到了一个卡西欧手表的例子，它不仅显示真实时间，而且有功能性的实体按钮，这可能象征着一种回归简单、专注的物理交互设计，与当下复杂、干扰不断的数字界面形成对比。由于内容片段有限，无法得知全文更深入的讨论。",
-              "coreInsights": [
-                "文章核心是探讨设计如何应对注意力分散的问题，寻找数字时代的宁静。",
-                "通过卡西欧手表（显示真实时间且有实体按钮）的例子，暗示物理、简单的设计有助于专注。",
-                "这是一篇关于设计与注意力的深度随笔，观点被认为非常出色。"
-              ],
-              "personalRelevance": null,
-              "value": "高",
-              "tags": [
-                "深度随笔",
-                "设计思考"
-              ]
-            },
-            {
-              "id": "cb80b04ab860",
-              "title": "苹果发布第二代 AirPods Max 耳机，搭载 H2 芯片带来多项智能新功能",
-              "sourceName": "daringfireball.net",
-              "sourceUrl": "https://www.apple.com/newsroom/2026/03/apple-introduces-airpods-max-2-powered-by-h2/",
-              "publishedAt": "2026-03-16T17:57:39.000Z",
-              "briefSummary": "这篇文章主要介绍了苹果刚发布的第二代 AirPods Max 头戴式耳机。文章提到，新款耳机搭载了 H2 芯片，带来了更好的主动降噪和音质，还首次加入了自适应音频、对话感知、语音隔离和实时翻译等智能功能。对于播客主播、音乐人和内容创作者来说，它还能提供录音室级别的音频录制和相机遥控等实用工具。文章最后还补充了一个小细节，就是耳机盒似乎没有变化，并附上了苹果官方的对比页面链接，方便读者查看新旧款的具体区别。",
-              "coreInsights": [
-                "AirPods Max 2 搭载 H2 芯片，提升了主动降噪和音质，并首次引入自适应音频、对话感知等智能功能。",
-                "新款耳机为创作者提供了录音室级音频录制和相机遥控等实用工具，拓展了创作可能性。",
-                "耳机配色新增午夜、星光、橙色、紫色和蓝色，3月25日开始预订，下月初上市。",
-                "文章指出，备受部分用户期待的智能耳机盒似乎没有改变，并提供了官方新旧款对比链接。"
-              ],
-              "personalRelevance": null,
-              "value": "低",
-              "tags": [
-                "产品发布",
-                "行业动态"
-              ]
-            },
-            {
-              "id": "7c806cd56c17",
-              "title": "苹果公司50周年纪念活动回顾，多位元老级人物齐聚分享",
-              "sourceName": "daringfireball.net",
-              "sourceUrl": "https://www.youtube.com/live/eCSNJgI2LFI",
-              "publishedAt": "2026-03-15T23:00:54.000Z",
-              "briefSummary": "这篇文章分享的是博主观看一场庆祝苹果公司成立50周年的线上直播活动的感受。这场活动由知名科技记者大卫·波格主持，他表现得非常出色。活动还特别邀请了苹果公司的几位重要元老，包括克里斯·埃斯皮诺萨、约翰·斯卡利和阿维·特瓦尼安作为嘉宾。博主表示自己特意把这场活动保存下来，在电视上观看，并认为这是一次非常棒的体验。由于内容片段有限，主要是博主对活动的推荐和简单描述，没有展开讨论具体的技术或商业细节。",
-              "coreInsights": [
-                "这是一场庆祝苹果公司成立50周年的特别直播活动，由大卫·波格主持。",
-                "活动邀请了苹果公司发展史上的关键人物克里斯·埃斯皮诺萨、约翰·斯卡利和阿维·特瓦尼安作为嘉宾。",
-                "博主强烈推荐并享受了这场活动，认为主持人表现极佳，活动本身值得一看。"
-              ],
-              "personalRelevance": null,
-              "value": "低",
-              "tags": [
-                "行业动态",
-                "深度访谈"
-              ]
-            },
-            {
-              "id": "049b81bd323a",
-              "title": "用 Git 工作流来理解科幻里的“瞬间移动”原理",
-              "sourceName": "idiallo.com",
-              "sourceUrl": "https://idiallo.com/byte-size/git-teleportation?src=feed",
-              "publishedAt": "2026-03-16T00:23:04.000Z",
-              "briefSummary": "这篇文章从一个有趣的科幻问题出发：电影里的“瞬间移动”到底是怎么工作的？是把人拆成原子再重组，还是扫描后杀死原版再复制一个？作者觉得这个问题没有标准答案，于是脑洞大开，提出了一个“Diff 瞬间移动”的概念。简单说，就是把程序员熟悉的 Git 版本控制的工作流套用到瞬间移动上，比如创建新分支、传输差异数据，用一种程序员能秒懂的方式来解释这个科幻设定。内容片段有限，主要展示了这个有趣的类比。",
-              "coreInsights": [
-                "作者用程序员熟悉的 Git 工作流（如创建分支）来类比和解释科幻中的瞬间移动原理，让技术概念变得生动易懂。",
-                "文章探讨了科幻作品中关于瞬间移动的经典哲学争议：是“传输”还是“复制/杀死”原版。",
-                "这种跨界类比展示了如何用已知领域（编程）的思维模型，去理解和构建未知或虚构领域（科幻）的概念。"
-              ],
-              "personalRelevance": null,
-              "value": "低",
-              "tags": [
-                "技术解读",
-                "脑洞类比"
-              ]
-            },
-            {
-              "id": "c22775720cdf",
-              "title": "别被工具与用途的二分法迷惑，警惕法律漏洞的伪装",
-              "sourceName": "pluralistic.net",
-              "sourceUrl": "https://pluralistic.net/2026/03/16/whittle-a-webserver/",
-              "publishedAt": "2026-03-16T13:53:43.000Z",
-              "briefSummary": "这篇文章主要讨论了“工具”与“用途”的二分法陷阱，并以法律漏洞为例进行说明。作者指出，我们通常认为法律漏洞是起草时的无心之失或人为插入，但实际情况可能更复杂。文章以特朗普2017年税改法案为例，该法案在投票前被手写修改了数百页，未经充分审阅就通过，这本身就是一种制度漏洞的体现。作者想提醒我们，不要简单地认为工具（法律）是中立的，而忽略了其被设计或利用的方式（用途）可能带来的不公。内容片段有限，但核心观点清晰。",
-              "coreInsights": [
-                "“工具”与“用途”的二分法是一种误导，工具的设计和使用方式本身就带有意图和影响。",
-                "法律漏洞不一定是无心之失，也可能是通过不透明、仓促的程序（如未经审阅的手写修改）被刻意制造或利用。",
-                "以特朗普2017年税改法案为例，法案在投票前被大量手写修改且未经审阅，这本身就是民主程序和立法透明度的漏洞。"
-              ],
-              "personalRelevance": null,
-              "value": "高",
-              "tags": [
-                "时事评论",
-                "社会观察"
-              ]
-            },
-            {
-              "id": "d3c6a60c65c5",
-              "title": "回顾 Windows 在 PowerPC 架构上的栈限制检查机制",
-              "sourceName": "devblogs.microsoft.com/oldnewthing",
-              "sourceUrl": "https://devblogs.microsoft.com/oldnewthing/20260316-00/?p=112140",
-              "publishedAt": "2026-03-16T14:00:00.000Z",
-              "briefSummary": "这篇文章看起来是微软《The Old New Thing》博客的一篇技术回顾文章，标题暗示它将探讨 Windows 操作系统在 PowerPC 处理器架构上如何进行栈限制检查的历史实现。不过，目前给出的内容片段非常有限，只有一句“Doing the math backwards.”和标准的博客结尾语，所以我们无法得知文章的具体技术细节和讨论深度。内容片段有限，只能判断这是一篇关于旧版 Windows 底层技术实现的回顾性文章。",
-              "coreInsights": [
-                "文章主题是回顾 Windows 在 PowerPC 架构上的栈限制检查机制。",
-                "内容片段过短，无法提炼更多具体的技术观点或细节。"
-              ],
-              "personalRelevance": null,
-              "value": "低",
-              "tags": [
-                "技术解读",
-                "历史回顾"
-              ]
-            },
-            {
-              "id": "9f1738b5f7bd",
-              "title": "十二音作曲法：为什么无调性音乐听起来“难听”却需要技巧",
-              "sourceName": "johndcook.com",
-              "sourceUrl": "https://www.johndcook.com/blog/2026/03/15/twelve-tone-composition/",
-              "publishedAt": "2026-03-15T23:39:20.000Z",
-              "briefSummary": "这篇文章主要聊了无调性音乐，特别是十二音作曲法。作者说，写无调性音乐其实挺难的，因为它反人类本能——我们天生喜欢听有调性、有规律的音乐。为了不让作品“不小心”又回到传统的调性模式里，作曲家们会用一种叫“十二音序列”的技巧。简单说，就是把12个半音排成一个固定的顺序，然后按照这个顺序来写曲子，强行打破我们熟悉的听觉习惯。文章片段里提到，写这种“不好听”的音乐反而需要很强的纪律性。不过，因为这里只是RSS的摘要片段，内容比较有限，没有展开讲具体怎么用这个技巧或者举更多例子。",
-              "coreInsights": [
-                "无调性音乐创作之所以困难，是因为它违背了人类对和谐与调性的天然本能。",
-                "作曲家使用“十二音序列”技术，旨在防止音乐无意中落入传统的调性模式。",
-                "创作这种听起来“不悦耳”的音乐，反而需要高度的自律和技巧。"
-              ],
-              "personalRelevance": null,
-              "value": "低",
-              "tags": [
-                "技术解读",
-                "艺术方法论"
-              ]
-            },
-            {
-              "id": "388d2fe48bed",
-              "title": "有趣的数学序列：每个数字出现两次，间隔距离有规律",
-              "sourceName": "johndcook.com",
-              "sourceUrl": "https://www.johndcook.com/blog/2026/03/15/langford-series/",
-              "publishedAt": "2026-03-15T19:49:13.000Z",
-              "briefSummary": "这篇文章介绍了一个叫“Langford序列”的数学现象。它给了一个具体的例子：一个包含数字1到12各出现两次的序列。有趣的是，在这个序列里，两个“1”之间刚好隔着一个数字，两个“2”之间隔着两个数字，以此类推。文章主要是想引起读者对这个特殊排列规律的好奇和思考，属于一个数学趣味问题的简短介绍。由于内容片段有限，没有展开更深入的数学原理或应用讨论。",
-              "coreInsights": [
-                "Langford序列是一种特殊的数字排列，其中每个数字（如1到12）都恰好出现两次。",
-                "序列的独特规律在于：两个相同数字之间的间隔数字个数，恰好等于该数字本身（例如两个1之间隔1个数）。",
-                "文章通过一个具体的序列例子（8, 6, 10, 3...）来直观展示这一数学趣味现象。"
-              ],
-              "personalRelevance": null,
-              "value": "低",
-              "tags": [
-                "趣味数学",
-                "知识科普"
-              ]
-            },
-            {
-              "id": "f75139668a37",
-              "title": "雅达利2600版《吃豆人》提前发售的往事",
-              "sourceName": "dfarq.homeip.net",
-              "sourceUrl": "https://dfarq.homeip.net/atari-2600-pac-man-went-on-sale-march-16-1982/?utm_source=rss&utm_medium=rss&utm_campaign=atari-2600-pac-man-went-on-sale-march-16-1982",
-              "publishedAt": "2026-03-16T11:00:28.000Z",
-              "briefSummary": "这篇文章主要聊了雅达利2600游戏机版《吃豆人》在1982年3月16日提前开卖的一段小历史。原本游戏定在4月3日才正式发售，但当时一些零售商等不及，提前半个多月就开始卖了。作者提到，这种“偷跑”的情况在80年代还挺常见，但放到今天就很难发生了。内容片段有限，主要就是讲了这么一个怀旧的小故事。",
-              "coreInsights": [
-                "雅达利2600版《吃豆人》于1982年3月16日提前发售，比原定4月3日的发售日早了半个多月。",
-                "游戏提前发售的原因是部分零售商没有遵守统一的发售日期，自行提前开卖。",
-                "作者指出，这种零售商“偷跑”的现象在80年代的游戏行业较为常见，与当今严格的发售管理形成对比。"
-              ],
-              "personalRelevance": null,
-              "value": "低",
-              "tags": [
-                "游戏历史",
-                "怀旧趣闻"
-              ]
-            },
-            {
-              "id": "bbcdfe872b35",
-              "title": "一位老用户分享：为什么我二十多年依然钟爱FreeBSD",
-              "sourceName": "it-notes.dragas.net",
-              "sourceUrl": "https://it-notes.dragas.net/2026/03/16/why-i-love-freebsd/",
-              "publishedAt": "2026-03-16T08:10:00.000Z",
-              "briefSummary": "这篇文章是作者对自己二十多年使用FreeBSD经历的个人回顾。他聊了聊2002年第一次接触FreeBSD时的感受，以及这个操作系统如何深刻地影响了他设计和运行系统的方式。重点是，他解释了为什么直到今天，FreeBSD的哲学理念、无与伦比的稳定性，以及它背后的社区文化，对他来说依然非常重要。内容片段有限，但能看出这是一篇充满个人感情的技术回忆录。",
-              "coreInsights": [
-                "作者从2002年首次接触FreeBSD，其使用体验深刻塑造了他的系统设计理念。",
-                "FreeBSD的核心魅力在于其独特的哲学、卓越的稳定性和充满活力的社区。",
-                "即使二十多年过去，这些特质对作者而言依然具有不可替代的价值。"
-              ],
-              "personalRelevance": null,
-              "value": "低",
-              "tags": [
-                "个人经历分享",
-                "技术感悟"
-              ]
-            }
-          ],
-          "uncertain": [
-            {
-              "title": "F Cancer",
-              "link": "https://garymarcus.substack.com/p/f-cancer",
-              "sourceName": "garymarcus.substack.com",
-              "oneSentenceIntro": "Gary Marcus 探讨癌症主题，可能涉及个人经历或科学评论。"
-            },
-            {
-              "title": "BREAKING: Sam Altman concedes that we need major breakthroughs beyond mere scaling to get to AGI",
-              "link": "https://garymarcus.substack.com/p/breaking-sam-altman-concedes-that",
-              "sourceName": "garymarcus.substack.com",
-              "oneSentenceIntro": "Sam Altman 承认实现 AGI 需要超越单纯规模扩展的重大突破，涉及人工智能发展路径讨论。"
             }
           ]
         }
